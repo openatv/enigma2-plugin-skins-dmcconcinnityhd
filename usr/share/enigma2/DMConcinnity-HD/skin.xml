@@ -1,4 +1,3 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <skin>
   <!-- DMConcinnity-HD CVS Dreambox Skin -->
   <!-- This skin and part of the graphics are based on Concinnity-3D Skin for DVB-Viewer made by MarkusK from DVBViewer community forum -->
@@ -7,16 +6,21 @@
     <resolution xres="1280" yres="720" bpp="32" />
   </output>
   <colors>
+    <color name="background" value="#00444444" />
     <color name="black" value="#00000000" />
     <color name="blue" value="#0041b1ec" />
     <color name="dark" value="#00294a6b" />
-    <color name="darkblue" value="#001b2c47" />
+    <color name="darkblue" value="#0033337b" />
     <color name="darkgrey" value="#00777777" />
+    <color name="darkgrey2" value="#00302f2e" />
     <color name="EMCFinished" value="#0046d93a" />
     <color name="EMCRecording" value="#009f1313" />
     <color name="EMCWatching" value="#003486f4" />
+    <color name="foreground" value="#00dddddd" />
     <color name="green" value="#00389416" />
     <color name="grey" value="#00aaaaaa" />
+    <color name="grey2" value="#00999999" />
+    <color name="lblue" value="#0065b0ff" />
     <color name="rds_text_bg" value="#00003258" />
     <color name="red" value="#00f23d21" />
     <color name="rssviewtop" value="#45005050" />
@@ -27,12 +31,15 @@
     <color name="transpyellow" value="#33bab329" />
     <color name="un1e28b6" value="#001e28b6" />
     <color name="un1f771f" value="#001f771f" />
+    <color name="un202020" value="#00202020" />
     <color name="un364348" value="#00364348" />
+    <color name="un3658a4" value="#003658a4" />
     <color name="un4d5375" value="#004d5375" />
     <color name="un5678a4" value="#005678a4" />
     <color name="un56c856" value="#0056c856" />
     <color name="un605f5e" value="#00605f5e" />
     <color name="un62e3c" value="#00062e3c" />
+    <color name="un777777" value="#00777777" />
     <color name="un800000" value="#00800000" />
     <color name="un808080" value="#00808080" />
     <color name="un808888" value="#00808888" />
@@ -46,6 +53,7 @@
     <color name="undcaaaa" value="#00dcaaaa" />
     <color name="undcdcdc" value="#00dcdcdc" />
     <color name="undddddd" value="#00dddddd" />
+    <color name="unf0b400" value="#00f0b400" />
     <color name="unf2e000" value="#00f2e000" />
     <color name="unfcc000" value="#00fcc000" />
     <color name="unff0000" value="#00ff0000" />
@@ -67,19 +75,19 @@
     <sub name="Subtitle_Italic" font="Regular;30" foregroundColor="undcaaaa" shadowColor="#40101010" shadowOffset="3,3" />
   </subtitles>
   <windowstyle type="skinned" id="0">
-    <title offset="15,4" font="Regular;26" />
+    <title offset="10,7" font="Regular;23" />
     <color name="Background" color="black" />
     <color name="LabelForeground" color="white" />
     <color name="ListboxBackground" color="black" />
     <color name="ListboxForeground" color="white" />
-    <color name="ListboxSelectedBackground" color="un62e3c" />
-    <color name="ListboxSelectedForeground" color="white" />
-    <color name="ListboxMarkedBackground" color="un5678a4" />
-    <color name="ListboxMarkedForeground" color="unff0000" />
-    <color name="ListboxMarkedAndSelectedBackground" color="un5678a4" />
-    <color name="ListboxMarkedAndSelectedForeground" color="un800000" />
+    <color name="ListboxMarkedBackground" color="grey" />
+    <color name="ListboxMarkedForeground" color="black" />
+    <color name="ListboxMarkedAndSelectedBackground" color="grey" />
+    <color name="ListboxMarkedAndSelectedForeground" color="black" />
+    <color name="ListboxSelectedBackground" color="grey" />
+    <color name="ListboxSelectedForeground" color="black" />
+    <color name="WindowTitleBackground" color="grey" />
     <color name="WindowTitleForeground" color="black" />
-    <color name="WindowTitleBackground" color="unbbbbbb" />
     <borderset name="bsWindow">
       <pixmap pos="bpTopLeft" filename="DMConcinnity-HD/bs_tl.png" />
       <pixmap pos="bpTop" filename="DMConcinnity-HD/bs_t.png" />
@@ -90,34 +98,6 @@
       <pixmap pos="bpBottom" filename="DMConcinnity-HD/bs_b.png" />
       <pixmap pos="bpBottomRight" filename="DMConcinnity-HD/bs_br.png" />
     </borderset>
-  </windowstyle>
-  <windowstyle type="skinned" id="1">
-    <color name="Background" color="black" />
-    <color name="LabelForeground" color="white" />
-    <color name="ListboxBackground" color="black" />
-    <color name="ListboxForeground" color="white" />
-    <color name="ListboxSelectedBackground" color="black" />
-    <color name="ListboxSelectedForeground" color="white" />
-    <color name="ListboxMarkedBackground" color="black" />
-    <color name="ListboxMarkedForeground" color="white" />
-    <color name="ListboxMarkedAndSelectedBackground" color="black" />
-    <color name="ListboxMarkedAndSelectedForeground" color="white" />
-    <color name="WindowTitleForeground" color="white" />
-    <color name="WindowTitleBackground" color="black" />
-  </windowstyle>
-  <windowstyle type="skinned" id="2">
-    <color name="Background" color="black" />
-    <color name="LabelForeground" color="white" />
-    <color name="ListboxBackground" color="black" />
-    <color name="ListboxForeground" color="white" />
-    <color name="ListboxSelectedBackground" color="black" />
-    <color name="ListboxSelectedForeground" color="white" />
-    <color name="ListboxMarkedBackground" color="black" />
-    <color name="ListboxMarkedForeground" color="white" />
-    <color name="ListboxMarkedAndSelectedBackground" color="black" />
-    <color name="ListboxMarkedAndSelectedForeground" color="white" />
-    <color name="WindowTitleForeground" color="white" />
-    <color name="WindowTitleBackground" color="black" />
   </windowstyle>
   <!-- InfoBarLite  -->
   <screen name="InfoBarLite" position="70,550" size="1140,140" title="InfoBar" flags="wfNoBorder">
@@ -1131,25 +1111,25 @@
   </screen>
   <screen name="Menu" position="center,center" size=" 450,390" title="Main menu">
     <widget source="title" render="Label" position="10,10" size="430,35" font="Regular;23" />
-    <widget source="menu" render="Listbox" position="10,60" size="430,330" itemHeight="30" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" transparent="1">
+    <widget source="menu" render="Listbox" position="10,60" size="430,330" itemHeight="30" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="StringList" />
     </widget>
   </screen>
   <screen name="menu_mainmenu" position="center,center" size=" 840,570" title="Main menu" flags="wfNoBorder">
-    <ePixmap position="0,0" zPosition="-10" size="840,570" pixmap="DMConcinnity-HD/menu/menubg.png" />
+    <ePixmap position="0,0" zPosition="-10" size="840,570" pixmap="DMConcinnity-HD/menu/menubg.png" transparent="0" />
     <widget source="global.CurrentTime" render="Label" position=" 40,25" size=" 80,25" font="Regular;23" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Default</convert>
     </widget>
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" zPosition="-1" position="400,31" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
-				"fonts": [gFont("Regular", 22)],
+				"fonts": [gFont("Regular", 24)],
 				"itemHeight": 40
 				}
-			</convert>
+	</convert>
     </widget>
     <widget source="menu" render="Pixmap" pixmap="DMConcinnity-HD/menu/aafpanel.png" position="26,141" size="250,297">
       <convert type="MenuEntryCompare">Aafpanel</convert>
@@ -1205,7 +1185,7 @@
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -1224,7 +1204,7 @@
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -1243,7 +1223,7 @@
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -1262,7 +1242,7 @@
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -1281,7 +1261,7 @@
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -1300,7 +1280,7 @@
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -1319,7 +1299,7 @@
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -1338,7 +1318,7 @@
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -1357,7 +1337,7 @@
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -1376,7 +1356,7 @@
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -1395,7 +1375,7 @@
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -1414,7 +1394,7 @@
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -1454,7 +1434,7 @@
     <eLabel text="Channel Selection" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget source="Title" render="Label" position="20, 70" size="700,28" font="Regular;23" backgroundColor="black" transparent="1" />
     <eLabel position="20,105" size="700,2" backgroundColor="grey" />
-    <widget name="list" position="20,110" size="700,450" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" colorServiceDescription="yellow" colorServiceDescriptionSelected="yellow" picServiceEventProgressbar="DMConcinnity-HD/progcl.png" colorEventProgressbar="blue" colorEventProgressbarSelected="blue" colorEventProgressbarBorder="grey" colorEventProgressbarBorderSelected="grey" foregroundColorServiceNotAvail="#777777" serviceItemHeight="30" serviceNumberFont="Regular;21" serviceNameFont="Regular;23" serviceInfoFont="Regular;21" transparent="1" />
+    <widget name="list" position="20,110" size="700,450" zPosition="3" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" picServiceEventProgressbar="DMConcinnity-HD/progcl.png" serviceItemHeight="30" serviceNumberFont="Regular;22" serviceNameFont="Regular;24" serviceInfoFont="Regular;22" transparent="1" colorServiceDescription="yellow" foregroundColorEventSelected="darkblue" />
     <ePixmap position="720, 66" zPosition="-9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
     <widget source="ServiceEvent" render="Label" position="755, 70" size="320,25" font="Regular;22" halign="center" noWrap="1" foregroundColor="yellow" backgroundColor="black" transparent="1">
       <convert type="ServiceName">Name</convert>
@@ -1506,7 +1486,7 @@
     <eLabel text="Radio" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget source="Title" render="Label" position="30, 70" size="1040,28" font="Regular;23" backgroundColor="black" transparent="1" />
     <eLabel position="30,105" size="1040,2" backgroundColor="grey" />
-    <widget name="list" position="30,114" size="1040,300" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel1040x30.png" colorServiceDescription="yellow" colorServiceDescriptionSelected="yellow" picServiceEventProgressbar="DMConcinnity-HD/progcl.png" colorEventProgressbar="blue" colorEventProgressbarSelected="blue" colorEventProgressbarBorder="grey" colorEventProgressbarBorderSelected="grey" foregroundColorServiceNotAvail="#777777" serviceItemHeight="30" serviceNumberFont="Regular;21" serviceNameFont="Regular;23" serviceInfoFont="Regular;21" transparent="1" />
+    <widget name="list" position="30,114" size="1040,300" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel1040x30.png" colorServiceDescription="yellow" colorServiceDescriptionSelected="darkblue" picServiceEventProgressbar="DMConcinnity-HD/progcl.png" colorEventProgressbar="blue" colorEventProgressbarSelected="blue" colorEventProgressbarBorder="grey" colorEventProgressbarBorderSelected="grey" foregroundColorServiceNotAvail="#777777" serviceItemHeight="30" serviceNumberFont="Regular;21" serviceNameFont="Regular;23" serviceInfoFont="Regular;21" transparent="1" />
     <eLabel position="30,420" size="1040,2" backgroundColor="grey" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 40,430" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="300,430" size="35,27" alphatest="blend" />
@@ -1758,7 +1738,7 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/(count &gt; 7 and 2 or 3
     <widget name="Timeline" position="20,576" size="670,20" backgroundColor="un808888" pointer="skin_default/position_arrow.png:3,5" foregroundColor="black" />
     <eLabel position="700,80" size="380,470" zPosition="1" backgroundColor="white" />
     <eLabel position="701,81" size="378,468" zPosition="2" backgroundColor="black" />
-    <widget source="cutlist" render="Listbox" position="710,90" size="360,450" zPosition="3" scrollbarMode="showOnDemand">
+    <widget source="cutlist" render="Listbox" position="710,90" size="360,450" zPosition="3" scrollbarMode="showOnDemand" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos=(0,4), size=(250, 22), text = 1,  backcolor = MultiContentTemplateColor(3)),
@@ -1955,7 +1935,7 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/(count &gt; 7 and 2 or 3
   </screen>
   <screen name="HelpMenu" position="center,center" size=" 840,570" title="Help" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="840,570" pixmap="DMConcinnity-HD/menu/menubg.png" />
-    <widget name="rc" position="83, 25" size="154,500" pixmaps="DMConcinnity-HD/rc.png,DMConcinnity-HD/rcold.png" zPosition="10" alphatest="blend" />
+    <widget name="rc" position="83, 25" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="blend" />
     <widget name="long_key" position="30,525" size="260,30" font="Regular;24" halign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="list" position="300,40" size="500,380" itemHeight="38" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel520x38.png" backgroundColor="black" transparent="1" />
     <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -1977,7 +1957,7 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/(count &gt; 7 and 2 or 3
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Language selection" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget source="languages" render="Listbox" position="30,90" size="780,450" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x75.png" backgroundColor="black" transparent="1">
+    <widget source="languages" render="Listbox" position="30,90" size="780,450" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x75.png" backgroundColor="black" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 				MultiContentEntryText(pos = (130, 15), size = (580, 60), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the language name,
@@ -2110,7 +2090,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Choose Tuner" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget source="nimlist" render="Listbox" position="30,95" size="780,440" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x110.png" backgroundColor="black" transparent="1">
+    <widget source="nimlist" render="Listbox" position="30,95" size="780,440" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x110.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (10, 5), size = (760, 30), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the nim name,
@@ -2393,7 +2373,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel text="Setup" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget source="Title" render="Label" position="30, 75" size="780,32" font="Regular;26" backgroundColor="black" transparent="1" />
     <eLabel position="30,120" size="780,2" backgroundColor="grey" />
-    <widget name="config" position="30,130" size="780,420" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel900x30.png" backgroundColor="black" transparent="1" />
+    <widget name="config" position="30,130" size="780,420" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel900x30.png" backgroundColor="black" transparent="1" zPosition="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
     <widget source="key_red" render="Label" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
@@ -2431,7 +2411,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel text="Channel Selection" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget source="Title" render="Label" position="30, 70" size="1040,28" font="Regular;23" backgroundColor="black" transparent="1" />
     <eLabel position="30,105" size="1040,2" backgroundColor="grey" />
-    <widget name="list" position="30,110" size="1040,450" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel1040x30.png" colorServiceDescription="grey" colorServiceDescriptionSelected="grey" picServiceEventProgressbar="DMConcinnity-HD/progcl.png" colorEventProgressbarBorder="grey" colorEventProgressbarBorderSelected="grey" foregroundColorServiceNotAvail="#777777" serviceItemHeight="30" serviceNumberFont="Regular;21" serviceNameFont="Regular;23" serviceInfoFont="Regular;21" transparent="1" />
+    <widget name="list" position="30,110" size="1040,450" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel1040x30.png" colorServiceDescription="grey" colorServiceDescriptionSelected="darkblue" picServiceEventProgressbar="DMConcinnity-HD/progcl.png" colorEventProgressbarBorder="grey" colorEventProgressbarBorderSelected="grey" foregroundColorServiceNotAvail="#777777" serviceItemHeight="30" serviceNumberFont="Regular;21" serviceNameFont="Regular;23" serviceInfoFont="Regular;21" transparent="1" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="550,570" size="35,27" alphatest="blend" />
@@ -2820,7 +2800,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget source="timerlist" render="Listbox" position="30,90" size="680,425" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x85.png" backgroundColor="black" transparent="1">
+    <widget source="timerlist" render="Listbox" position="30,90" size="680,425" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x85.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos=( 10, 5), size=(640,26), text = 3, font = 0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER),
@@ -2958,7 +2938,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="title_label" render="Label" position="30, 90" size="700,56" font="Regular;23" backgroundColor="black" transparent="1" />
     <widget name="error_label" position="30, 90" size="1040,400" zPosition="3" font="Regular;20" backgroundColor="black" />
     <eLabel position="30,160" size="1040,2" backgroundColor="grey" />
-    <widget source="titles" render="Listbox" position="30,170" size="1040,300" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel1040x60.png" backgroundColor="black" transparent="1">
+    <widget source="titles" render="Listbox" position="30,170" size="1040,300" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel1040x60.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = ( 10,  2), size = (690, 28), font = 0, flags = RT_HALIGN_LEFT, text = 1), # index 1 Title,
@@ -3008,7 +2988,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="Timeline" position="20,576" size="670,20" backgroundColor="un808888" pointer="skin_default/position_arrow.png:3,5" foregroundColor="black" />
     <eLabel position="700,80" size="380,470" zPosition="1" backgroundColor="white" />
     <eLabel position="701,81" size="378,468" zPosition="2" backgroundColor="black" />
-    <widget source="cutlist" render="Listbox" position="710,90" size="360,450" zPosition="3" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel360x30.png" backgroundColor="black" transparent="1">
+    <widget source="cutlist" render="Listbox" position="710,90" size="360,450" zPosition="3" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel360x30.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos=(0,4), size=(250, 22), text = 1,  backcolor = MultiContentTemplateColor(3)),
@@ -3205,7 +3185,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   </screen>
   <!-- MyTubePlayer -->
   <screen name="MyTubeHistoryScreen" position="center,230" size=" 692,420" title="MyTubeHistoryScreen..." backgroundColor="black" zPosition="6">
-    <widget source="historylist" render="Listbox" position="10,10" zPosition="7" size="740,406" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x30.png" backgroundColor="black" transparent="1">
+    <widget source="historylist" render="Listbox" position="10,10" zPosition="7" size="740,406" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x30.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (10, 2), size = (420, 25), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
@@ -3250,7 +3230,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <eLabel text="MyTubePlayer" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget name="config" position="30, 90" size="780,28" zPosition="3" scrollbarMode="showNever" transparent="1" />
-    <widget source="feedlist" render="Listbox" position="30,140" size="780,400" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x100.png" backgroundColor="black" transparent="1">
+    <widget source="feedlist" render="Listbox" position="30,140" size="780,400" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x100.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 			{"templates":
 				{"default": (100,[
@@ -3297,7 +3277,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_green" position="340,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
   <screen name="MyTubeSuggestionsListScreen" position="center,230" size=" 692,260" title="MyTubeSuggestionsListScreen..." backgroundColor="black" zPosition="6">
-    <widget source="suggestionslist" render="Listbox" position="10,5" zPosition="7" size="670,260" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel700x25.png" backgroundColor="black" transparent="1">
+    <widget source="suggestionslist" render="Listbox" position="10,5" zPosition="7" size="670,260" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel700x25.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (10, 1), size = (420, 25), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
@@ -3318,7 +3298,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <widget name="title" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget source="tasklist" render="Listbox" position="30,90" size="780,450" zPosition="3" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel900x30.png" backgroundColor="black" transparent="1">
+    <widget source="tasklist" render="Listbox" position="30,90" size="780,450" zPosition="3" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel900x30.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (10, 3), size = (250, 24), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 1 is the name
@@ -3357,7 +3337,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <widget name="title" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <ePixmap position=" 30, 90" size="743,145" zPosition="5" pixmap="DMConcinnity-HD/strip.png" alphatest="blend" />
-    <widget source="infolist" render="Listbox" position="194,112" size="550, 97" zPosition="6" scrollbarMode="showNever" selectionDisabled="1" backgroundPixmap="DMConcinnity-HD/1.png" transparent="1">
+    <widget source="infolist" render="Listbox" position="194,112" size="550, 97" zPosition="6" scrollbarMode="showNever" selectionDisabled="1" backgroundPixmap="DMConcinnity-HD/1.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 			{"templates":
 				{"default": (145,[
@@ -3400,7 +3380,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap position="63,315" size="250,240" pixmap="DMConcinnity-HD/menu/net.png" alphatest="on" />
     <widget source="info" render="Label" position="423, 80" size="650,28" font="Regular;24" backgroundColor="black" transparent="1" />
     <eLabel position="423,120" size="650,2" backgroundColor="grey" />
-    <widget source="list" render="Listbox" position="423,130" size="650,375" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x75.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="423,130" size="650,375" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x75.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (10, 8), size = (650, 35), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the essid
@@ -3462,7 +3442,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel text="AutoMountManager" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <ePixmap position="330,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
     <ePixmap position="42,334" size="250,229" pixmap="DMConcinnity-HD/menu/net.png" alphatest="on" />
-    <widget source="config" render="Listbox" position="380,90" size="700,420" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" backgroundColor="black" transparent="1">
+    <widget source="config" render="Listbox" position="380,90" size="700,420" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (60, 5), size = (620, 28), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
@@ -3493,7 +3473,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="legend2" render="Label" position="540, 88" size="400,60" font="Regular;20" halign="center" valign="center" backgroundColor="black" transparent="1" />
     <widget source="legend3" render="Label" position="960, 88" size="120,60" font="Regular;20" halign="center" valign="center" backgroundColor="black" transparent="1" />
     <eLabel position="380,165" size="700,2" backgroundColor="grey" />
-    <widget source="config" render="Listbox" position="380,180" size="700,300" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" backgroundColor="black" transparent="1">
+    <widget source="config" render="Listbox" position="380,180" size="700,300" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryPixmapAlphaTest(pos = (40, 6), size = (48, 48), png = 0), # index 0 is the isMounted pixmap
@@ -3592,7 +3572,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Exif Info" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget source="menu" render="Listbox" position="30,80" size="780,478" scrollbarMode="showOnDemand" selectionDisabled="1" backgroundColor="black" transparent="1">
+    <widget source="menu" render="Listbox" position="30,80" size="780,478" scrollbarMode="showOnDemand" selectionDisabled="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (10, 5), size = (350, 30), flags = RT_HALIGN_LEFT, text = 0),
@@ -3710,7 +3690,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel text="RSSFeedView" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget source="info" render="Label" position="30, 75" size="780,28" font="Regular;24" backgroundColor="black" transparent="1" />
     <eLabel position="30,110" size="780,2" backgroundColor="grey" />
-    <widget source="content" render="Listbox" position="30,120" size="780,300" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x75.png" backgroundColor="black" transparent="1">
+    <widget source="content" render="Listbox" position="30,120" size="780,300" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x75.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos=(10, 5), size=(760, 65), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER|RT_WRAP, text = 0)
@@ -3819,7 +3799,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="PacketManager" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget source="list" render="Listbox" position="30,80" size="780,480" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="30,80" size="780,480" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryPixmapAlphaTest(pos = (18, 5), size = (48, 48), png = 4), # index 4 is the status pixmap
@@ -3867,7 +3847,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <eLabel text="Plugin manager" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <ePixmap position="720,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
-    <widget source="list" render="Listbox" position="20,90" size="700,450" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x75.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="20,90" size="700,450" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x75.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 			{"templates":
 				{"default": (75,[
@@ -3905,7 +3885,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <eLabel text="Plugin manager activity information" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <ePixmap position="720,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
-    <widget source="list" render="Listbox" position="30,90" size="700,450" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x75.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="30,90" size="700,450" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x75.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryPixmapAlphaTest(pos = (18, 14), size = (48, 48), png = 2), # index 2 is the status pixmap
@@ -3933,7 +3913,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <eLabel text="Plugin manager help" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <ePixmap position="720,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
-    <widget source="list" render="Listbox" position="30,90" size="700,450" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x75.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="30,90" size="700,450" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x75.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (90, 5), size = (600, 26), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
@@ -4075,7 +4055,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="CleanupWizard" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget name="rc" position="90,70" size="154,500" pixmaps="DMConcinnity-HD/rc.png,DMConcinnity-HD/rcold.png" zPosition="10" alphatest="blend" />
+    <widget name="rc" position="90,70" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="blend" />
     <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
@@ -4084,7 +4064,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="330,285" size=" 35, 27" alphatest="blend" />
     <widget name="languagetext" position="385,285" size="150, 23" font="Regular;21" backgroundColor="black" transparent="1" />
     <widget name="text" position="540, 80" size="540,280" font="Regular;22" backgroundColor="black" transparent="1" />
-    <widget source="list" render="Listbox" position="350,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="350,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (20, 2), size = (650, 29), flags = RT_HALIGN_LEFT, text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -4107,7 +4087,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="50,285" size=" 35, 27" alphatest="blend" />
     <widget name="languagetext" position="105,285" size="150, 23" font="Regular;21" backgroundColor="black" transparent="1" />
     <widget name="text" position="260, 80" size="560,280" font="Regular;22" backgroundColor="black" transparent="1" />
-    <widget source="list" render="Listbox" position="70,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="70,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (20, 2), size = (650, 29), flags = RT_HALIGN_LEFT, text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -4130,7 +4110,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="50,285" size=" 35, 27" alphatest="blend" />
     <widget name="languagetext" position="105,285" size="150, 23" font="Regular;21" backgroundColor="black" transparent="1" />
     <widget name="text" position="260, 80" size="560,280" font="Regular;22" backgroundColor="black" transparent="1" />
-    <widget source="list" render="Listbox" position="70,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="70,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (20, 2), size = (650, 29), flags = RT_HALIGN_LEFT, text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -4153,7 +4133,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="50,285" size=" 35, 27" alphatest="blend" />
     <widget name="languagetext" position="105,285" size="150, 23" font="Regular;21" backgroundColor="black" transparent="1" />
     <widget name="text" position="260, 80" size="560,280" font="Regular;22" backgroundColor="black" transparent="1" />
-    <widget source="list" render="Listbox" position="70,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="70,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (20, 2), size = (650, 29), flags = RT_HALIGN_LEFT, text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -4172,7 +4152,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="ImageWizard" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget name="rc" position="90,70" size="154,500" pixmaps="DMConcinnity-HD/rc.png,DMConcinnity-HD/rcold.png" zPosition="10" alphatest="blend" />
+    <widget name="rc" position="90,70" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="blend" />
     <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
@@ -4181,7 +4161,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="330,285" size=" 35, 27" alphatest="blend" />
     <widget name="languagetext" position="385,285" size="150, 23" font="Regular;21" backgroundColor="black" transparent="1" />
     <widget name="text" position="540, 80" size="540,280" font="Regular;22" backgroundColor="black" transparent="1" />
-    <widget source="list" render="Listbox" position="350,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="350,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (20, 2), size = (650, 29), flags = RT_HALIGN_LEFT, text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -4200,14 +4180,14 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="LanguageWizard" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget name="rc" position="90,70" size="154,500" pixmaps="DMConcinnity-HD/rc.png,DMConcinnity-HD/rcold.png" zPosition="10" alphatest="blend" />
+    <widget name="rc" position="90,70" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="blend" />
     <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
     <widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
     <widget name="wizard" position="350, 90" size="110,174" pixmap="skin_default/wizard.png" zPosition="10" transparent="1" alphatest="on" />
     <widget name="text" position="540, 80" size="540,280" font="Regular;22" backgroundColor="black" transparent="1" />
-    <widget source="languages" render="Listbox" position="350,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" backgroundColor="black" transparent="1">
+    <widget source="languages" render="Listbox" position="350,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 				MultiContentEntryText(pos = (130, 17), size = (530, 60), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the language name,
@@ -4228,7 +4208,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="StartWizard" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget name="rc" position="90,70" size="154,500" pixmaps="DMConcinnity-HD/rc.png,DMConcinnity-HD/rcold.png" zPosition="10" alphatest="blend" />
+    <widget name="rc" position="90,70" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="blend" />
     <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
@@ -4237,7 +4217,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="330,285" size=" 35, 27" alphatest="blend" />
     <widget name="languagetext" position="385,285" size="150, 23" font="Regular;21" backgroundColor="black" transparent="1" />
     <widget name="text" position="540, 80" size="540,280" font="Regular;22" backgroundColor="black" transparent="1" />
-    <widget source="list" render="Listbox" position="350,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="350,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (20, 2), size = (650, 29), flags = RT_HALIGN_LEFT, text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -4256,7 +4236,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="VideoWizard" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget name="rc" position="90,70" size="154,500" pixmaps="DMConcinnity-HD/rc.png,DMConcinnity-HD/rcold.png" zPosition="10" alphatest="blend" />
+    <widget name="rc" position="90,70" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="blend" />
     <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
@@ -4266,7 +4246,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="languagetext" position="385,285" size="150, 23" font="Regular;21" backgroundColor="black" transparent="1" />
     <widget name="text" position="540, 80" size="540,280" font="Regular;22" backgroundColor="black" transparent="1" />
     <widget name="portpic" position="350,435" size="150,150" zPosition="10" transparent="1" alphatest="on" />
-    <widget source="list" render="Listbox" position="540,370" size="540,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="540,370" size="540,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (20, 2), size = (650, 29), flags = RT_HALIGN_LEFT, text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -4411,7 +4391,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="New Packages" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget source="list" render="Listbox" position="30,80" size="780,480" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="30,80" size="780,480" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryPixmapAlphaTest(pos = (18, 5), size = (48, 48), png = 4), # index 4 is the status pixmap
@@ -4438,7 +4418,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Install Softcams" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget source="list" render="Listbox" position="30,80" size="780,480" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="30,80" size="780,480" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryPixmapAlphaTest(pos = (18, 5), size = (48, 48), png = 4), # index 4 is the status pixmap
@@ -4485,7 +4465,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget name="Mlist" position="358,23" size="435,415" zPosition="1" scrollbarMode="showOnDemand" backgroundColor="black" transparent="1" />
+    <widget name="Mlist" position="360,22" size="435,415" selectionPixmap="DMConcinnity-HD/menu/menusel2.png" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
     <widget name="label1" position="40,475" size="700,50" font="Regular;40" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <ePixmap position="26,141" size="250,297" pixmap="DMConcinnity-HD/menu/aafpanel.png" />
   </screen>
@@ -4500,7 +4480,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel text="Softcam Panel" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <eLabel font="Regular;22" position="25,92" size="185,25" text="Softcam Selection:" />
     <widget font="Regular;18" name="camcount" position="749,91" size="60,25" />
-    <widget name="Mlist" position="227,93" size="456,25" />
+    <widget name="Mlist" position="227,93" size="456,25" zPosition="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
     <widget font="Regular;22" name="enigma2" position="21,91" size="185,25" />
     <eLabel backgroundColor="grey" position="20,132" size="800,2" zPosition="0" />
     <widget font="Regular;22" name="actifcam" position="22,145" size="480,32" />
@@ -4525,7 +4505,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Softcam-Panel Setup" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget name="config" position="24,75" size="789,481" enableWrapAround="1" scrollbarMode="showOnDemand" />
+    <widget name="config" position="28,75" size="789,481" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="black" zPosition="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
     <!--widget name="labelExitsave" position="86,623" size="420,25" halign="center" font="Regular;20" transparent="1" foregroundColor="#f2e000" /-->
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
@@ -4541,7 +4521,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="RedPanel" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget name="config" position="24,75" size="789,481" enableWrapAround="1" scrollbarMode="showOnDemand" />
+    <widget name="config" position="25,75" size="789,481" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
     <eLabel text="Exit" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
@@ -4556,7 +4536,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Yellow Key Action" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget name="config" position="24,75" size="789,481" enableWrapAround="1" scrollbarMode="showOnDemand" />
+    <widget name="config" position="24,75" size="789,481" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="10" transparent="0" backgroundColorSelected="grey" foregroundColorSelected="black" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
     <eLabel text="Exit" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
@@ -4589,7 +4569,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Mount Manager" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget source="list" render="Listbox" position="30,81" size="780,450" font="Regular;16" scrollbarMode="showOnDemand">
+    <widget source="list" render="Listbox" position="30,81" size="780,450" font="Regular;16" scrollbarMode="showOnDemand" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 				 MultiContentEntryText(pos = (90, 0), size = (600, 30), font=0, text = 0),
@@ -4642,7 +4622,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="lab2" position="260,89" size="150,24" font="Regular;20" valign="center" transparent="0" />
     <widget name="labstop" position="420,89" size="100,24" font="Regular;20" valign="center" halign="center" backgroundColor="red" zPosition="1" />
     <widget name="labrun" position="420,89" size="100,24" font="Regular;20" valign="center" halign="center" backgroundColor="green" zPosition="2" />
-    <widget source="list" render="Listbox" position="23,143" size="799,398" scrollbarMode="showOnDemand">
+    <widget source="list" render="Listbox" position="23,143" size="799,398" scrollbarMode="showOnDemand" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="StringList" />
     </widget>
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
@@ -4818,7 +4798,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="334,478" size="35,27" alphatest="blend" />
     <widget source="key_red" render="Label" foregroundColor="black" backgroundColor="grey" font="Regular;22" halign="left" position="58,482" size="220,26" transparent="1" zPosition="1" />
     <widget source="key_green" render="Label" foregroundColor="black" backgroundColor="grey" font="Regular;22" halign="left" position="373,482" size="220,26" transparent="1" zPosition="1" />
-    <widget source="list" render="Listbox" position="20,72" size="576,350" zPosition="10" scrollbarMode="showOnDemand">
+    <widget source="list" render="Listbox" position="20,72" size="576,350" zPosition="10" scrollbarMode="showOnDemand" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 							{"template": [
 									MultiContentEntryPixmapAlphaTest(pos = (2, 8), size = (54, 54), png = 2), # index 3 is the interface pixmap
@@ -4874,7 +4854,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget source="menu" render="Listbox" position="54,70" size="700,360" selectionPixmap="DMConcinnity-HD/menu/sel780x35.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" zPosition="3">
+    <widget source="menu" render="Listbox" position="54,70" size="700,360" selectionPixmap="DMConcinnity-HD/menu/sel780x35.png" scrollbarMode="showNever" enableWrapAround="1" zPosition="3" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (0, 5), size = (720, 35), text = 1) ],
 				"fonts": [gFont("Regular", 22)],
@@ -5086,8 +5066,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Mounts Setup" position="270,15" size="800,43" font="Regular; 30" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-     <widget source="introduction" render="Label" position="420,450" size="650, 80" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
-     <ePixmap position="385,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
+    <widget source="introduction" render="Label" position="420,450" size="650, 80" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
+    <ePixmap position="385,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
     <ePixmap position="63,315" size="250,240" pixmap="DMConcinnity-HD/menu/net.png" alphatest="on" />
     <widget name="menulist" position=" 423,80" size="650,360" itemHeight="30" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
@@ -5161,7 +5141,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel text="Select Network Adapter" position="270,15" size="800,43" font="Regular; 30" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <ePixmap position="385,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
     <ePixmap position="63,315" size="250,240" pixmap="DMConcinnity-HD/menu/net.png" alphatest="on" />
-    <widget source="list" render="Listbox" position="423, 80" size="650,390" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel700x75.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="423, 80" size="650,390" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel700x75.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryPixmapAlphaTest(pos = (10, 10), size = (54, 54), png = 3), # index 3 is the interface pixmap
@@ -5264,7 +5244,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel text="Network Neighbourhood" position="270,15" size="800,43" font="Regular; 30" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <ePixmap position="330,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
     <ePixmap position="42,334" size="250,229" pixmap="DMConcinnity-HD/menu/net.png" alphatest="on" />
-    <widget source="list" render="Listbox" position="380,90" size="700,420" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="380,90" size="700,420" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryPixmapAlphaTest(pos = (10, 6), size = (48, 48), png = 1), # index 1 is the expandable/expanded/verticalline icon
@@ -5300,7 +5280,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="NetworkWizard" position="270,15" size="800,43" font="Regular; 35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget name="rc" position="45,75" size="154,480" pixmaps="DMConcinnity-HD/rc.png,DMConcinnity-HD/rcold.png" zPosition="10" alphatest="blend" />
+    <widget name="rc" position="45,75" size="154,480" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="blend" />
     <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="on" />
@@ -5308,7 +5288,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="285,310" size=" 35, 27" alphatest="blend" />
     <widget name="languagetext" position="325,314" size="150, 23" font="Regular;21" backgroundColor="black" transparent="1" />
     <widget name="text" position="540, 80" size="540,280" font="Regular;22" backgroundColor="black" transparent="1" />
-    <widget source="list" render="Listbox" position="350,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1">
+    <widget source="list" render="Listbox" position="350,370" size="700,180" zPosition="13" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (20, 2), size = (650, 29), flags = RT_HALIGN_LEFT, text = 0) ],
 				"fonts": [gFont("Regular", 22)],
@@ -5827,43 +5807,43 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   </screen>
   <!-- ## CoolTVGuide Skin ## -->
   <screen name="CoolUniGuide" position="center,center" size="1200,680" backgroundColor="black" flags="wfNoBorder">
-  <ePixmap position="0,0" zPosition="-10" size="1200,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
-  <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
-    <convert type="ClockToText">Default</convert>
-  </widget>
-  <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
-    <convert type="ClockToText">Format:%d.%m.%Y</convert>
-  </widget>
-  <widget source="Title" render="Label" position="260,20" size="500,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="left" transparent="1" />
-  <eLabel text="Cool Uni Guide" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget name="list" position="20,70" size="1164,450" itemHeight="28" zPosition="25" CoolFont="Regular;18" CoolServiceFont="Regular;18" CoolEventFont="Regular;18" CoolServiceSize="245" CoolEventSize="550" CoolServicePos="5" CoolServiceHPos="2" CoolEventPos="430" CoolEventHPos="2" CoolBarPos="220" CoolBarHPos="5" CoolBarSize="150" CoolBarHigh="14" CoolTimePos="265" CoolTimeHPos="2" CoolTimeSize="150" CoolDurationPos="995" CoolDurationSize="120" CoolDurationColor="#e5b243" CoolServiceColor="#FFFFFF" CoolBarColor="#FFFFFF" CoolEventColor="#FFFFFF" CoolBackColor="#000000" CoolBackColorSel="#000000" CoolRecPreColor="#FF0000" CoolRecColor="#FF0000" CoolCurrentCol="#FFFFFF" CoolTunerCol="#606060" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" foregroundColor="white" backgroundColor="black" transparent="1" />
-  <widget source="Event" render="Label" position="20,525" size="90,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" halign="left" transparent="1">
-    <convert type="EventTime">StartTime</convert>
-    <convert type="ClockToText" />
-  </widget>
-  <widget source="Event" render="Label" position="80,525" size="100,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" halign="left" transparent="1">
-    <convert type="EventTime">EndTime</convert>
-    <convert type="ClockToText">Format:- %H:%M</convert>
-  </widget>
-  <widget source="Event" render="Label" position="1079,522" size="100,30" font="Regular;20" foregroundColor="yellow" halign="right" backgroundColor="black" transparent="1">
-    <convert type="EventTime">Remaining</convert>
-    <convert type="RemainingToText">InMinutes</convert>
-  </widget>
-  <widget source="Event" render="Label" position="180,525" size="896,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1" halign="left">
-    <convert type="EventName">Name</convert>
-  </widget>
-  <widget source="Event" render="Label" position="20,550" zPosition="1" size="1165,86" font="Regular;18" foregroundColor="white" backgroundColor="black" transparent="1">
-    <convert type="EventName">ExtendedDescription</convert>
-  </widget>
-  <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="40,646" size="35,30" alphatest="on" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="320,646" size="35,30" alphatest="on" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="620,646" size="35,30" alphatest="on" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="910,646" size="35,30" alphatest="on" />
-  <widget name="key_red" position="88,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget name="key_green" position="367,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget name="key_yellow" position="665,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget name="key_blue" position="957,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
-</screen>
+    <ePixmap position="0,0" zPosition="-10" size="1200,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
+    <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="Title" render="Label" position="260,20" size="500,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="left" transparent="1" />
+    <eLabel text="Cool Uni Guide" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="list" position="20,70" size="1164,450" itemHeight="28" zPosition="25" CoolFont="Regular;18" CoolServiceFont="Regular;18" CoolEventFont="Regular;18" CoolServiceSize="245" CoolEventSize="550" CoolServicePos="5" CoolServiceHPos="2" CoolEventPos="430" CoolEventHPos="2" CoolBarPos="220" CoolBarHPos="5" CoolBarSize="150" CoolBarHigh="14" CoolTimePos="265" CoolTimeHPos="2" CoolTimeSize="150" CoolDurationPos="995" CoolDurationSize="120" CoolDurationColor="#e5b243" CoolServiceColor="#FFFFFF" CoolBarColor="#FFFFFF" CoolEventColor="#FFFFFF" CoolBackColor="#000000" CoolBackColorSel="#000000" CoolRecPreColor="#FF0000" CoolRecColor="#FF0000" CoolCurrentCol="#FFFFFF" CoolTunerCol="#606060" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" foregroundColor="white" backgroundColor="black" transparent="1" />
+    <widget source="Event" render="Label" position="20,525" size="90,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" halign="left" transparent="1">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText" />
+    </widget>
+    <widget source="Event" render="Label" position="80,525" size="100,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" halign="left" transparent="1">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Format:- %H:%M</convert>
+    </widget>
+    <widget source="Event" render="Label" position="1079,522" size="100,30" font="Regular;20" foregroundColor="yellow" halign="right" backgroundColor="black" transparent="1">
+      <convert type="EventTime">Remaining</convert>
+      <convert type="RemainingToText">InMinutes</convert>
+    </widget>
+    <widget source="Event" render="Label" position="180,525" size="896,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1" halign="left">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="Event" render="Label" position="20,550" zPosition="1" size="1165,86" font="Regular;18" foregroundColor="white" backgroundColor="black" transparent="1">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="40,646" size="35,30" alphatest="on" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="320,646" size="35,30" alphatest="on" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="620,646" size="35,30" alphatest="on" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="910,646" size="35,30" alphatest="on" />
+    <widget name="key_red" position="88,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_green" position="367,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_yellow" position="665,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_blue" position="957,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  </screen>
   <screen name="CoolSearch" position="center,center" size="1200,680" backgroundColor="black" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1200,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
     <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
@@ -5905,40 +5885,40 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_blue" position="957,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
   <screen name="CoolEasyGuide" position="center,center" size="1200,680" backgroundColor="black" flags="wfNoBorder">
-  <ePixmap position="0,0" zPosition="-10" size="1201,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
-  <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
-    <convert type="ClockToText">Default</convert>
-  </widget>
-  <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
-    <convert type="ClockToText">Format:%d.%m.%Y</convert>
-  </widget>
-  <widget source="Title" render="Label" position="260,20" size="500,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="left" transparent="1" />
-  <eLabel text="Cool Easy Guide" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget source="session.VideoPicture" render="Pig" position="25,81" size="380,215" zPosition="3" backgroundColor="unff000000" />
-  <widget source="Event" render="Label" position="420,81" size="100,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" halign="left" transparent="1">
-    <convert type="EventTime">StartTime</convert>
-    <convert type="ClockToText" />
-  </widget>
-  <widget source="Event" render="Label" position="480,81" size="100,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" halign="left" transparent="1">
-    <convert type="EventTime">EndTime</convert>
-    <convert type="ClockToText">Format:- %H:%M</convert>
-  </widget>
-  <widget source="Event" render="Label" position="570,81" size="602,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" halign="left" transparent="1">
-    <convert type="EventName">Name</convert>
-  </widget>
-  <widget source="Event" render="Label" position="418,115" size="754,185" font="Regular;18" foregroundColor="white" backgroundColor="black" transparent="1">
-    <convert type="EventName">ExtendedDescription</convert>
-  </widget>
-  <widget name="list" position="23,305" size="1148,326" itemHeight="28" zPosition="25" CoolFont="Regular;18" CoolServiceFont="Regular;18" CoolEventFont="Regular;18" CoolServiceSize="245" CoolEventSize="550" CoolServicePos="5" CoolServiceHPos="2" CoolEventPos="430" CoolEventHPos="2" CoolBarPos="220" CoolBarHPos="5" CoolBarSize="150" CoolBarHigh="14" CoolTimePos="265" CoolTimeHPos="2" CoolTimeSize="150" CoolDurationPos="995" CoolDurationSize="120" CoolDurationColor="#e5b243" CoolServiceColor="#FFFFFF" CoolBarColor="#FFFFFF" CoolEventColor="#FFFFFF" CoolBackColor="#000000" CoolBackColorSel="#000000" CoolRecPreColor="#FF0000" CoolRecColor="#FF0000" CoolCurrentCol="#FFFFFF" CoolTunerCol="#606060" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" foregroundColor="white" backgroundColor="black" transparent="1" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="40,646" size="35,30" alphatest="on" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="320,646" size="35,30" alphatest="on" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="620,646" size="35,30" alphatest="on" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="910,646" size="35,30" alphatest="on" />
-  <widget name="key_red" position="88,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget name="key_green" position="367,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget name="key_yellow" position="665,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget name="key_blue" position="957,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
-</screen>
+    <ePixmap position="0,0" zPosition="-10" size="1201,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
+    <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="Title" render="Label" position="260,20" size="500,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="left" transparent="1" />
+    <eLabel text="Cool Easy Guide" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget source="session.VideoPicture" render="Pig" position="25,81" size="380,215" zPosition="3" backgroundColor="unff000000" />
+    <widget source="Event" render="Label" position="420,81" size="100,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" halign="left" transparent="1">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText" />
+    </widget>
+    <widget source="Event" render="Label" position="480,81" size="100,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" halign="left" transparent="1">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Format:- %H:%M</convert>
+    </widget>
+    <widget source="Event" render="Label" position="570,81" size="602,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" halign="left" transparent="1">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="Event" render="Label" position="418,115" size="754,185" font="Regular;18" foregroundColor="white" backgroundColor="black" transparent="1">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <widget name="list" position="23,305" size="1148,326" itemHeight="28" zPosition="25" CoolFont="Regular;18" CoolServiceFont="Regular;18" CoolEventFont="Regular;18" CoolServiceSize="245" CoolEventSize="550" CoolServicePos="5" CoolServiceHPos="2" CoolEventPos="430" CoolEventHPos="2" CoolBarPos="220" CoolBarHPos="5" CoolBarSize="150" CoolBarHigh="14" CoolTimePos="265" CoolTimeHPos="2" CoolTimeSize="150" CoolDurationPos="995" CoolDurationSize="120" CoolDurationColor="#e5b243" CoolServiceColor="#FFFFFF" CoolBarColor="#FFFFFF" CoolEventColor="#FFFFFF" CoolBackColor="#000000" CoolBackColorSel="#000000" CoolRecPreColor="#FF0000" CoolRecColor="#FF0000" CoolCurrentCol="#FFFFFF" CoolTunerCol="#606060" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" foregroundColor="white" backgroundColor="black" transparent="1" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="40,646" size="35,30" alphatest="on" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="320,646" size="35,30" alphatest="on" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="620,646" size="35,30" alphatest="on" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="910,646" size="35,30" alphatest="on" />
+    <widget name="key_red" position="88,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_green" position="367,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_yellow" position="665,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_blue" position="957,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  </screen>
   <screen name="CoolInfoGuide" position="center,center" size="1200,680" backgroundColor="black" flags="wfNoBorder">
     <ePixmap position="2,-1" zPosition="-10" size="1199,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
     <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
@@ -6194,7 +6174,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_yellow" position="665,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="key_blue" position="957,646" size="210,30" zPosition="1" font="Regular;20" halign="left" valign="center" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
-   <screen name="RestorePlugins" position="center,center" size=" 840,605" flags="wfNoBorder">
+  <screen name="RestorePlugins" position="center,center" size=" 840,605" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
@@ -6203,8 +6183,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Restore Plugins" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget source="menu" render="Listbox" position="30,80" size="780,480" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" backgroundColor="black" transparent="1">
-	  <convert type="TemplatedMultiContent">
+    <widget source="menu" render="Listbox" position="30,80" size="780,480" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
+      <convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (50, 3), size = (650, 23), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 0),
 					MultiContentEntryPixmapAlphaTest(pos = (5, 1), size = (24, 24), png = 1),
