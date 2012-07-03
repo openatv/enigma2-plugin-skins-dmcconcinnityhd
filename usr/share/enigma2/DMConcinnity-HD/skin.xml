@@ -5707,6 +5707,56 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <!-- ############### -->
   <!-- ##    Audio  ## -->
   <!-- ############### -->
+  <screen name="AudioSelection" title="Audio" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="223,15" size="380,40" backgroundColor="grey" transparent="1" zPosition="1" font="Regular; 30" valign="center" foregroundColor="black" halign="right" />
+    <ePixmap position="0,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
+    <widget source="global.CurrentTime" render="Label" position=" 20,20" size="70,25" font="Regular; 22" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="90,20" size="128,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget name="config" position="91,110" size="500,150" scrollbarMode="showOnDemand" itemHeight="30" selectionPixmap="DMConcinnity-HD/menu/sel500x30.png" backgroundColor="black" transparent="0" backgroundColorSelected="grey" foregroundColorSelected="black" zPosition="3" />
+    <widget source="key_red" render="Pixmap" pixmap="DMConcinnity-HD/buttons/key_red.png" position="40,110" size="35,27" alphatest="on">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="key_green" render="Pixmap" pixmap="DMConcinnity-HD/buttons/key_green.png" position="40,141" size="35,27" alphatest="on">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="key_yellow" render="Pixmap" pixmap="DMConcinnity-HD/buttons/key_yellow.png" position="40,171" size="35,27" alphatest="on">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="key_blue" render="Pixmap" pixmap="DMConcinnity-HD/buttons/key_blue.png" position="40,201" size="35,27" alphatest="on">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="streams" render="Listbox" scrollbarMode="showOnDemand" position="40,268" size="550,200" selectionPixmap="DMConcinnity-HD/menu/sel550x30.png" zPosition="3" backgroundColor="black" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
+      <convert type="TemplatedMultiContent">
+				{"templates":
+					{"default": (25, [ 
+						MultiContentEntryText(pos = (0, 0),   size = (40, 25),  font = 0, flags = RT_HALIGN_LEFT,  text = 1), # key,
+						MultiContentEntryText(pos = (45, 0),  size = (65, 25),  font = 0, flags = RT_HALIGN_LEFT,  text = 2), # number,
+						MultiContentEntryText(pos = (115, 0), size = (130, 25), font = 0, flags = RT_HALIGN_LEFT,  text = 3), # description,
+						MultiContentEntryText(pos = (250, 0), size = (220, 25), font = 0, flags = RT_HALIGN_LEFT,  text = 4), # language,
+						MultiContentEntryText(pos = (485, 4), size = (20, 25),  font = 1, flags = RT_HALIGN_RIGHT, text = 5), # selection,
+					], True, "showNever"),
+					"notselected": (25, [ 
+						MultiContentEntryText(pos = (0, 0),   size = (40, 25),  font = 0, flags = RT_HALIGN_LEFT,  text = 1), # key,
+						MultiContentEntryText(pos = (45, 0),  size = (65, 25),  font = 0, flags = RT_HALIGN_LEFT,  text = 2), # number,
+						MultiContentEntryText(pos = (115, 0), size = (130, 25), font = 0, flags = RT_HALIGN_LEFT,  text = 3), # description,
+						MultiContentEntryText(pos = (250, 0), size = (220, 25), font = 0, flags = RT_HALIGN_LEFT,  text = 4), # language,
+						MultiContentEntryText(pos = (485, 4), size = (20, 25),  font = 1, flags = RT_HALIGN_RIGHT, text = 5), # selection,
+					], False, "showNever")
+					},
+				"fonts": [gFont("Regular", 20), gFont("Regular", 16)],
+				"itemHeight": 30
+				}
+      </convert>
+    </widget>
+    <ePixmap pixmap="DMConcinnity-HD/buttons/key_exit.png" alphatest="off" position="313,480" size="70,30" zPosition="3" transparent="1" />
+    <eLabel text="Cancel" backgroundColor="grey" font="Regular;22" halign="left" position="384,482" size="220,26" transparent="1" zPosition="1" foregroundColor="black" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/ok.png" alphatest="on" position="27,481" size="40,30" zPosition="3" />
+    <eLabel text="OK" backgroundColor="secondBG" font="Regular;22" halign="left" position="71,482" size="220,30" transparent="1" zPosition="3" foregroundColor="black" />
+  </screen>
   <screen name="Volume" position="center,25" size=" 400, 28" title="Volume" zPosition="10" flags="wfNoBorder">
     <ePixmap position=" 0, 0" zPosition="2" size="400,28" pixmap="DMConcinnity-HD/vol_back.png" />
     <widget name="Volume" position="10,10" zPosition="3" size="380, 8" pixmap="DMConcinnity-HD/vol.png" transparent="1" />
