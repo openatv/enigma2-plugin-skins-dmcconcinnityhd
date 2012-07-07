@@ -1432,9 +1432,8 @@
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Channel Selection" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget source="Title" render="Label" position="20, 70" size="700,28" font="Regular;23" backgroundColor="black" transparent="1" />
-    <eLabel position="20,105" size="700,2" backgroundColor="grey" />
-    <widget name="list" position="20,110" size="700,450" zPosition="3" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" picServiceEventProgressbar="DMConcinnity-HD/progcl.png" serviceItemHeight="30" serviceNumberFont="Regular;22" serviceNameFont="Regular;24" serviceInfoFont="Regular;22" transparent="1" colorServiceDescription="yellow" foregroundColorEventSelected="darkblue" />
+    <widget source="Title" render="Label" position="20, 70" size="700,28" font="Regular;22" backgroundColor="black" transparent="1" foregroundColor="yellow" />
+    <widget name="list" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" valign="bottom" position="22,99" size="700,466" serviceNumberFont="Regular;22" serviceNameFont="Regular;24" serviceInfoFont="Regular;21" backgroundColor="black" scrollbarMode="showOnDemand" foregroundColorServiceNotAvail="#00656565" foregroundColorEventSelected="darkblue" colorServiceDescription="yellow" colorEventProgressbarBorder="#555555" colorEventProgressbarBorderSelected="grey" picServiceEventProgressbar="DMConcinnity-HD/progcl.png" zPosition="3" />
     <ePixmap position="720, 66" zPosition="-9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
     <widget source="ServiceEvent" render="Label" position="755, 70" size="320,25" font="Regular;22" halign="center" noWrap="1" foregroundColor="yellow" backgroundColor="black" transparent="1">
       <convert type="ServiceName">Name</convert>
@@ -1460,7 +1459,7 @@
     <widget source="ServiceEvent" render="Progress" position="746,170" size="340,8" pixmap="DMConcinnity-HD/menu/progcs.png" transparent="1">
       <convert type="EventTime">Progress</convert>
     </widget>
-    <widget source="ServiceEvent" render="Label" position="755,200" size="320,260" font="Regular;19" foregroundColor="grey" backgroundColor="black" transparent="1">
+    <widget source="ServiceEvent" render="Label" position="755,200" size="320,260" font="Regular;19" foregroundColor="grey" backgroundColor="black" transparent="1" valign="top">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
     <ePixmap position="734,450" zPosition="-8" size="355,31" pixmap="DMConcinnity-HD/menu/sepv3.png" />
@@ -2373,7 +2372,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel text="Setup" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget source="Title" render="Label" position="30, 75" size="780,32" font="Regular;26" backgroundColor="black" transparent="1" />
     <eLabel position="30,120" size="780,2" backgroundColor="grey" />
-    <widget name="config" position="30,130" size="780,420" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel900x30.png" backgroundColor="black" transparent="1" zPosition="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
+    <widget name="config" position="30,130" size="780,420" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x30.png" backgroundColor="black" transparent="1" zPosition="1" backgroundColorSelected="grey" foregroundColorSelected="black" font="Regular; 18" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
     <widget source="key_red" render="Label" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
@@ -4536,7 +4535,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Yellow Key Action" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget name="config" position="24,75" size="789,481" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="10" transparent="0" backgroundColorSelected="grey" foregroundColorSelected="black" />
+    <widget name="config" position="25,76" size="789,481" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="10" transparent="0" backgroundColorSelected="grey" foregroundColorSelected="black" valign="bottom" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
     <eLabel text="Exit" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
