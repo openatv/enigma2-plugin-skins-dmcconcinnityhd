@@ -5204,7 +5204,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="DNSInfo_Text" position="870,421" size="200,34" zPosition="2" font="Regular;22" halign="center" valign="center" foregroundColors="darkgrey,grey,white" backgroundColor="black" transparent="1" />
     <widget name="DNSInfo" position="870,420" size="200,35" pixmaps="DMConcinnity-HD/menu/lan-seloff.png,DMConcinnity-HD/menu/lan-sel.png" zPosition="1" alphatest="on" />
     <eLabel position="370,475" size="700, 2" backgroundColor="darkgrey" />
-    <widget name="EditSettings_Text" position="770,501" size="300,34" zPosition="2" font="Regular;22" halign="center" valign="center" foregroundColors="darkgrey,grey,white" backgroundColor="black" transparent="1" />
+    <widget name="EditSettings_Text" position="770,501" size="300,34" zPosition="2" font="Regular;22" halign="center" valign="center" foregroundColors="darkgrey,grey,black" backgroundColor="white" transparent="1" />
     <widget name="EditSettingsButton" position="770,500" size="300,35" pixmaps="DMConcinnity-HD/menu/lan-seloff.png,DMConcinnity-HD/menu/lan-sel300.png" zPosition="2" alphatest="on" />
     <widget name="InfoText" position="370,90" size="700,470" zPosition="25" font="Regular;22" valign="center" halign="center" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
