@@ -6248,4 +6248,27 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_red" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="key_green" position="340,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
+  <screen name="QuickMenu" position="center,center" size="1200,680" backgroundColor="black" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1200,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
+    <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <eLabel text="Quick Launch Menu" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="list" position="21,82" size="490,450" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" transparent="1" />
+	<widget name="sublist" position="550,82" size="490,300" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" transparent="1" />
+    <eLabel position="530,80" size="2,460" backgroundColor="darkgrey" />
+	<widget source="session.VideoPicture" render="Pig" position="760,390" size="417,243" backgroundColor="transparent" zPosition="1" />
+	<widget name="description" position="21,550" size="720,80" zPosition="1" font="Regular;22" halign="left" backgroundColor="black" transparent="1" />
+	<ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="30,646" size="35,27" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="300,646" size="35,27" alphatest="blend" />
+	<ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="570,646" size="35,27" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="840,646" size="35,27" alphatest="blend" />
+    <widget name="key_red" position=" 80,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_green" position="350,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+	<widget name="key_yellow" position="620,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_blue" position="890,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  </screen>
 </skin>
