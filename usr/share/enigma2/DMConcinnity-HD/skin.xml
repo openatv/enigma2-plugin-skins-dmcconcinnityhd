@@ -6257,11 +6257,12 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Quick Launch Menu" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
-    <widget name="list" position="21,82" size="490,450" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" transparent="1" />
-	<widget name="sublist" position="550,82" size="490,300" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" transparent="1" />
-    <eLabel position="530,80" size="2,460" backgroundColor="darkgrey" />
-	<widget source="session.VideoPicture" render="Pig" position="760,390" size="417,243" backgroundColor="transparent" zPosition="1" />
-	<widget name="description" position="21,550" size="720,80" zPosition="1" font="Regular;22" halign="left" backgroundColor="black" transparent="1" />
+    <widget name="list" position="21,82" size="450,450" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" transparent="1" />
+	<widget name="sublist" position="510,82" size="360,300" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" transparent="1" />
+    <eLabel position="490,80" size="2,420" backgroundColor="darkgrey" />
+	<widget source="session.VideoPicture" render="Pig" position="880,82" size="300,174" backgroundColor="transparent" zPosition="1" />
+	<ePixmap position="880,330" size="300,169" pixmap="/usr/share/enigma2/DMConcinnity-HD/menu/openaaf_info_small.png" zPosition="1" transparent="1" alphatest="on" />
+	<widget name="description" position="21,550" size="1100,80" zPosition="1" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
 	<ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="30,646" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="300,646" size="35,27" alphatest="blend" />
 	<ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="570,646" size="35,27" alphatest="blend" />
