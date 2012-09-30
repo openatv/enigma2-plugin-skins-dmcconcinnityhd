@@ -203,7 +203,7 @@
     <widget source="session.CurrentService" render="PiconBg" position=" 18,68" size=" 102,62" transparent="1" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
-	<widget source="session.CurrentService" render="Picon" position=" 20,70" size=" 100,60" transparent="1" alphatest="blend">
+    <widget source="session.CurrentService" render="Picon" position=" 20,70" size=" 100,60" transparent="1" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <!-- lower Part of 1st InfoBarLite -->
@@ -346,7 +346,7 @@
     <widget source="session.FrontendStatus" render="Progress" pixmap="DMConcinnity-HD/lite/bar_snr.png" position="983,34" size="132,9" borderWidth="1" borderColor="darkgrey" transparent="1" backgroundColor="transparent">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
-	<widget source="session.CurrentService" render="PiconBg" position=" 18,68" size=" 102,62" transparent="1" alphatest="blend">
+    <widget source="session.CurrentService" render="PiconBg" position=" 18,68" size=" 102,62" transparent="1" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="session.CurrentService" render="Picon" position=" 20,70" size=" 100,60" transparent="1" alphatest="blend">
@@ -455,7 +455,7 @@
     <widget source="session.Event_Now" render="Progress" position="11,53" size="1120,8" pixmap="DMConcinnity-HD/progress.png" transparent="1">
       <convert type="EventTime">Progress</convert>
     </widget>
-	<widget source="session.CurrentService" render="PiconBg" position=" 18,68" size=" 102,62" transparent="1" alphatest="blend">
+    <widget source="session.CurrentService" render="PiconBg" position=" 18,68" size=" 102,62" transparent="1" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="session.CurrentService" render="Picon" position="20,70" size="100,60" transparent="1" alphatest="blend">
@@ -683,7 +683,7 @@
   </screen>
   <screen name="QuickEPG" position="center,530" size="1140,170" title="QuickEPG" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-2" size="1141,170" pixmap="DMConcinnity-HD/infobar.png" />
-	<widget source="Service" render="PiconBg" position=" 58,73" size=" 102,62" transparent="1" zPosition="2" alphatest="blend">
+    <widget source="Service" render="PiconBg" position=" 58,73" size=" 102,62" transparent="1" zPosition="2" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="Service" render="Picon" position="60,75" size="100,60" transparent="1" zPosition="2" alphatest="blend">
@@ -930,7 +930,7 @@
     <widget source="Title" render="Label" position="20,75" size="720,44" font="Regular;22" halign="left" valign="center" foregroundColor="green" backgroundColor="black" transparent="1" />
     <eLabel position="20,123" size="700,2" backgroundColor="grey" />
     <widget name="Cover" position="602,502" size="116,132" zPosition="4" backgroundColor="black" alphatest="off" transparent="0" />
-    <widget name="list" position="20,130" size="700,362" itemHeight="28" CoolFont="Regular;20" CoolSelectFont="Regular;20" CoolDateFont="Regular;20" CoolMoviePos="35" CoolMovieSize="545" CoolFolderSize="550" CoolDatePos="1000" CoolDateWidth="110" CoolTitleColor="0" CoolDateColor="0" CoolProgressPos="1000" CoolBarPos="590" CoolBarHPos="8" CoolBarSize="55,10" CoolBarSizeSa="110,16" selectionPixmap="DMConcinnity-HD/menu/sel700x28.png" DefaultColor="white" UnwatchedColor="white" WatchingColor="EMCWatching" FinishedColor="EMCFinished" RecordingColor="EMCRecording" BackColorSel="black" backgroundColor="black" scrollbarMode="showNever" transparent="1" />
+    <widget name="list" position="20,130" size="700,362" itemHeight="28" CoolFont="Regular;20" CoolSelectFont="Regular;20" CoolDateFont="Regular;20" CoolMoviePos="35" CoolMovieSize="545" CoolFolderSize="550" CoolDatePos="1000" CoolDateWidth="110" CoolTitleColor="0" CoolDateColor="0" CoolProgressPos="1000" CoolBarPos="590" CoolBarHPos="8" CoolBarSize="55,10" CoolBarSizeSa="110,16" selectionPixmap="DMConcinnity-HD/menu/sel700x28emc.png" DefaultColor="#FFFFFF" UnwatchedColor="#FFFFFF" WatchingColor="#3486F4" FinishedColor="#46D93A" RecordingColor="#9F1313" BackColorSel="#00000000"  foregroundColorSelected="#FFFFFF" backgroundColor="#00000000" scrollbarMode="showNever" transparent="1" />
     <widget name="wait" position="20,center" size="720,50" zPosition="1" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="black" />
     <widget source="session.VideoPicture" render="Pig" position="754,69" size="427,212" zPosition="3" backgroundColor="transparent" />
     <ePixmap position="735,282" zPosition="11" size="355,26" pixmap="DMConcinnity-HD/menu/sepv.png" />
@@ -967,65 +967,62 @@
     <ePixmap pixmap="DMConcinnity-HD/buttons/info.png" position="1030,646" size="70,35" alphatest="blend" />
   </screen>
   <screen name="EMCMediaCenter" position="70,550" size="1140,140" title="InfoBar" flags="wfNoBorder">
-    <ePixmap position="0,0" zPosition="-1" size="1140,140" pixmap="DMConcinnity-HD/infobarle.png" />
-    <ePixmap position=" 19,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_dolby_off.png" zPosition="1" alphatest="blend" />
-    <widget source="session.CurrentService" render="Pixmap" position="19,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_dolby_on.png" zPosition="2" alphatest="blend">
-      <convert type="ServiceInfo">IsMultichannel</convert>
-      <convert type="ConditionalShowHide" />
-    </widget>
-    <ePixmap position=" 71,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_format_off.png" zPosition="1" alphatest="blend" />
-    <widget source="session.CurrentService" render="Pixmap" position="71,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_format_on.png" zPosition="2" alphatest="blend">
-      <convert type="ServiceInfo">IsWidescreen</convert>
-      <convert type="ConditionalShowHide" />
-    </widget>
-    <ePixmap position="121,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_hd_off.png" zPosition="1" alphatest="blend" />
-    <widget source="session.CurrentService" render="Pixmap" position="121,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_hd_on.png" zPosition="2" alphatest="blend">
-      <convert type="ServiceInfo">VideoWidth</convert>
-      <convert type="ValueRange">721,1980</convert>
-      <convert type="ConditionalShowHide" />
-    </widget>
-    <widget name="Cover" position="50,400" size="150,150" zPosition="1" alphatest="on" />
-    <widget source="session.CurrentService" render="Label" position="177,14" size="657,36" font="Regular;24" valign="top" noWrap="1" backgroundColor="black" transparent="1">
-      <convert type="ServiceName">Name</convert>
-    </widget>
-    <widget source="session.RecordState" render="Pixmap" position="838,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_rec_on.png" alphatest="blend">
-      <convert type="ConditionalShowHide">Blink</convert>
-    </widget>
-    <widget source="global.CurrentTime" render="Label" position="890,14" size="80,25" font="Regular;23" halign="right" backgroundColor="black" transparent="1">
-      <convert type="ClockToText">Default</convert>
-    </widget>
-    <widget source="global.CurrentTime" render="Label" position="980,14" size="140,25" font="Regular;23" halign="right" backgroundColor="black" foregroundColor="grey" transparent="1">
-      <convert type="ClockToText">Format:%d.%m.%Y</convert>
-    </widget>
-    <widget source="Service" render="Progress" position="10,49" size="1120,8" zPosition="1" pixmap="DMConcinnity-HD/progress.png" transparent="1">
-      <convert type="ServicePosition">Position</convert>
-    </widget>
-    <widget source="Service" render="PositionGauge" position="10,48" size="1120,10" zPosition="2" transparent="1">
-      <convert type="EMCServicePosition">Gauge</convert>
-    </widget>
-    <widget source="Service" render="Label" position="20,70" size="120,28" font="Arial;24" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1">
-      <convert type="EMCServicePosition">Position</convert>
-    </widget>
-    <widget source="Service" render="Label" position="1000,70" size="120,28" font="Arial;24" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1">
-      <convert type="EMCServicePosition">Remaining,Negate</convert>
-    </widget>
-    <widget source="Service" render="Label" position="470,70" size="200,28" font="Arial;24" halign="center" foregroundColor="black" backgroundColor="grey" transparent="1">
-      <convert type="EMCServicePosition">Length</convert>
-    </widget>
-    <ePixmap position="7,110" zPosition="2" size="1126,26" pixmap="DMConcinnity-HD/extra.png" />
-    <eLabel text="Audio:" position=" 20,112" size="60,23" zPosition="3" font="Regular;20" backgroundColor="black" transparent="1" />
-    <widget name="audioLabel" position=" 85,112" size="70,23" zPosition="3" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1" />
-    <eLabel text="Subtitle" position="160,112" size="85,23" zPosition="3" font="Regular;20" backgroundColor="black" transparent="1" />
-    <widget name="subtitleLabel" position="245,112" size="70,23" zPosition="3" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1" />
-    <widget name="chapterLabel" position="320,112" size="500,23" zPosition="3" font="Regular;20" halign="center" valign="top" backgroundColor="black" transparent="1" />
-    <widget source="session.CurrentService" render="Label" zPosition="3" font="Regular;20" position="995,112" size="55,23" halign="right" foregroundColor="yellow" backgroundColor="black" transparent="1">
-      <convert type="ServiceInfo">VideoWidth</convert>
-    </widget>
-    <eLabel text="x" font="Regular;20" position="1055,112" size="15,23" zPosition="3" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" />
-    <widget source="session.CurrentService" render="Label" zPosition="3" font="Regular;20" position="1075,112" size="55,23" halign="left" foregroundColor="yellow" backgroundColor="black" transparent="1">
-      <convert type="ServiceInfo">VideoHeight</convert>
-    </widget>
-  </screen>
+  <ePixmap position="0,0" zPosition="-1" size="1140,140" pixmap="DMConcinnity-HD/infobarle.png" />
+  <ePixmap position=" 19,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_dolby_off.png" zPosition="1" alphatest="blend" />
+  <widget source="session.CurrentService" render="Pixmap" position="19,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_dolby_on.png" zPosition="2" alphatest="blend">
+    <convert type="ServiceInfo">IsMultichannel</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <ePixmap position=" 71,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_format_off.png" zPosition="1" alphatest="blend" />
+  <widget source="session.CurrentService" render="Pixmap" position="71,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_format_on.png" zPosition="2" alphatest="blend">
+    <convert type="ServiceInfo">IsWidescreen</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <ePixmap position="121,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_hd_off.png" zPosition="1" alphatest="blend" />
+  <widget source="session.CurrentService" render="Pixmap" position="121,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_hd_on.png" zPosition="2" alphatest="blend">
+    <convert type="ServiceInfo">VideoWidth</convert>
+    <convert type="ValueRange">721,1980</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget name="Cover" position="50,400" size="150,150" zPosition="1" alphatest="on" />
+  <widget source="session.CurrentService" render="Label" position="177,14" size="657,36" font="Regular;24" valign="top" noWrap="1" backgroundColor="black" transparent="1">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+  <widget source="session.RecordState" render="Pixmap" position="838,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_rec_on.png" alphatest="blend">
+    <convert type="ConditionalShowHide">Blink</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="980,14" size="140,25" font="Regular;23" halign="right" backgroundColor="black" foregroundColor="grey" transparent="1">
+    <convert type="EMCClockToText">Format:%d.%m.%Y</convert>
+  </widget>
+  <widget source="Service" render="Progress" position="10,49" size="1120,8" zPosition="1" pixmap="DMConcinnity-HD/progress.png" transparent="1">
+    <convert type="EMCServicePosition">Position</convert>
+  </widget>
+  <widget source="Service" render="PositionGauge" position="10,48" size="1120,10" zPosition="2" transparent="1">
+    <convert type="EMCServicePosition">Gauge</convert>
+  </widget>
+  <widget source="Service" render="Label" position="20,70" size="120,28" font="Arial;24" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1">
+    <convert type="EMCServicePosition">Position,ShowHours</convert>
+  </widget>
+  <widget source="Service" render="Label" position="1000,70" size="120,28" font="Arial;24" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1">
+    <convert type="EMCServicePosition">Remaining,Negate,ShowHours</convert>
+  </widget>
+  <widget source="Service" render="Label" position="470,70" size="200,28" font="Arial;24" halign="center" foregroundColor="black" backgroundColor="grey" transparent="1">
+    <convert type="EMCServicePosition">Length,ShowHours</convert>
+  </widget>
+  <ePixmap position="7,110" zPosition="2" size="1126,26" pixmap="DMConcinnity-HD/extra.png" />
+  <eLabel text="Audio:" position=" 20,112" size="60,23" zPosition="3" font="Regular;20" backgroundColor="black" transparent="1" />
+  <widget name="audioLabel" position=" 85,112" size="70,23" zPosition="3" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1" />
+  <eLabel text="Subtitle" position="160,112" size="85,23" zPosition="3" font="Regular;20" backgroundColor="black" transparent="1" />
+  <widget name="subtitleLabel" position="245,112" size="70,23" zPosition="3" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1" />
+  <widget name="chapterLabel" position="320,112" size="500,23" zPosition="3" font="Regular;20" halign="center" valign="top" backgroundColor="black" transparent="1" />
+  <widget source="session.CurrentService" render="Label" zPosition="3" font="Regular;20" position="995,112" size="55,23" halign="right" foregroundColor="yellow" backgroundColor="black" transparent="1">
+    <convert type="ServiceInfo">VideoWidth</convert>
+  </widget>
+  <eLabel text="x" font="Regular;20" position="1055,112" size="15,23" zPosition="3" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" />
+  <widget source="session.CurrentService" render="Label" zPosition="3" font="Regular;20" position="1075,112" size="55,23" halign="left" foregroundColor="yellow" backgroundColor="black" transparent="1">
+    <convert type="ServiceInfo">VideoHeight</convert>
+  </widget>
+</screen>
   <screen name="EnhancedMovieCenterMenu" position="center,center" size="680,500" title="EnhancedMovieCenterMenu">
     <widget name="config" position="10,10" size="665,353 " enableWrapAround="1" scrollbarMode="showOnDemand" />
     <eLabel position="0,362" size="680,2" backgroundColor="grey" zPosition="1" />
@@ -6271,17 +6268,17 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <eLabel text="Quick Launch Menu" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="list" position="21,82" size="370,400" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" transparent="1" />
-	<widget name="sublist" position="410,82" size="300,400" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50"  />
+    <widget name="sublist" position="410,82" size="300,400" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" />
     <eLabel position="400,80" size="2,400" backgroundColor="darkgrey" />
-	<widget source="session.VideoPicture" render="Pig" position="720,75" size="450,300" backgroundColor="transparent" zPosition="1" />
-	<widget name="description" position="21,520" size="1150,110" zPosition="1" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
-	<ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="30,646" size="35,27" alphatest="blend" />
+    <widget source="session.VideoPicture" render="Pig" position="720,75" size="450,300" backgroundColor="transparent" zPosition="1" />
+    <widget name="description" position="21,520" size="1150,110" zPosition="1" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="30,646" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="300,646" size="35,27" alphatest="blend" />
-	<ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="570,646" size="35,27" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="570,646" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="840,646" size="35,27" alphatest="blend" />
     <widget name="key_red" position=" 80,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="key_green" position="350,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-	<widget name="key_yellow" position="620,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_yellow" position="620,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="key_blue" position="890,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
   <!-- Quick Menu Devices -->
