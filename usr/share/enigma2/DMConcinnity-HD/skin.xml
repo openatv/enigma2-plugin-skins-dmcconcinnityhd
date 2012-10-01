@@ -2372,7 +2372,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="Title" render="Label" position="30, 75" size="780,32" font="Regular;26" backgroundColor="black" transparent="1" />
     <eLabel position="30,120" size="780,2" backgroundColor="grey" />
     <widget name="config" position="30,130" size="780,390" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x30.png" backgroundColor="black" transparent="1" zPosition="1" backgroundColorSelected="grey" foregroundColorSelected="black" font="Regular; 18" />
-    <widget name="description" position="31,530" size="780,30" font="Regular;20" halign="center" backgroundColor="black" transparent="1" />
+    <widget name="description" position="30,519" size="780,44" font="Regular;18" halign="center" backgroundColor="black" transparent="1" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
     <widget source="key_red" render="Label" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
@@ -4807,22 +4807,22 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="list" position="19,105" size="503,461" font="Regular;15" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" />
   </screen>
   <screen name="SoftwareUpdateChanges" position="center,center" size="840,605" title="SoftwareUpdateChanges" flags="wfNoBorder" backgroundColor="transpBlack">
-  <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
-  <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="384,11" size="443,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
-  <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
-    <convert type="ClockToText">Default</convert>
-  </widget>
-  <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
-    <convert type="ClockToText">Format:%d.%m.%Y</convert>
-  </widget>
-  <widget name="text" position="20,82" size="800,473" font="Regular;21" backgroundColor="black" transparent="0" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="550,570" size="35,27" alphatest="blend" />
-  <widget name="key_red" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget name="key_green" position="340,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget name="key_yellow" position="600,573" size="200,26" zPosition="1" font="Regular;20" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-</screen>
+    <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
+    <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="384,11" size="443,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
+    <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget name="text" position="20,82" size="800,473" font="Regular;21" backgroundColor="black" transparent="0" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="550,570" size="35,27" alphatest="blend" />
+    <widget name="key_red" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_green" position="340,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_yellow" position="600,573" size="200,26" zPosition="1" font="Regular;20" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  </screen>
   <!-- ############################# -->
   <!-- ##  Fixed Screens below  	## -->
   <!-- ############################# -->
