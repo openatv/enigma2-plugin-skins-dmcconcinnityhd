@@ -4721,7 +4721,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_yellow" position="491,573" size="127,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
   <!--About-->
-  <screen name="About" position="center,center" size=" 840,605" title="About" flags="wfNoBorder">
+  <screen name="AboutAAF" position="center,center" size=" 840,605" title="About" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
     <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="427,10" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
@@ -4739,7 +4739,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="AboutScrollLabel" position="27,253" size="369,310" font="Regular;20" transparent="0" zPosition="1" scrollbarMode="showOnDemand" />
     <ePixmap position="401,177" size="420,241" pixmap="DMConcinnity-HD/menu/openaaf_info.png" transparent="1" />
   </screen>
-  <screen name="Devices" position="center,center" size=" 840,605" title="SystemInfo" flags="wfNoBorder">
+  <screen name="DevicesAAF" position="center,center" size=" 840,605" title="SystemInfo" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
     <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="424,7" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
@@ -4755,7 +4755,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="MountsHeader" render="Label" position="31,374" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
     <widget source="mounts" render="Label" position="31,415" size="458,143" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
   </screen>
-  <screen name="SystemMemoryInfo" position="center,center" size=" 840,605" title="SystemInfo" flags="wfNoBorder">
+  <screen name="SystemMemoryInfoAAF" position="center,center" size=" 840,605" title="SystemInfo" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
     <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="426,10" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
@@ -4768,34 +4768,34 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="lab2" render="Label" position="32,133" size="458,25" font="Regular;19" transparent="0" zPosition="2" />
     <widget name="AboutScrollLabel" position="32,176" size="458,376" font="Regular;20" transparent="0" zPosition="1" scrollbarMode="showOnDemand" />
   </screen>
-  <screen name="SystemNetworkInfo" position="center,center" size=" 840,605" title="SystemInfo" flags="wfNoBorder">
-  <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
-  <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="426,10" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
-  <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
-    <convert type="ClockToText">Default</convert>
-  </widget>
-  <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
-    <convert type="ClockToText">Format:%d.%m.%Y</convert>
-  </widget>
-  <widget name="AboutScrollLabel" position="29,82" size="458,197" font="Regular;20" transparent="0" zPosition="1" scrollbarMode="showOnDemand" />
-  <widget source="LabelBSSID" render="Label" position="28,292" size="200,25" valign="left" font="Regular;20" transparent="0" />
-  <widget source="LabelESSID" render="Label" position="29,329" size="200,25" valign="center" font="Regular;20" transparent="0" />
-  <widget source="LabelQuality" render="Label" position="29,367" size="200,25" valign="center" font="Regular;20" transparent="0" />
-  <widget source="LabelSignal" render="Label" position="29,405" size="200,25" valign="center" font="Regular;20" transparent="0" />
-  <widget source="LabelBitrate" render="Label" position="30,440" size="200,25" valign="center" font="Regular;20" transparent="0" />
-  <widget source="LabelEnc" render="Label" position="29,475" size="200,25" valign="center" font="Regular;20" transparent="0" />
-  <widget source="BSSID" render="Label" position="204,292" size="310,25" valign="center" font="Regular;20" transparent="0" />
-  <widget source="ESSID" render="Label" position="204,330" size="310,25" valign="center" font="Regular;20" transparent="0" />
-  <widget source="quality" render="Label" position="204,367" size="310,25" valign="center" font="Regular;20" transparent="0" />
-  <widget source="signal" render="Label" position="203,405" size="310,25" valign="center" font="Regular;20" transparent="0" />
-  <widget source="bitrate" render="Label" position="203,440" size="310,25" valign="center" font="Regular;20" transparent="0" />
-  <widget source="enc" render="Label" position="203,474" size="310,25" valign="center" font="Regular;20" transparent="0" />
-  <widget source="IFtext" render="Label" position="31,509" size="120,21" zPosition="10" font="Regular;20" halign="left" transparent="0" />
-  <widget source="IF" render="Label" position="139,508" size="375,21" zPosition="10" font="Regular;20" halign="left" transparent="0" />
-  <widget source="Statustext" render="Label" position="31,537" size="115,21" zPosition="10" font="Regular;20" halign="left" transparent="0" />
-  <widget name="statuspic" pixmaps="skin_default/buttons/button_green.png,skin_default/buttons/button_green_off.png" position="149,539" zPosition="10" size="15,16" transparent="0" alphatest="on" />
-</screen>
-  <screen name="AboutReleaseNotes" position="center,center" size=" 840,605" title="About" flags="wfNoBorder">
+  <screen name="SystemNetworkInfoAAF" position="center,center" size=" 840,605" title="SystemInfo" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
+    <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="426,10" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
+    <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget name="AboutScrollLabel" position="29,82" size="458,197" font="Regular;20" transparent="0" zPosition="1" scrollbarMode="showOnDemand" />
+    <widget source="LabelBSSID" render="Label" position="28,292" size="200,25" valign="left" font="Regular;20" transparent="0" />
+    <widget source="LabelESSID" render="Label" position="29,329" size="200,25" valign="center" font="Regular;20" transparent="0" />
+    <widget source="LabelQuality" render="Label" position="29,367" size="200,25" valign="center" font="Regular;20" transparent="0" />
+    <widget source="LabelSignal" render="Label" position="29,405" size="200,25" valign="center" font="Regular;20" transparent="0" />
+    <widget source="LabelBitrate" render="Label" position="30,440" size="200,25" valign="center" font="Regular;20" transparent="0" />
+    <widget source="LabelEnc" render="Label" position="29,475" size="200,25" valign="center" font="Regular;20" transparent="0" />
+    <widget source="BSSID" render="Label" position="204,292" size="310,25" valign="center" font="Regular;20" transparent="0" />
+    <widget source="ESSID" render="Label" position="204,330" size="310,25" valign="center" font="Regular;20" transparent="0" />
+    <widget source="quality" render="Label" position="204,367" size="310,25" valign="center" font="Regular;20" transparent="0" />
+    <widget source="signal" render="Label" position="203,405" size="310,25" valign="center" font="Regular;20" transparent="0" />
+    <widget source="bitrate" render="Label" position="203,440" size="310,25" valign="center" font="Regular;20" transparent="0" />
+    <widget source="enc" render="Label" position="203,474" size="310,25" valign="center" font="Regular;20" transparent="0" />
+    <widget source="IFtext" render="Label" position="31,509" size="120,21" zPosition="10" font="Regular;20" halign="left" transparent="0" />
+    <widget source="IF" render="Label" position="139,508" size="375,21" zPosition="10" font="Regular;20" halign="left" transparent="0" />
+    <widget source="Statustext" render="Label" position="31,537" size="115,21" zPosition="10" font="Regular;20" halign="left" transparent="0" />
+    <widget name="statuspic" pixmaps="skin_default/buttons/button_green.png,skin_default/buttons/button_green_off.png" position="149,539" zPosition="10" size="15,16" transparent="0" alphatest="on" />
+  </screen>
+  <screen name="AboutReleaseNotesAAF" position="center,center" size=" 840,605" title="About" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size=" 840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
     <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="431,10" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
@@ -4806,6 +4806,23 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <widget name="list" position="19,105" size="503,461" font="Regular;15" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" />
   </screen>
+  <screen name="SoftwareUpdateChanges" position="center,center" size="840,605" title="SoftwareUpdateChanges" flags="wfNoBorder" backgroundColor="transpBlack">
+  <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
+  <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="384,11" size="443,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
+  <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+    <convert type="ClockToText">Format:%d.%m.%Y</convert>
+  </widget>
+  <widget name="text" position="20,82" size="800,473" font="Regular;21" backgroundColor="black" transparent="0" />
+  <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
+  <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
+  <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="550,570" size="35,27" alphatest="blend" />
+  <widget name="key_red" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  <widget name="key_green" position="340,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  <widget name="key_yellow" position="600,573" size="200,26" zPosition="1" font="Regular;20" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+</screen>
   <!-- ############################# -->
   <!-- ##  Fixed Screens below  	## -->
   <!-- ############################# -->
@@ -6360,28 +6377,5 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 			</convert>
     </widget>
     <widget name="lab1" zPosition="2" position="126,92" size="600,40" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
-  </screen>
-  <!-- FanSetup Screen -->
-  <screen flags="wfNoBorder" name="FanSetupScreen" position="332,102" size="616,515" backgroundColor="transparent">
-    <ePixmap position="0,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
-    <widget source="Title" render="Label" position="227,20" size="377,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="right" transparent="1" />
-    <widget source="global.CurrentTime" render="Label" position=" 20,20" size="70,25" font="Regular; 22" foregroundColor="black" backgroundColor="white" transparent="1">
-      <convert type="ClockToText">Default</convert>
-    </widget>
-    <widget source="global.CurrentTime" render="Label" position="90,20" size="125,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
-      <convert type="ClockToText">Format:%d.%m.%Y</convert>
-    </widget>
-    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="11,478" size="35,27" alphatest="blend" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="200,478" size="35,27" alphatest="blend" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="390,478" size="35,27" alphatest="blend" />
-    <widget name="ok" foregroundColor="black" backgroundColor="grey" font="Regular;22" halign="left" position="240,482" size="140,26" transparent="1" zPosition="1" />
-    <widget name="cancel" foregroundColor="black" backgroundColor="grey" font="Regular;22" halign="left" position="50,482" size="140,26" transparent="1" zPosition="1" />
-    <widget name="hddtemp" foregroundColor="black" backgroundColor="grey" font="Regular;22" halign="left" position="430,482" size="181,26" transparent="1" zPosition="1" />
-    <widget name="config" position="20,72" size="576,250" zPosition="10" scrollbarMode="showOnDemand" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
-    <ePixmap pixmap="skin_default/div-h.png" position="20,380" zPosition="1" size="570,2" />
-    <ePixmap pixmap="skin_default/div-h.png" position="20,440" zPosition="1" size="570,2" />
-    <widget name="powerstatus" position="24,400" size="150,20" font="Regular;19" zPosition="1" transparent="1" halign="right" />
-    <widget name="daemon0" alphatest="on" pixmap="skin_default/buttons/button_green_off.png" position="200,405" size="15,16" zPosition="10" transparent="1" />
-    <widget name="daemon1" alphatest="on" pixmap="skin_default/buttons/button_green.png" position="200,405" size="15,16" zPosition="10" transparent="1" />
   </screen>
 </skin>
