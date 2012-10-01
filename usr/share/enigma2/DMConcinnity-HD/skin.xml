@@ -6361,4 +6361,27 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <widget name="lab1" zPosition="2" position="126,92" size="600,40" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
   </screen>
+  <!-- FanSetup Screen -->
+  <screen flags="wfNoBorder" name="FanSetupScreen" position="332,102" size="616,515" backgroundColor="transparent">
+    <ePixmap position="0,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
+    <widget source="Title" render="Label" position="227,20" size="377,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="right" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position=" 20,20" size="70,25" font="Regular; 22" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="90,20" size="125,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="11,478" size="35,27" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="200,478" size="35,27" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="390,478" size="35,27" alphatest="blend" />
+    <widget name="ok" foregroundColor="black" backgroundColor="grey" font="Regular;22" halign="left" position="240,482" size="140,26" transparent="1" zPosition="1" />
+    <widget name="cancel" foregroundColor="black" backgroundColor="grey" font="Regular;22" halign="left" position="50,482" size="140,26" transparent="1" zPosition="1" />
+    <widget name="hddtemp" foregroundColor="black" backgroundColor="grey" font="Regular;22" halign="left" position="430,482" size="181,26" transparent="1" zPosition="1" />
+    <widget name="config" position="20,72" size="576,250" zPosition="10" scrollbarMode="showOnDemand" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
+    <ePixmap pixmap="skin_default/div-h.png" position="20,380" zPosition="1" size="570,2" />
+    <ePixmap pixmap="skin_default/div-h.png" position="20,440" zPosition="1" size="570,2" />
+    <widget name="powerstatus" position="24,400" size="150,20" font="Regular;19" zPosition="1" transparent="1" halign="right" />
+    <widget name="daemon0" alphatest="on" pixmap="skin_default/buttons/button_green_off.png" position="200,405" size="15,16" zPosition="10" transparent="1" />
+    <widget name="daemon1" alphatest="on" pixmap="skin_default/buttons/button_green.png" position="200,405" size="15,16" zPosition="10" transparent="1" />
+  </screen>
 </skin>
