@@ -29,6 +29,7 @@
     <color name="transpBlack" value="#80000000" />
     <color name="transpWhite" value="#77ffffff" />
     <color name="transpyellow" value="#33bab329" />
+    <color name="un1c1c1c" value="#001c1c1c" />
     <color name="un1e28b6" value="#001e28b6" />
     <color name="un1f771f" value="#001f771f" />
     <color name="un202020" value="#00202020" />
@@ -40,6 +41,7 @@
     <color name="un605f5e" value="#00605f5e" />
     <color name="un62e3c" value="#00062e3c" />
     <color name="un777777" value="#00777777" />
+    <color name="un7a7a7a" value="#007a7a7a" />
     <color name="un800000" value="#00800000" />
     <color name="un808080" value="#00808080" />
     <color name="un808888" value="#00808888" />
@@ -919,68 +921,53 @@
   </screen>
   <!-- EMC -->
   <screen name="EMCSelection" position="40,20" size="1200,680" title="Enhanced Movie Center" flags="wfNoBorder">
-  <ePixmap position="1,0" zPosition="-10" size="1250,679" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
-  <eLabel text="E n h a n c e d  M o v i e  C e n t e r" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget source="global.CurrentTime" render="Label" position="15,20" size="100,25" font="Regular;23" foregroundColor="black" backgroundColor="grey" transparent="1">
-    <convert type="EMCClockToText">WithSeconds</convert>
-  </widget>
-  <widget source="global.CurrentTime" render="Label" position="134,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="grey" transparent="1">
-    <convert type="EMCClockToText">Format:%d.%m.%Y</convert>
-  </widget>
-  <widget source="Title" render="Label" position="20,75" size="720,44" font="Regular;22" halign="left" valign="center" foregroundColor="green" backgroundColor="black" transparent="1" />
-  <eLabel position="20,123" size="700,2" backgroundColor="grey" />
-  <widget name="Cover" position="602,502" size="116,132" zPosition="4" backgroundColor="black" alphatest="off" transparent="0" />
-  <widget name="list" position="20,130" size="700,362" itemHeight="28" CoolFont="Regular;20" CoolSelectFont="Regular;20" CoolDateFont="Regular;20" CoolMoviePos="35" CoolMovieSize="545" CoolFolderSize="550" CoolDatePos="1000" CoolDateWidth="110" CoolTitleColor="0" CoolDateColor="0" CoolProgressPos="1000" CoolBarPos="590" CoolBarHPos="8" CoolBarSize="55,10" CoolBarSizeSa="110,16" selectionPixmap="DMConcinnity-HD/menu/sel700x28emc.png" DefaultColor="#FFFFFF" UnwatchedColor="#FFFFFF" WatchingColor="#3486F4" FinishedColor="#46D93A" RecordingColor="#9F1313" BackColorSel="#00000000" foregroundColorSelected="#FFFFFF" backgroundColor="black" scrollbarMode="showNever" transparent="1" />
-  <widget name="wait" position="20,center" size="720,50" zPosition="1" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="black" />
-  <widget source="session.VideoPicture" render="Pig" position="754,69" size="427,212" zPosition="3" backgroundColor="transparent" />
-  <ePixmap position="735,282" zPosition="11" size="355,26" pixmap="DMConcinnity-HD/menu/sepv.png" />
-  <ePixmap position="862,282" zPosition="12" size="329,26" pixmap="DMConcinnity-HD/menu/sepv2.png" />
-  <eLabel position="20,495" size="700,2" backgroundColor="grey" />
-  <widget source="Service" render="Label" position="20,501" size="580,44" font="Regular;20" halign="left" valign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
-    <convert type="EMCEventName">Name</convert>
-  </widget>
-  <widget source="Service" render="Label" position="19,610" size="350,24" halign="left" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1">
-    <convert type="EMCMovieInfo">RecordServiceName</convert>
-  </widget>
-  <widget source="Service" render="Label" position="371,610" size="227,24" font="Regular;20" halign="right" foregroundColor="yellow" backgroundColor="black" transparent="1">
-    <convert type="EMCServiceTime">StartTime</convert>
-    <convert type="EMCClockToText">Date</convert>
-  </widget>
-<widget source="Service" render="Label" position="21,577" size="132,24" font="Regular;18" halign="left" foregroundColor="grey" backgroundColor="black" transparent="1">
-  <convert type="EMCServiceTime">StartTime</convert>
-  <convert type="EMCClockToText">Format:%H:%M </convert>
-</widget>
-<widget source="Service" render="Label" position="153,577" size="141,24" font="Regular;18" halign="left" foregroundColor="grey" backgroundColor="black" transparent="1">
-  <convert type="EMCServiceTime">EndTime</convert>
-  <convert type="EMCClockToText">Format:- %H:%M </convert>
-</widget>
-  <ePixmap position="721,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
-  <ePixmap position="721,149" zPosition="10" size="28,558" pixmap="DMConcinnity-HD/menu/seph2.png" />
-  <widget source="Service" render="Label" position="755,307" size="430,330" font="Regular;19" halign="left" valign="top" foregroundColor="white" backgroundColor="black" transparent="1">
-    <convert type="EMCEventName">ExtendedDescription</convert>
-  </widget>
-<widget source="Service" render="Label" position="295,577" size="129,24" font="Regular;18" halign="left" foregroundColor="grey" backgroundColor="black" transparent="1">
-  <convert type="EMCServiceTime">Duration</convert>
-  <convert type="EMCClockToText">InMinutes</convert>
-</widget>
-<widget source="Service" render="Label" position="425,577" size="175,24" font="Regular;18" halign="right" foregroundColor="grey" backgroundColor="black" transparent="1">
-  <convert type="MovieInfo">FileSize</convert>
-</widget>
-  <!-- EMC Short Description -->
-  <widget source="Service" render="Label" position="20,551" size="580,22" font="Regular;20" halign="left" foregroundColor="yellow" backgroundColor="black" transparent="1">
-    <convert type="EMCMovieInfo">ShortDescription</convert>
-  </widget>
-  <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="20,645" size="35,27" alphatest="on" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="251,645" size="35,27" alphatest="on" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="482,645" size="35,27" alphatest="on" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="713,645" size="35,27" alphatest="on" />
-  <widget name="key_red" position="65,649" size="190,30" zPosition="1" font="Regular;20" halign="left" valign="top" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget name="key_green" position="296,649" size="190,30" zPosition="1" font="Regular;20" halign="left" valign="top" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget name="key_yellow" position="527,649" size="190,30" zPosition="1" font="Regular;20" halign="left" valign="top" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <widget name="key_blue" position="758,649" size="190,30" zPosition="1" font="Regular;20" halign="left" valign="top" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/menu.png" position="1117,646" size="70,30" alphatest="blend" />
-  <ePixmap pixmap="DMConcinnity-HD/buttons/info.png" position="1030,646" size="70,35" alphatest="blend" />
-</screen>
+    <ePixmap position="1,0" zPosition="-10" size="1261,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
+    <eLabel text="E n h a n c e d  M o v i e  C e n t e r" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position="15,20" size="100,25" font="Regular;23" foregroundColor="black" backgroundColor="grey" transparent="1">
+      <convert type="EMCClockToText">WithSeconds</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="134,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="grey" transparent="1">
+      <convert type="EMCClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="Title" render="Label" position="20,75" size="720,44" font="Regular;22" halign="left" valign="center" foregroundColor="green" backgroundColor="black" transparent="1" />
+    <eLabel position="20,123" size="700,2" backgroundColor="grey" />
+    <widget name="Cover" position="602,502" size="116,132" zPosition="4" backgroundColor="black" alphatest="off" transparent="0" />
+    <widget name="list" position="20,130" size="700,362" itemHeight="28" CoolFont="Regular;20" CoolSelectFont="Regular;20" CoolDateFont="Regular;20" CoolMoviePos="35" CoolMovieSize="545" CoolFolderSize="550" CoolDatePos="1000" CoolDateWidth="110" CoolTitleColor="0" CoolDateColor="0" CoolProgressPos="1000" CoolBarPos="590" CoolBarHPos="8" CoolBarSize="55,10" CoolBarSizeSa="110,16" selectionPixmap="DMConcinnity-HD/menu/sel700x28emc.png" DefaultColor="#FFFFFF" UnwatchedColor="#FFFFFF" WatchingColor="#3486F4" FinishedColor="#46D93A" RecordingColor="#9F1313" BackColorSel="#00000000" foregroundColorSelected="#FFFFFF" backgroundColor="black" scrollbarMode="showNever" transparent="1" />
+    <widget name="wait" position="20,center" size="720,50" zPosition="1" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="black" />
+    <widget source="session.VideoPicture" render="Pig" position="754,69" size="427,212" zPosition="3" backgroundColor="transparent" />
+    <ePixmap position="735,282" zPosition="11" size="355,26" pixmap="DMConcinnity-HD/menu/sepv.png" />
+    <ePixmap position="862,282" zPosition="12" size="329,26" pixmap="DMConcinnity-HD/menu/sepv2.png" />
+    <eLabel position="20,495" size="700,2" backgroundColor="grey" />
+    <widget source="Service" render="Label" position="20,501" size="580,44" font="Regular;20" halign="left" valign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
+      <convert type="EMCEventName">Name</convert>
+    </widget>
+    <widget source="Service" render="Label" position="19,610" size="350,24" halign="left" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1">
+      <convert type="EMCMovieInfo">RecordServiceName</convert>
+    </widget>
+    <widget source="Service" render="Label" position="371,610" size="227,24" font="Regular;20" halign="right" foregroundColor="yellow" backgroundColor="black" transparent="1">
+      <convert type="EMCServiceTime">StartTime</convert>
+      <convert type="EMCClockToText">Date</convert>
+    </widget>
+    <ePixmap position="721,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
+    <ePixmap position="721,149" zPosition="10" size="28,558" pixmap="DMConcinnity-HD/menu/seph2.png" />
+    <widget source="Service" render="Label" position="755,307" size="430,330" font="Regular;19" halign="left" valign="top" foregroundColor="white" backgroundColor="black" transparent="1">
+      <convert type="EMCEventName">ExtendedDescription</convert>
+    </widget>
+    <!-- EMC Short Description -->
+    <widget source="Service" render="Label" position="20,551" size="580,22" font="Regular;20" halign="left" foregroundColor="yellow" backgroundColor="black" transparent="1">
+      <convert type="EMCMovieInfo">ShortDescription</convert>
+    </widget>
+    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="20,645" size="35,27" alphatest="on" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="251,645" size="35,27" alphatest="on" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="482,645" size="35,27" alphatest="on" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="713,645" size="35,27" alphatest="on" />
+    <widget name="key_red" position="65,649" size="190,30" zPosition="1" font="Regular;20" halign="left" valign="top" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_green" position="296,649" size="190,30" zPosition="1" font="Regular;20" halign="left" valign="top" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_yellow" position="527,649" size="190,30" zPosition="1" font="Regular;20" halign="left" valign="top" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="key_blue" position="758,649" size="190,30" zPosition="1" font="Regular;20" halign="left" valign="top" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/menu.png" position="1117,646" size="70,30" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/info.png" position="1030,646" size="70,35" alphatest="blend" />
+  </screen>
   <screen name="EMCMediaCenter" position="70,550" size="1140,140" title="InfoBar" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1140,140" pixmap="DMConcinnity-HD/infobarle.png" />
     <ePixmap position=" 19,17" size="50,20" pixmap="DMConcinnity-HD/icons/ico_dolby_off.png" zPosition="1" alphatest="blend" />
@@ -2385,7 +2372,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="blue" position="880,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
   <screen name="Setup" position="center,center" size=" 840,605" title="Setup" flags="wfNoBorder">
-    <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
+    <ePixmap position="0,0" zPosition="-10" size="878,609" pixmap="DMConcinnity-HD/menu/setupbg.png" />
     <widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" zPosition="1" position="340,490" size="1,1" transparent="1" alphatest="on" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
@@ -2396,11 +2383,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel text="Setup" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget source="Title" render="Label" position="30, 75" size="780,32" font="Regular;26" backgroundColor="black" transparent="1" />
     <eLabel position="30,120" size="780,2" backgroundColor="grey" />
-    <widget name="config" position="30,130" size="780,420" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x30.png" backgroundColor="black" transparent="1" zPosition="1" backgroundColorSelected="grey" foregroundColorSelected="black" font="Regular; 18" />
+    <widget name="config" position="30,130" size="780,390" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x30.png" backgroundColor="black" transparent="1" zPosition="1" backgroundColorSelected="grey" foregroundColorSelected="black" font="Regular; 18" />
+    <widget name="description" position="31,530" size="780,30" font="Regular;20" halign="center" backgroundColor="black" transparent="1" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
     <widget source="key_red" render="Label" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget source="key_green" render="Label" position="340,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget name="footnote" position="591,578" size="236,20" zPosition="1" font="Regular;20" foregroundColor="black" backgroundColor="grey" halign="left" transparent="1" valign="top" />
   </screen>
   <screen name="SetupInfo" position="center,center" size=" 840,605" title="Setup" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
