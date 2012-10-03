@@ -2115,7 +2115,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="channel" position="25,14" size="100,28" font="Regular;24" />
     <widget name="number" position="125,14" size="100,28" halign="right" font="Regular;24" />
   </screen>
-  <screen name="NumericalTextInputHelpDialog" position="center,490" size=" 604,125" backgroundColor="grey" flags="wfNoBorder" zPosition="8">
+  <screen name="NumericalTextInputHelpDialog" position="center,550" size="604,125" backgroundColor="grey" flags="wfNoBorder" zPosition="8">
     <widget name="key1" position="  1, 1" size="200,30" font="Console;21" halign="center" valign="center" />
     <widget name="key2" position="202, 1" size="200,30" font="Console;21" halign="center" valign="center" />
     <widget name="key3" position="403, 1" size="200,30" font="Console;21" halign="center" valign="center" />
@@ -2510,6 +2510,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   </screen>
   <screen name="TimerEntry" position="center,center" size=" 840,605" title="Timer entry" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
+	<widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" zPosition="1" position="340,490" size="1,1" transparent="1" alphatest="on" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
     </widget>
