@@ -2510,7 +2510,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   </screen>
   <screen name="TimerEntry" position="center,center" size=" 840,605" title="Timer entry" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
-	<widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" zPosition="1" position="340,490" size="1,1" transparent="1" alphatest="on" />
+    <widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" zPosition="1" position="340,490" size="1,1" transparent="1" alphatest="on" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
     </widget>
@@ -4739,24 +4739,42 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel text="https://github.com/oe-alliance" position="409,505" size="354,28" font="Regular;19" transparent="0" zPosition="1" />
     <widget name="AboutScrollLabel" position="27,253" size="369,310" font="Regular;20" transparent="0" zPosition="1" scrollbarMode="showOnDemand" />
     <ePixmap position="401,177" size="420,241" pixmap="DMConcinnity-HD/menu/openaaf_info.png" transparent="1" />
-	<ePixmap position="31,572" size="70,30" pixmap="DMConcinnity-HD/buttons/info.png" alphatest="blend" />
+    <ePixmap position="31,572" size="70,30" pixmap="DMConcinnity-HD/buttons/info.png" alphatest="blend" />
   </screen>
   <screen name="DevicesAAF" position="center,center" size=" 840,605" title="SystemInfo" flags="wfNoBorder">
-    <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
-    <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="424,7" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
-    <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
-      <convert type="ClockToText">Default</convert>
-    </widget>
-    <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
-      <convert type="ClockToText">Format:%d.%m.%Y</convert>
-    </widget>
-    <widget source="TunerHeader" render="Label" position="31,81" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
-    <widget source="nims" render="Label" position="31,116" size="458,108" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
-    <widget source="HDDHeader" render="Label" position="31,227" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
-    <widget source="hdd" render="Label" position="31,260" size="458,112" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
-    <widget source="MountsHeader" render="Label" position="31,374" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
-    <widget source="mounts" render="Label" position="31,415" size="458,143" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
-  </screen>
+  <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
+  <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="424,7" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
+  <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+    <convert type="ClockToText">Format:%d.%m.%Y</convert>
+  </widget>
+  <widget source="TunerHeader" render="Label" position="31,81" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
+  <widget source="nims" render="Label" position="31,116" size="458,108" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
+  <widget source="HDDHeader" render="Label" position="31,227" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
+  <widget source="hdd" render="Label" position="31,260" size="458,112" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
+  <widget source="MountsHeader" render="Label" position="31,374" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
+  <widget source="mounts" render="Label" position="31,415" size="458,143" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
+  <widget source="global.CurrentTime" render="EGclock" position="665,135" zPosition="4" size="80,80" transparent="1">
+    <convert type="EGAnalogic">Hours</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="EGclock" position="640,110" zPosition="5" size="130,130" transparent="1">
+    <convert type="EGAnalogic">Minutes</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="EGclock" position="635,105" borderColor="red" zPosition="6" size="140,140" transparent="1">
+    <convert type="EGAnalogic">Seconds</convert>
+  </widget>
+  <ePixmap name="clock" position="630,100" size="150,150" pixmap="DMConcinnity-HD/clock_bg.png" transparent="0" zPosition="1" alphatest="off" />
+  <widget source="global.CurrentTime" render="EGclock" position="635,305" borderColor="red" zPosition="6" size="140,140" transparent="1">
+    <convert type="AAFinfo">Harddiskspace</convert>
+  </widget>
+  <ePixmap name="harddiskspace" position="630,300" size="150,150" pixmap="DMConcinnity-HD/gauge_bg.png" transparent="0" zPosition="1" alphatest="off" />
+  <widget source="session.CurrentService" render="Label" position="673,405" size="75,22" font="Regular; 22" halign="center" valign="top" zPosition="7" foregroundColor="black" backgroundColor="white">
+    <convert type="AAFinfo">HarddiskspaceText</convert>
+  </widget>
+  <eLabel text="/media/hdd Used" position="606,456" size="200,25" font="Regular; 23" halign="right" backgroundColor="black" transparent="1" />
+</screen>
   <screen name="SystemMemoryInfoAAF" position="center,center" size=" 840,605" title="SystemInfo" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
     <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="426,10" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
