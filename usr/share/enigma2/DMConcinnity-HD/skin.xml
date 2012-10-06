@@ -4756,10 +4756,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="hdd" render="Label" position="31,260" size="458,112" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
     <widget source="MountsHeader" render="Label" position="31,374" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
     <widget source="mounts" render="Label" position="31,415" size="458,143" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
-    <widget source="global.CurrentTime" render="EGclock" position="665,135" zPosition="4" size="80,80" transparent="1">
+    <widget source="global.CurrentTime" render="EGclock" position="665,135" borderColor="black" zPosition="4" size="80,80" transparent="1">
   <convert type="EGAnalogic">Hours</convert>
 </widget>
-    <widget source="global.CurrentTime" render="EGclock" position="645,115" zPosition="5" size="120,120" transparent="1">
+    <widget source="global.CurrentTime" render="EGclock" position="645,115" borderColor="black" zPosition="5" size="120,120" transparent="1">
   <convert type="EGAnalogic">Minutes</convert>
 </widget>
     <widget source="global.CurrentTime" render="EGclock" position="645,115" borderColor="red" zPosition="6" size="120,120" transparent="1">
