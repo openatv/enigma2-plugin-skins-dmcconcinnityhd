@@ -4742,39 +4742,39 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap position="31,572" size="70,30" pixmap="DMConcinnity-HD/buttons/info.png" alphatest="blend" />
   </screen>
   <screen name="DevicesAAF" position="center,center" size=" 840,605" title="SystemInfo" flags="wfNoBorder">
-  <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
-  <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="424,7" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
-  <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
-    <convert type="ClockToText">Default</convert>
-  </widget>
-  <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
-    <convert type="ClockToText">Format:%d.%m.%Y</convert>
-  </widget>
-  <widget source="TunerHeader" render="Label" position="31,81" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
-  <widget source="nims" render="Label" position="31,116" size="458,108" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
-  <widget source="HDDHeader" render="Label" position="31,227" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
-  <widget source="hdd" render="Label" position="31,260" size="458,112" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
-  <widget source="MountsHeader" render="Label" position="31,374" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
-  <widget source="mounts" render="Label" position="31,415" size="458,143" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
-  <widget source="global.CurrentTime" render="EGclock" position="665,135" zPosition="4" size="80,80" transparent="1">
-    <convert type="EGAnalogic">Hours</convert>
-  </widget>
-  <widget source="global.CurrentTime" render="EGclock" position="640,110" zPosition="5" size="130,130" transparent="1">
-    <convert type="EGAnalogic">Minutes</convert>
-  </widget>
-  <widget source="global.CurrentTime" render="EGclock" position="635,105" borderColor="red" zPosition="6" size="140,140" transparent="1">
-    <convert type="EGAnalogic">Seconds</convert>
-  </widget>
-  <ePixmap name="clock" position="630,100" size="150,150" pixmap="DMConcinnity-HD/clock_bg.png" transparent="0" zPosition="1" alphatest="off" />
-  <widget source="global.CurrentTime" render="EGclock" position="635,305" borderColor="red" zPosition="6" size="140,140" transparent="1">
-    <convert type="AAFinfo">Harddiskspace</convert>
-  </widget>
-  <ePixmap name="harddiskspace" position="630,300" size="150,150" pixmap="DMConcinnity-HD/gauge_bg.png" transparent="0" zPosition="1" alphatest="off" />
-  <widget source="session.CurrentService" render="Label" position="673,405" size="75,22" font="Regular; 22" halign="center" valign="top" zPosition="7" foregroundColor="black" backgroundColor="white">
-    <convert type="AAFinfo">HarddiskspaceText</convert>
-  </widget>
-  <eLabel text="/media/hdd Used" position="606,456" size="200,25" font="Regular; 23" halign="right" backgroundColor="black" transparent="1" />
-</screen>
+    <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
+    <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="424,7" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
+    <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="TunerHeader" render="Label" position="31,81" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
+    <widget source="nims" render="Label" position="31,116" size="458,108" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
+    <widget source="HDDHeader" render="Label" position="31,227" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
+    <widget source="hdd" render="Label" position="31,260" size="458,112" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
+    <widget source="MountsHeader" render="Label" position="31,374" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
+    <widget source="mounts" render="Label" position="31,415" size="458,143" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
+    <widget source="global.CurrentTime" render="EGclock" position="665,135" zPosition="4" size="80,80" transparent="1">
+  <convert type="EGAnalogic">Hours</convert>
+</widget>
+    <widget source="global.CurrentTime" render="EGclock" position="645,115" zPosition="5" size="120,120" transparent="1">
+  <convert type="EGAnalogic">Minutes</convert>
+</widget>
+    <widget source="global.CurrentTime" render="EGclock" position="645,115" borderColor="red" zPosition="6" size="120,120" transparent="1">
+      <convert type="EGAnalogic">Seconds</convert>
+    </widget>
+    <ePixmap name="clock" position="630,100" size="150,150" pixmap="DMConcinnity-HD/clock_bg.png" zPosition="1" alphatest="on" />
+    <widget source="global.CurrentTime" render="EGclock" position="645,315" borderColor="red" zPosition="6" size="120,120" transparent="1">
+      <convert type="AAFinfo">Harddiskspace</convert>
+    </widget>
+    <ePixmap name="harddiskspace" position="630,300" size="150,150" pixmap="DMConcinnity-HD/gauge_bg.png" zPosition="1" alphatest="on" />
+    <widget source="session.CurrentService" render="Label" position="682,397" size="50,15" font="Regular; 14" halign="center" valign="top" zPosition="7" backgroundColor="transpWhite" transparent="1" foregroundColor="black">
+      <convert type="AAFinfo">HarddiskspaceText</convert>
+    </widget>
+    <eLabel text="/media/hdd Used" position="599,458" size="200,25" font="Regular; 23" halign="center" backgroundColor="black" transparent="1" />
+  </screen>
   <screen name="SystemMemoryInfoAAF" position="center,center" size=" 840,605" title="SystemInfo" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
     <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="426,10" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
@@ -6110,7 +6110,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <screen name="CoolMultiGuide" position="center,center" size="1200,680" backgroundColor="black" flags="wfNoBorder">
     <ePixmap position="-10,0" zPosition="-10" size="1207,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
     <widget name="date" position="15,282" size="122,25" font="Regular; 20" halign="left" foregroundColor="blue" backgroundColor="black" transparent="1" text="heute" />
-	<widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+    <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
     </widget>
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
@@ -6133,7 +6133,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <widget source="Title" render="Label" position="260,20" size="500,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="left" transparent="1" />
     <eLabel text="CoolTV Multi Guide" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
-   <widget name="timeline_text" position="47,307" size="1121,25" foregroundColor="yellow" backgroundColor="black" transparent="1" />
+    <widget name="timeline_text" position="47,307" size="1121,25" foregroundColor="yellow" backgroundColor="black" transparent="1" />
     <widget name="list" position="20,337" size="1147,300" CoolNowBackCol="#565656" CoolNowBackColSel="#ffffff" CoolBackCol="#3b3b3b" CoolTVBackCol="#565656" CoolTVBackColSel="#ffffff" CoolBackColSel="#ffffff" CoolBackRecCol="#ff0000" CoolBackRecColSel="#ff0000" scrollbarMode="showNever" transparent="1" />
     <widget name="timeline0" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
     <widget name="timeline1" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
@@ -6153,8 +6153,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   </screen>
   <screen name="CoolNiceGuide" position="center,center" size="1200,680" backgroundColor="black" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1200,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
-   <widget name="date" position="15,282" size="122,25" font="Regular; 20" halign="left" foregroundColor="blue" backgroundColor="black" transparent="1" text="heute" />
-	<widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+    <widget name="date" position="15,282" size="122,25" font="Regular; 20" halign="left" foregroundColor="blue" backgroundColor="black" transparent="1" text="heute" />
+    <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
     </widget>
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
@@ -6177,7 +6177,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <widget source="Title" render="Label" position="260,20" size="500,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="left" transparent="1" />
     <eLabel text="CoolTV Nice Guide" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
-   <widget name="timeline_text" position="5,307" size="1171,25" foregroundColor="yellow" backgroundColor="black" transparent="1" />
+    <widget name="timeline_text" position="5,307" size="1171,25" foregroundColor="yellow" backgroundColor="black" transparent="1" />
     <widget name="list" position="20,337" size="1159,300" CoolNowBackCol="#565656" CoolNowBackColSel="#ffffff" CoolBackCol="#3b3b3b" CoolTVBackCol="#565656" CoolTVBackColSel="#ffffff" CoolBackColSel="#ffffff" CoolBackRecCol="#ff0000" CoolBackRecColSel="#ff0000" scrollbarMode="showNever" transparent="1" />
     <widget name="timeline0" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
     <widget name="timeline1" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
@@ -6237,8 +6237,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   </screen>
   <screen name="CoolTinyGuide" position="center,center" size="1200,680" backgroundColor="black" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1200,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
-     <widget name="date" position="690,20" size="130,25" font="Regular; 23" halign="left" foregroundColor="blue" backgroundColor="white" transparent="1" text="heute" />
-	<widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+    <widget name="date" position="690,20" size="130,25" font="Regular; 23" halign="left" foregroundColor="blue" backgroundColor="white" transparent="1" text="heute" />
+    <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
     </widget>
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
@@ -6284,8 +6284,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   </screen>
   <screen name="CoolTVGuide" position="center,center" size="1200,680" backgroundColor="black" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1200,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
-      <widget name="date" position="690,20" size="130,25" font="Regular; 23" halign="left" foregroundColor="blue" backgroundColor="white" transparent="1" text="heute" />
-	<widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+    <widget name="date" position="690,20" size="130,25" font="Regular; 23" halign="left" foregroundColor="blue" backgroundColor="white" transparent="1" text="heute" />
+    <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
     </widget>
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
