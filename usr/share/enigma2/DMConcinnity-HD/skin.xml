@@ -4099,7 +4099,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="config" position="70,370" size="700,180" itemHeight="30" zPosition="14" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1" />
   </screen>
   <screen name="DefaultWizard" position="center,center" size=" 840,605" title="Welcome..." flags="wfNoBorder">
-	<widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+    <widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
@@ -4152,7 +4152,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-	<widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+    <widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget name="rc" position="90,70" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="blend" />
     <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -4173,7 +4173,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="config" position="350,370" size="700,180" itemHeight="30" zPosition="14" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1" />
   </screen>
   <screen name="LanguageWizard" position="center,center" size="1100,605" title="Welcome..." flags="wfNoBorder">
-	<widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+    <widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/mainbg.png" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
@@ -4201,7 +4201,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
   </screen>
   <screen name="StartWizard" position="center,center" size="1100,605" title="Welcome..." flags="wfNoBorder">
-	<widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+    <widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/mainbg.png" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
@@ -4229,7 +4229,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="config" position="350,370" size="700,180" itemHeight="30" zPosition="14" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1" />
   </screen>
   <screen name="VideoWizard" position="center,center" size="1100,605" title="Welcome..." flags="wfNoBorder">
-	<widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+    <widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/mainbg.png" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
@@ -4479,15 +4479,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Softcam Panel" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <eLabel font="Regular;22" position="25,92" size="185,25" text="Softcam Selection:" />
-    <widget font="Regular;18" name="camcount" position="749,91" size="60,25" />
-    <widget name="Mlist" position="227,93" size="456,25" zPosition="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
+    <widget name="config" position="28,75" size="500,100" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="black" zPosition="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
     <widget font="Regular;22" name="enigma2" position="21,91" size="185,25" />
-    <eLabel backgroundColor="grey" position="20,132" size="800,2" zPosition="0" />
-    <widget font="Regular;22" name="actifcam" position="22,145" size="480,32" />
-    <eLabel backgroundColor="grey" position="20,187" size="800,2" zPosition="0" />
+    <eLabel backgroundColor="grey" position="20,185" size="800,2" zPosition="0" />
+    <widget font="Regular; 20" name="actifcam" position="22,195" size="380,32" />
+    <widget font="Regular; 20" name="actifcam2" position="440,195" size="380,32" />
+    <eLabel backgroundColor="grey" position="20,235" size="800,2" zPosition="0" />
     <widget font="Regular;20" name="ecminfo" position="24,241" size="764,300" />
-    <widget name="emulist" position="82,257" size="688,265" scrollbarMode="showOnDemand" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="226,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="439,570" size="35,27" alphatest="blend" />
@@ -4757,11 +4755,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="MountsHeader" render="Label" position="31,374" size="458,36" font="Regular;20" transparent="0" zPosition="1" />
     <widget source="mounts" render="Label" position="31,415" size="458,143" font="Regular;18" transparent="0" zPosition="1" enableWrapAround="0" />
     <widget source="global.CurrentTime" render="EGclock" position="665,135" borderColor="black" zPosition="4" size="80,80" transparent="1">
-  <convert type="EGAnalogic">Hours</convert>
-</widget>
+      <convert type="EGAnalogic">Hours</convert>
+    </widget>
     <widget source="global.CurrentTime" render="EGclock" position="645,115" borderColor="black" zPosition="5" size="120,120" transparent="1">
-  <convert type="EGAnalogic">Minutes</convert>
-</widget>
+      <convert type="EGAnalogic">Minutes</convert>
+    </widget>
     <widget source="global.CurrentTime" render="EGclock" position="645,115" borderColor="red" zPosition="6" size="120,120" transparent="1">
       <convert type="EGAnalogic">Seconds</convert>
     </widget>
@@ -6424,5 +6422,25 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="powerstatus" position="24,400" size="150,20" font="Regular;19" zPosition="1" transparent="1" halign="right" />
     <widget name="daemon0" alphatest="on" pixmap="skin_default/buttons/button_green_off.png" position="200,405" size="15,16" zPosition="10" transparent="1" />
     <widget name="daemon1" alphatest="on" pixmap="skin_default/buttons/button_green.png" position="200,405" size="15,16" zPosition="10" transparent="1" />
+  </screen>
+  <!-- AutoDiseqc Screen -->
+  <screen flags="wfNoBorder" name="AutoDiseqc" position="332,102" size="616,515" backgroundColor="transparent">
+    <ePixmap position="0,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
+    <widget source="Title" render="Label" position="227,20" size="377,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="right" transparent="1" />
+    <widget source="global.CurrentTime" render="Label" position=" 20,20" size="70,25" font="Regular; 22" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="90,20" size="125,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="11,478" size="35,27" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="200,478" size="35,27" alphatest="blend" />
+    <widget source="key_green" render="Label" foregroundColor="black" backgroundColor="grey" font="Regular;22" halign="left" position="240,482" size="140,26" transparent="1" zPosition="1" />
+    <widget source="key_red" render="Label" foregroundColor="black" backgroundColor="grey" font="Regular;22" halign="left" position="50,482" size="140,26" transparent="1" zPosition="1" />
+    <widget name="config" position="20,211" size="575,249" zPosition="10" scrollbarMode="showOnDemand" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
+    <ePixmap pixmap="skin_default/div-h.png" position="20,80" zPosition="1" size="570,2" />
+    <widget source="statusbar" render="Label" position="20,90" zPosition="10" size="575,60" halign="center" valign="center" font="Regular;22" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
+    <widget source="tunerstatusbar" render="Label" position="20,158" zPosition="10" size="575,30" halign="center" valign="center" font="Regular;22" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
+    <ePixmap pixmap="skin_default/div-h.png" position="20,198" zPosition="1" size="570,2" />
   </screen>
 </skin>
