@@ -4479,15 +4479,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Softcam Panel" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <eLabel font="Regular;22" position="25,92" size="185,25" text="Softcam Selection:" />
-    <widget font="Regular;18" name="camcount" position="749,91" size="60,25" />
-    <widget name="Mlist" position="227,93" size="456,25" zPosition="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
+    <widget name="config" position="28,75" size="500,100" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="black" zPosition="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
     <widget font="Regular;22" name="enigma2" position="21,91" size="185,25" />
-    <eLabel backgroundColor="grey" position="20,132" size="800,2" zPosition="0" />
-    <widget font="Regular;22" name="actifcam" position="22,145" size="480,32" />
-    <eLabel backgroundColor="grey" position="20,187" size="800,2" zPosition="0" />
+    <eLabel backgroundColor="grey" position="20,185" size="800,2" zPosition="0" />
+    <widget font="Regular; 20" name="actifcam" position="22,195" size="380,32" />
+    <widget font="Regular; 20" name="actifcam2" position="440,195" size="380,32" />
+    <eLabel backgroundColor="grey" position="20,235" size="800,2" zPosition="0" />
     <widget font="Regular;20" name="ecminfo" position="24,241" size="764,300" />
-    <widget name="emulist" position="82,257" size="688,265" scrollbarMode="showOnDemand" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="226,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="439,570" size="35,27" alphatest="blend" />
