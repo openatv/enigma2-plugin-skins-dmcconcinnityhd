@@ -2437,28 +2437,25 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="key_red" render="Label" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
   <screen name="SleepTimerEdit" position="center,center" size=" 840,570" title="Sleep Timer" flags="wfNoBorder">
-    <ePixmap position="0,0" zPosition="-10" size="840,570" pixmap="DMConcinnity-HD/menu/menubg.png" />
-    <widget source="global.CurrentTime" render="Label" position=" 40,25" size=" 80,25" font="Regular;23" backgroundColor="black" transparent="1">
-      <convert type="ClockToText">Default</convert>
-    </widget>
-    <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
-      <convert type="ClockToText">Format:%d.%m.%Y</convert>
-    </widget>
-    <widget name="pretext" position="360,50" size="250,25" font="Regular;22" backgroundColor="black" transparent="1" />
-    <widget name="input" position="610,50" size="50,25" font="Regular;22" backgroundColor="black" transparent="1" />
-    <widget name="aftertext" position="660,50" size="120,25" font="Regular;22" backgroundColor="black" transparent="1" />
-    <widget name="red" position="350,140" size="35,27" pixmap="DMConcinnity-HD/buttons/red.png" alphatest="blend" />
-    <widget name="green" position="350,190" size="35,27" pixmap="DMConcinnity-HD/buttons/green.png" alphatest="blend" />
-    <widget name="yellow" position="350,240" size="35,27" pixmap="DMConcinnity-HD/buttons/yellow.png" alphatest="blend" />
-    <widget name="blue" position="350,290" size="35,27" pixmap="DMConcinnity-HD/buttons/blue.png" alphatest="blend" />
-    <widget name="red_text" position="400,142" size="420,27" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-    <widget name="green_text" position="400,192" size="420,27" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-    <widget name="yellow_text" position="400,242" size="420,27" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-    <widget name="blue_text" position="400,292" size="420,50" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-    <widget name="current_status" position="330,400" size="470,25" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
-    <eLabel text="Sleep Timer" position="40,475" size="700,50" font="Regular;40" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
-    <ePixmap position="26,141" size="250,297" pixmap="DMConcinnity-HD/menu/power.png" />
-  </screen>
+  <ePixmap position="-10,0" zPosition="-10" size="840,570" pixmap="DMConcinnity-HD/menu/menubg.png" />
+  <widget source="global.CurrentTime" render="Label" position=" 40,25" size=" 80,25" font="Regular;23" backgroundColor="black" transparent="1">
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
+    <convert type="ClockToText">Format:%d.%m.%Y</convert>
+  </widget>
+  <widget name="pretext" position="360,50" size="250,25" font="Regular;22" backgroundColor="black" transparent="1" />
+  <widget name="input" position="610,50" size="50,25" font="Regular;22" backgroundColor="black" transparent="1" />
+  <widget name="aftertext" position="660,50" size="120,25" font="Regular;22" backgroundColor="black" transparent="1" />
+  <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="40,443" size="35,27" alphatest="blend" />
+  <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="243,443" size="35,27" alphatest="blend" />
+  <widget name="key_red" render="Label" position="78,446" size="150,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  <widget name="key_green" render="Label" position="281,446" size="150,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />  
+  <widget name="current_status" position="278,400" size="522,25" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
+  <widget name="config" position="278,64" size="521,324" itemHeight="25" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel900x30.png" backgroundColor="black" transparent="1" font="Regular; 18" />
+  <eLabel text="Sleep Timer" position="40,475" size="700,50" font="Regular;40" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  <ePixmap position="26,141" size="250,297" pixmap="DMConcinnity-HD/menu/power.png" />
+</screen>
   <screen name="Standby" position="0,0" size="1280,720" title="Standby" flags="wfNoBorder" />
   <screen name="SubservicesQuickzap" position="380,600" size=" 560,100" title="Subservices" backgroundColor="transparent" flags="wfNoBorder">
     <eLabel text="Subservices" position="0,0" size="560,28" font="Regular;20" halign="center" valign="center" backgroundColor="black" />
