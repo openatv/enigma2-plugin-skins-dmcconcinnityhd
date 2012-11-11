@@ -5027,26 +5027,6 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <!-- ################################ -->
   <!-- ##      OSD Screens	   ## -->
   <!-- ################################ -->
-  <screen name="OSDSetup" title="OSD position setup" flags="wfNoBorder" position="332,102" size="616,515">
-    <widget source="Title" render="Label" font="Regular; 26" position="216,12" size="385,40" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" backgroundColor="white" />
-    <ePixmap position="0,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
-    <widget source="global.CurrentTime" render="Label" position=" 20,20" size="70,25" font="Regular; 23" foregroundColor="black" backgroundColor="white" transparent="1">
-      <convert type="ClockToText">Default</convert>
-    </widget>
-    <widget source="global.CurrentTime" render="Label" position="90,20" size="128,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
-      <convert type="ClockToText">Format:%d.%m.%Y</convert>
-    </widget>
-    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="20,478" size="35,27" alphatest="blend" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="259,478" size="35,27" alphatest="blend" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="432,478" size="35,27" alphatest="blend" />
-    <widget source="key_red" render="Label" foregroundColor="black" backgroundColor="grey" font="Regular;22" halign="left" position="58,482" size="130,26" transparent="1" zPosition="1" />
-    <widget source="key_green" render="Label" foregroundColor="black" backgroundColor="grey" font="Regular;22" halign="left" position="299,482" size="130,26" transparent="1" zPosition="1" />
-    <widget source="key_yellow" render="Label" foregroundColor="black" backgroundColor="grey" font="Regular;22" halign="left" position="470,482" size="130,26" transparent="1" zPosition="1" />
-    <widget source="status" render="Label" font="Regular; 26" position="80,320" size="477,60" zPosition="10" halign="center" valign="center" transparent="1" foregroundColor="unf2e000" backgroundColor="transpBlack" />
-    <widget name="config" scrollbarMode="showOnDemand" font="Regular;22" position="30,80" size="560,240" transparent="1" backgroundColor="transpBlack" foregroundColor="grey" />
-    <widget name="info1" position="80,395" size="477,28" backgroundColor="transpBlack" font="Regular;22" halign="center" transparent="1" zPosition="1" foregroundColor="grey" />
-    <widget name="info2" position="80,434" size="477,28" backgroundColor="transpBlack" font="Regular;22" halign="center" transparent="1" zPosition="1" foregroundColor="grey" />
-  </screen>
   <screen name="OSD3DSetupScreen" title="OSD 3D-Setup" flags="wfNoBorder" position="332,102" size="616,515">
     <widget source="Title" render="Label" font="Regular; 26" position="216,12" size="385,40" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" backgroundColor="white" />
     <ePixmap position="0,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
