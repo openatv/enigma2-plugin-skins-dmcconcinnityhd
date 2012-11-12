@@ -1142,8 +1142,8 @@
 				}
 	</convert>
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="DMConcinnity-HD/menu/aafpanel.png" position="26,141" size="250,297">
-      <convert type="MenuEntryCompare">Aafpanel</convert>
+    <widget source="menu" render="Pixmap" pixmap="DMConcinnity-HD/menu/infopanel.png" position="26,141" size="250,297">
+      <convert type="MenuEntryCompare">Infopanel</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <widget source="menu" render="Pixmap" pixmap="DMConcinnity-HD/menu/mc_aaf.png" position="35,188" size="250,250">
@@ -4463,7 +4463,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget render="Label" source="title" position="29,82" size="600,50" zPosition="5" valign="center" halign="left" font="Regular;24" transparent="1" backgroundColor="black" />
     <widget name="detailtext" position="30,151" size="780,389" itemHeight="30" font="Regular;21" backgroundColor="black" transparent="1" />
   </screen>
-  <screen name="Aafpanel" position="center,center" size=" 840,570" title="OpenAAF Panel" flags="wfNoBorder">
+  <screen name="Infopanel" position="center,center" size=" 840,570" title="Info Panel" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="840,570" pixmap="DMConcinnity-HD/menu/menubg.png" />
     <widget source="global.CurrentTime" render="Label" position=" 40,25" size=" 80,25" font="Regular;23" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Default</convert>
@@ -4473,7 +4473,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <widget name="Mlist" position="360,22" size="435,415" selectionPixmap="DMConcinnity-HD/menu/menusel2.png" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black" />
     <widget name="label1" position="40,475" size="700,50" font="Regular;40" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
-    <ePixmap position="26,141" size="250,297" pixmap="DMConcinnity-HD/menu/aafpanel.png" />
+    <ePixmap position="26,141" size="250,297" pixmap="DMConcinnity-HD/menu/infopanel.png" />
   </screen>
   <screen name="SoftcamPanel" position="center,center" size=" 840,605" title="Softcam Panel" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
@@ -4697,7 +4697,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="bouquets" position="30,470" zPosition="1" size="550,30" font="Regular;20" halign="left" valign="center" transparent="1" />
     <widget name="netservers" position="30,500" zPosition="1" size="550,30" font="Regular;20" halign="left" valign="center" transparent="1" />
     <widget name="config" position="28,100" size="780,266" scrollbarMode="showOnDemand" zPosition="1" />
-    <ePixmap position="699,491" size="100,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Aafpanel/icons/plugin.png" transparent="1" alphatest="on" />
+    <ePixmap position="699,491" size="100,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/icons/plugin.png" transparent="1" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="226,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="439,570" size="35,27" alphatest="blend" />
