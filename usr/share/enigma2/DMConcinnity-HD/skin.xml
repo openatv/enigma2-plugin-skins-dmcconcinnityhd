@@ -5357,7 +5357,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="key_yellow" render="Label" position="600,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget source="key_blue" render="Label" position="880,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
-  <screen name="NetworkWizard" position="center,center" size="1100,605" title="Welcome..." flags="wfNoBorder" backgroundColor="transpBlack">
+  <screen name="NetworkWizard" position="center,center" size="1100,605" flags="wfNoBorder" backgroundColor="transpBlack">
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/mainbg.png" />
     <ePixmap position="225,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
     <widget name="wizard" position="350, 90" size="110,174" pixmap="skin_default/wizard.png" zPosition="10" transparent="1" alphatest="on" />
@@ -5367,7 +5367,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <eLabel text="NetworkWizard" position="270,15" size="800,43" font="Regular; 35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+	<widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget name="rc" position="45,75" size="154,480" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="blend" />
     <widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
     <widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -5385,7 +5385,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 			</convert>
     </widget>
     <widget name="config" position="380,370" size="700,180" itemHeight="30" zPosition="14" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1" />
-  </screen>
+	<widget name="HelpWindow" position="340,435" zPosition="1" size="500,160" transparent="0" alphatest="on" backgroundColor="transpBlack" />
+	</screen>
   <screen name="NetworkInadynLog" title="Inadyn Log" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="white">
     <widget source="Title" render="Label" font="Regular; 26" position="216,12" size="385,40" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" backgroundColor="white" />
     <ePixmap position="0,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
