@@ -5186,7 +5186,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <eLabel text="Network Configuration..." position="270,15" size="800,43" font="Regular; 30" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+	<widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <ePixmap position="385,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
     <ePixmap position="63,315" size="250,240" pixmap="DMConcinnity-HD/menu/net.png" alphatest="on" />
     <widget source="IF" render="Label" position=" 423, 80" size="440,28" font="Regular;24" backgroundColor="black" transparent="1" />
