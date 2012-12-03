@@ -1958,7 +1958,7 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/(count &gt; 7 and 2 or 3
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <eLabel text="Language selection" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+    <widget source="Title" render="Label" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget source="languages" render="Listbox" position="30,90" size="780,450" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel780x75.png" backgroundColor="black" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
