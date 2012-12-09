@@ -2087,7 +2087,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="DescriptionBorder" position="0,0" size="0,0" />
     <widget name="waitingtext" position="0,0" size="0,0" />
   </screen>
-  <screen name="NimSelection" position="center,center" size=" 840,605" title="Choose Tuner" flags="wfNoBorder">
+  <screen name="NimSelection" position="center,center" size=" 840,605" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
@@ -2095,7 +2095,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <eLabel text="Choose Tuner" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+    <widget source="Title" render="Label" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget source="nimlist" render="Listbox" position="30,95" size="780,440" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x110.png" transparent="1" backgroundColorSelected="black" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"template": [
@@ -2108,7 +2108,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 			</convert>
     </widget>
   </screen>
-  <screen name="NimSetup" position="center,center" size=" 840,605" title="Reception Settings" flags="wfNoBorder">
+  <screen name="NimSetup" position="center,center" size=" 840,605" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
@@ -2116,7 +2116,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <eLabel text="Reception Settings" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+    <widget source="Title" render="Label" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget name="config" position="30,90" size="780,450" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel900x30.png" backgroundColor="black" transparent="1" zPosition="1" backgroundColorSelected="grey" foregroundColorSelected="black" font="Regular; 18" />
   </screen>
   <screen name="NumberZap" position="center,center" size=" 250, 60" title="QuickZap">
@@ -5325,7 +5325,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <widget source="key_red" render="Label" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
-  <screen name="NetworkBrowser" position="center,center" size="1100,605" title="Network Neighbourhood" flags="wfNoBorder" backgroundColor="transpBlack">
+  <screen name="NetworkBrowser" position="center,center" size="1100,605" flags="wfNoBorder" backgroundColor="transpBlack">
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/mainbg.png" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
@@ -5333,7 +5333,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <eLabel text="Network Neighbourhood" position="270,15" size="800,43" font="Regular; 30" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+    <widget source="Title" render="Label" position="270,15" size="800,43" font="Regular; 30" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
     <ePixmap position="330,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
     <ePixmap position="42,334" size="250,229" pixmap="DMConcinnity-HD/menu/net.png" alphatest="on" />
     <widget source="list" render="Listbox" position="380,90" size="700,420" scrollbarMode="showOnDemand" enableWrapAround="1" selectionPixmap="DMConcinnity-HD/menu/sel780x60.png" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
