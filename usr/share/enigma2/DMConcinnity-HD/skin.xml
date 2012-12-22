@@ -3054,9 +3054,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <screen name="DVDPlayer" position="70,580" size="1140,110" title="InfoBar" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1140,110" pixmap="DMConcinnity-HD/infobarmovie.png" />
     <eLabel text="Audio:" position=" 20,15" size="60,24" font="Regular;20" backgroundColor="black" transparent="1" />
-    <widget name="audioLabel" position=" 85,15" size="70,24" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1" />
-    <eLabel text="Subtitle" position="160,15" size="85,24" font="Regular;20" backgroundColor="black" transparent="1" />
-    <widget name="subtitleLabel" position="245,15" size="70,24" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1" />
+    <widget name="audioLabel" position=" 85,15" size="100,24" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1" />
+    <eLabel text="Subtitle" position="190,15" size="85,24" font="Regular;20" backgroundColor="black" transparent="1" />
+    <widget name="subtitleLabel" position="275,15" size="70,24" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1" />
     <widget source="session.CurrentService" render="Label" position="336,13" size="530,28" font="Regular;24" halign="center" foregroundColor="white" backgroundColor="black" transparent="1">
       <convert type="ServiceName">Name</convert>
     </widget>
