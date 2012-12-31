@@ -103,7 +103,7 @@ class DMCHDCaidDisplay(Poll, Converter, object):
 						prov = "Prov: %s" % prov
 						# reader
 						reader = ecm_info.get("reader", None)
-					        reader = "Reader: %s" % reader
+						reader = "Reader: %s" % reader
 						# ecm time	
 						ecm_time = ecm_info.get("ecm time", None)
 						if ecm_time:
@@ -155,10 +155,14 @@ class DMCHDCaidDisplay(Poll, Converter, object):
 			if frontendInfo:
 				try:
 					ecmpath = "/tmp/ecm%s.info" % frontendInfo.getAll(False).get("tuner_number")
-					ecm = open(ecmpath, "rb").readlines()
+					f = open(ecmpath, "rb")
+					ecm = f.readlines()
+					f.close()
 				except:
 					try:
-						ecm = open("/tmp/ecm.info", "rb").readlines()
+						f = open("/tmp/ecm.info", "rb")
+						ecm = f.readlines()
+						f.close()
 					except: pass
 			if ecm:
 				for line in ecm:
