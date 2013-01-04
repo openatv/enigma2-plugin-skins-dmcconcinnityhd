@@ -373,8 +373,12 @@
       <convert type="DMCHDCaidDisplay">Default</convert>
     </widget>
     <eLabel text="Provider:" position="135,66" size="105,20" font="Regular;18" halign="left" zPosition="1" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget source="session.CurrentService" render="Label" position="240,66" zPosition="1" size="316,20" font="Regular; 18" halign="left" foregroundColor="black" backgroundColor="white" transparent="1">
+    <widget source="session.CurrentService" render="Label" position="220,66" zPosition="1" size="316,20" font="Regular; 18" halign="left" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ServiceName">Provider</convert>
+    </widget>
+	<eLabel text="Sid:" position="425,66" size="105,20" font="Regular;18" halign="left" zPosition="1" foregroundColor="black" backgroundColor="white" transparent="1" />
+    <widget source="session.CurrentService" render="Label" position="460,66" zPosition="1" size="316,20" font="Regular; 18" halign="left" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ServiceName">Sid</convert>
     </widget>
     <eLabel text="Simulcrypt:" position="135,92" size="105,20" font="Regular;18" halign="left" zPosition="1" foregroundColor="black" backgroundColor="white" transparent="1" />
     <widget source="session.CurrentService" render="DMCHDCaids" position="240,92" size="316,20" zPosition="3" font="Regular;18" alphatest="blend" ecmColor="green" emmColor="black" nocColor="grey" backgroundColor="transparent">
