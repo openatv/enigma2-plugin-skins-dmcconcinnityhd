@@ -4452,10 +4452,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/ok.png" position="550,572" size="35,27" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/ok.png" position="550,570" size="70,30" alphatest="blend" />
     <widget source="key_red" render="Label" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget source="key_green" render="Label" position="340,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-    <widget source="key_ok" render="Label" position="600,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget source="key_ok" render="Label" position="635,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
   <screen name="MPHelp" position="center,center" size=" 840,605" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
@@ -5852,8 +5852,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <ePixmap pixmap="DMConcinnity-HD/buttons/key_exit.png" alphatest="blend" position="250,480" size="70,30" zPosition="3" transparent="1"/>
     <eLabel text="Cancel" backgroundColor="grey" font="Regular;22" halign="left" position="325,482" size="220,26" transparent="1" zPosition="1" foregroundColor="black" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/ok.png" alphatest="blend" position="27,481" size="40,30" zPosition="3" />
-    <eLabel text="OK" backgroundColor="grey" font="Regular;22" halign="left" position="75,482" size="220,30" transparent="1" zPosition="3" foregroundColor="black" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/ok.png" alphatest="blend" position="27,480" size="70,30" zPosition="3" />
+    <eLabel text="OK" backgroundColor="grey" font="Regular;22" halign="left" position="102,482" size="220,30" transparent="1" zPosition="3" foregroundColor="black" />
     <ePixmap position="520,480" size="70,30" pixmap="DMConcinnity-HD/buttons/menu.png" alphatest="blend" />
   </screen>
   <screen name="Volume" position="center,25" size=" 400, 28" title="Volume" zPosition="10" flags="wfNoBorder">
