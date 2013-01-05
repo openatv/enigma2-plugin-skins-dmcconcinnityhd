@@ -707,6 +707,7 @@
     <widget name="key_yellow" position="637,143" zPosition="1" size="130,20" font="Regular; 20" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="777,140" size="35,27" alphatest="blend" />
     <widget name="key_blue" position="822,143" zPosition="1" size="130,20" font="Regular; 20" foregroundColor="black" backgroundColor="grey" transparent="1" />
+	<ePixmap position="1020,139" size="70,30" pixmap="DMConcinnity-HD/buttons/menu.png" alphatest="blend" />
   </screen>
   <!-- Virtual Zap -->
   <screen name="VirtualZap" position="70,566" size="1140,134" title="Virtual Zap" flags="wfNoBorder">
@@ -5849,10 +5850,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 				}
       </convert>
     </widget>
-    <ePixmap pixmap="DMConcinnity-HD/buttons/key_exit.png" alphatest="off" position="313,480" size="70,30" zPosition="3" transparent="1" />
-    <eLabel text="Cancel" backgroundColor="grey" font="Regular;22" halign="left" position="384,482" size="220,26" transparent="1" zPosition="1" foregroundColor="black" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/ok.png" alphatest="on" position="27,481" size="40,30" zPosition="3" />
-    <eLabel text="OK" backgroundColor="secondBG" font="Regular;22" halign="left" position="71,482" size="220,30" transparent="1" zPosition="3" foregroundColor="black" />
+	<ePixmap pixmap="DMConcinnity-HD/buttons/key_exit.png" alphatest="blend" position="250,480" size="70,30" zPosition="3" transparent="1"/>
+    <eLabel text="Cancel" backgroundColor="grey" font="Regular;22" halign="left" position="325,482" size="220,26" transparent="1" zPosition="1" foregroundColor="black" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/ok.png" alphatest="blend" position="27,481" size="40,30" zPosition="3" />
+    <eLabel text="OK" backgroundColor="grey" font="Regular;22" halign="left" position="75,482" size="220,30" transparent="1" zPosition="3" foregroundColor="black" />
+	<ePixmap position="520,480" size="70,30" pixmap="DMConcinnity-HD/buttons/menu.png" alphatest="blend" />
   </screen>
   <screen name="Volume" position="center,25" size=" 400, 28" title="Volume" zPosition="10" flags="wfNoBorder">
     <ePixmap position=" 0, 0" zPosition="2" size="400,28" pixmap="DMConcinnity-HD/vol_back.png" />
