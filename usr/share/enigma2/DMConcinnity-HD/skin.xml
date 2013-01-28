@@ -6448,28 +6448,28 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   </screen>
   <!-- Quick Launch Menu -->
   <screen name="QuickMenu" position="center,center" size="1200,680" backgroundColor="black" flags="wfNoBorder">
-    <ePixmap position="0,0" zPosition="-10" size="1200,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
-    <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
-      <convert type="ClockToText">Default</convert>
-    </widget>
-    <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
-      <convert type="ClockToText">Format:%d.%m.%Y</convert>
-    </widget>
-    <eLabel text="Quick Launch Menu" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
-    <widget name="list" position="21,82" size="370,400" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" transparent="1" />
-    <widget name="sublist" position="410,82" size="300,400" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" />
-    <eLabel position="400,80" size="2,400" backgroundColor="darkgrey" />
-    <widget source="session.VideoPicture" render="Pig" position="720,75" size="450,300" backgroundColor="transparent" zPosition="1" />
-    <widget name="description" position="21,520" size="1150,110" zPosition="1" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="30,646" size="35,27" alphatest="blend" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="300,646" size="35,27" alphatest="blend" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="570,646" size="35,27" alphatest="blend" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="840,646" size="35,27" alphatest="blend" />
-    <widget name="key_red" position=" 80,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-    <widget name="key_green" position="350,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-    <widget name="key_yellow" position="620,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-    <widget name="key_blue" position="890,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-  </screen>
+  <ePixmap position="0,0" zPosition="-10" size="1200,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
+  <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+    <convert type="ClockToText">Format:%d.%m.%Y</convert>
+  </widget>
+  <eLabel text="Quick Launch Menu" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  <widget name="list" position="21,82" size="370,400" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" transparent="1" />
+  <widget name="sublist" position="410,82" size="300,400" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" />
+  <eLabel position="400,80" size="2,400" backgroundColor="darkgrey" />
+  <widget source="session.VideoPicture" render="Pig" position="720,75" size="450,250" backgroundColor="transparent" zPosition="1" />
+  <widget name="description" position="21,520" size="1150,110" zPosition="1" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
+  <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="30,646" size="35,27" alphatest="blend" />
+  <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="300,646" size="35,27" alphatest="blend" />
+  <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="570,646" size="35,27" alphatest="blend" />
+  <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="840,646" size="35,27" alphatest="blend" />
+  <widget name="key_red" position=" 80,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  <widget name="key_green" position="350,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  <widget name="key_yellow" position="620,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  <widget name="key_blue" position="890,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+</screen>
   <!-- Quick Menu Devices -->
   <screen name="QuickMenuDevices" position="center,center" size=" 840,605" title="Devices" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
@@ -6680,4 +6680,42 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_red" position=" 80,573" size="132,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="key_green" position="280,573" size="141,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
+  <!-- Software Panel Menu -->
+  <screen name="SoftwarePanel" position="center,center" size="1200,680" backgroundColor="black" flags="wfNoBorder">
+  <ePixmap position="0,0" zPosition="-10" size="1200,680" pixmap="DMConcinnity-HD/menu/fullbg2.png" />
+  <widget source="global.CurrentTime" render="Label" position="20,20" size="80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+    <convert type="ClockToText">Format:%d.%m.%Y</convert>
+  </widget>
+  <eLabel text="Software Panel" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  <widget source="list" render="Listbox" position="21,82" size="685,545" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" transparent="1">
+    <convert type="TemplatedMultiContent">
+			{"template": [
+					MultiContentEntryText(pos = (5, 1), size = (540, 28), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
+					MultiContentEntryText(pos = (5, 26), size = (540, 20), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 2 is the description
+					MultiContentEntryPixmapAlphaTest(pos = (605, 2), size = (48, 48), png = 4), # index 4 is the status pixmap
+					MultiContentEntryPixmapAlphaTest(pos = (5, 50), size = (610, 2), png = 5), # index 4 is the div pixmap
+				],
+			"fonts": [gFont("Regular", 22),gFont("Regular", 14)],
+			"itemHeight": 52
+			}
+		</convert>
+  </widget>
+  <widget name="a_off" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/pics/aoff.png" position="750,480" zPosition="1" size="36,97" alphatest="on" />
+  <widget name="a_red" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/pics/ared.png" position="750,480" zPosition="1" size="36,97" alphatest="on" />
+  <widget name="a_yellow" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/pics/ayellow.png" position="750,480" zPosition="1" size="36,97" alphatest="on" />
+  <widget name="a_green" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/pics/agreen.png" position="750,480" zPosition="1" size="36,97" alphatest="on" />
+  <widget name="packagetext" position="720,380" size="250,30" zPosition="1" font="Regular;25" halign="right" transparent="1" />
+  <widget name="packagenr" position="972,380" size="50,30" zPosition="1" font="Regular;25" halign="right" transparent="1" />
+  <widget name="feedstatusRED" position="798,484" size="200,30" zPosition="1" font="Regular;25" halign="left" transparent="1" />
+  <widget name="feedstatusYELLOW" position="798,516" size="200,30" zPosition="1" font="Regular;25" halign="left" transparent="1" />
+  <widget name="feedstatusGREEN" position="798,548" size="200,30" zPosition="1" font="Regular;25" halign="left" transparent="1" />
+  <widget source="session.VideoPicture" render="Pig" position="720,82" size="450,250" backgroundColor="transparent" zPosition="1" />
+  <widget name="key_red_pic" pixmap="DMConcinnity-HD/buttons/red.png" position="30,646" size="35,27" alphatest="blend" />
+  <widget name="key_green_pic" pixmap="DMConcinnity-HD/buttons/green.png" position="300,646" size="35,27" alphatest="blend" />
+  <widget name="key_red" position=" 80,646" size="218,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  <widget name="key_green" position="350,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+</screen>
 </skin>
