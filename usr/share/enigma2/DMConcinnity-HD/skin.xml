@@ -6460,7 +6460,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   <widget name="sublist" position="410,82" size="300,400" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" />
   <eLabel position="401,80" size="2,460" backgroundColor="darkgrey" />
   <widget source="session.VideoPicture" render="Pig" position="720,75" size="450,250" backgroundColor="transparent" zPosition="1" />
-  <widget name="description" position="21,520" size="1150,110" zPosition="1" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
+  <widget name="description" position="21,580" size="1150,110" zPosition="1" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
   <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="30,646" size="35,27" alphatest="blend" />
   <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="300,646" size="35,27" alphatest="blend" />
   <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="570,646" size="35,27" alphatest="blend" />
