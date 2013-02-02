@@ -6680,4 +6680,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_red" position=" 80,573" size="132,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="key_green" position="280,573" size="141,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
+  <screen name="InstallWizardIpkgUpdater" position="center,center" size="1140,68" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-1" size="1140,68" pixmap="DMConcinnity-HD/tsbg.png" />
+	<widget source="statusbar" render="Label" position="center,center" zPosition="10" size="e-10,30" halign="center" valign="center" font="Regular;22" backgroundColor="black" transparent="1" />
+  </screen>
 </skin>
