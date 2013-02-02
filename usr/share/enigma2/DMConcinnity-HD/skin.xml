@@ -202,7 +202,7 @@
     <widget source="session.FrontendStatus" render="Progress" pixmap="DMConcinnity-HD/lite/bar_snr.png" position="983,34" size="132,9" borderWidth="1" borderColor="darkgrey" transparent="1" backgroundColor="transparent">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
-    <widget source="session.CurrentService" render="PiconBg" position=" 18,68" size=" 102,62" transparent="0" alphatest="blend">
+    <widget source="session.CurrentService" render="PiconBg" position="20,70" size=" 102,62" transparent="0" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="session.CurrentService" render="Picon" position=" 20,70" size=" 100,60" transparent="0" alphatest="blend">
@@ -348,7 +348,7 @@
     <widget source="session.FrontendStatus" render="Progress" pixmap="DMConcinnity-HD/lite/bar_snr.png" position="983,34" size="132,9" borderWidth="1" borderColor="darkgrey" transparent="1" backgroundColor="transparent">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
-    <widget source="session.CurrentService" render="PiconBg" position=" 18,68" size=" 102,62" transparent="0" alphatest="blend">
+    <widget source="session.CurrentService" render="PiconBg" position="20,70" size=" 102,62" transparent="0" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="session.CurrentService" render="Picon" position=" 20,70" size=" 100,60" transparent="0" alphatest="blend">
@@ -461,7 +461,7 @@
     <widget source="session.Event_Now" render="Progress" position="11,53" size="1120,8" pixmap="DMConcinnity-HD/progress.png" transparent="1">
       <convert type="EventTime">Progress</convert>
     </widget>
-    <widget source="session.CurrentService" render="PiconBg" position=" 18,68" size=" 102,62" transparent="0" alphatest="blend">
+    <widget source="session.CurrentService" render="PiconBg" position="20,70" size=" 102,62" transparent="0" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="session.CurrentService" render="Picon" position="20,70" size="100,60" transparent="0" alphatest="blend">
@@ -689,7 +689,7 @@
   </screen>
   <screen name="QuickEPG" position="center,530" size="1140,170" title="QuickEPG" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-2" size="1141,170" pixmap="DMConcinnity-HD/infobar.png" />
-    <widget source="Service" render="PiconBg" position=" 58,73" size=" 102,62" transparent="0" zPosition="2" alphatest="blend">
+    <widget source="Service" render="PiconBg" position="60,75" size=" 102,62" transparent="0" zPosition="2" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="Service" render="Picon" position="60,75" size="100,60" transparent="0" zPosition="2" alphatest="blend">
