@@ -4901,7 +4901,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_yellow" position="491,573" size="127,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
   <!--About-->
-  <screen name="About" position="center,center" size=" 840,605" title="About" flags="wfNoBorder">
+  <screen name="AboutOE" position="center,center" size=" 840,605" title="About" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
     <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="427,10" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
