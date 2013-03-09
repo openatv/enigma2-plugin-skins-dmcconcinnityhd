@@ -1399,6 +1399,25 @@
     <widget source="title" render="Label" position="40,475" size="700,50" font="Regular;40" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <ePixmap position="26,141" size="250,297" pixmap="DMConcinnity-HD/menu/osd.png" />
   </screen>
+  <screen name="menu_display" position="center,center" size=" 840,570" title="Main menu" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="840,570" pixmap="DMConcinnity-HD/menu/menubg.png" />
+    <widget source="global.CurrentTime" render="Label" position=" 40,25" size=" 80,25" font="Regular;23" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="120,25" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="menu" render="Listbox" position="400,30" size="400,400" selectionPixmap="DMConcinnity-HD/menu/menusel.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
+      <convert type="TemplatedMultiContent">
+				{"template": [ MultiContentEntryText(pos = (15, 5), size = (370, 30), text = 0) ],
+				"fonts": [gFont("Regular", 22)],
+				"itemHeight": 40
+				}
+			</convert>
+    </widget>
+    <widget source="title" render="Label" position="40,475" size="700,50" font="Regular;40" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <ePixmap position="26,141" size="250,297" pixmap="DMConcinnity-HD/menu/setup.png" />
+  </screen>
   <screen name="menu_network" position="center,center" size=" 840,570" title="Main menu" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="840,570" pixmap="DMConcinnity-HD/menu/menubg.png" />
     <widget source="global.CurrentTime" render="Label" position=" 40,25" size=" 80,25" font="Regular;23" backgroundColor="black" transparent="1">
