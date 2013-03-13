@@ -5035,17 +5035,6 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="Statustext" render="Label" position="31,537" size="115,21" zPosition="10" font="Regular;20" halign="left" transparent="0" />
     <widget name="statuspic" pixmaps="skin_default/buttons/button_green.png,skin_default/buttons/button_green_off.png" position="149,539" zPosition="10" size="15,16" transparent="0" alphatest="on" />
   </screen>
-  <screen name="AboutReleaseNotes" position="center,center" size=" 840,605" title="About" flags="wfNoBorder">
-    <ePixmap position="0,0" zPosition="-10" size=" 840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
-    <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="431,10" size="400,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
-    <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
-      <convert type="ClockToText">Default</convert>
-    </widget>
-    <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
-      <convert type="ClockToText">Format:%d.%m.%Y</convert>
-    </widget>
-    <widget name="list" position="19,105" size="503,461" font="Regular;15" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" />
-  </screen>
   <screen name="SoftwareUpdateChanges" position="center,center" size="840,605" title="SoftwareUpdateChanges" flags="wfNoBorder" backgroundColor="transpBlack">
     <ePixmap position="0,0" zPosition="-10" size="840,605" pixmap="DMConcinnity-HD/menu/setupbg.png" />
     <widget source="Title" render="Label" backgroundColor="white" font="Regular; 35" position="384,11" size="443,55" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" />
