@@ -202,7 +202,7 @@
     <widget source="session.FrontendStatus" render="Progress" pixmap="DMConcinnity-HD/lite/bar_snr.png" position="983,34" size="132,9" borderWidth="1" borderColor="darkgrey" transparent="1" backgroundColor="transparent">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
-    <widget source="session.CurrentService" render="PiconBg" position="20,70" size=" 102,62" transparent="0" alphatest="blend">
+    <widget source="session.CurrentService" render="PiconBg" position="20,70" size=" 100,60" transparent="0" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="session.CurrentService" render="Picon" position=" 20,70" size=" 100,60" transparent="0" alphatest="blend">
@@ -348,7 +348,7 @@
     <widget source="session.FrontendStatus" render="Progress" pixmap="DMConcinnity-HD/lite/bar_snr.png" position="983,34" size="132,9" borderWidth="1" borderColor="darkgrey" transparent="1" backgroundColor="transparent">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
-    <widget source="session.CurrentService" render="PiconBg" position="20,70" size=" 102,62" transparent="0" alphatest="blend">
+    <widget source="session.CurrentService" render="PiconBg" position="20,70" size=" 100,60" transparent="0" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="session.CurrentService" render="Picon" position=" 20,70" size=" 100,60" transparent="0" alphatest="blend">
@@ -461,7 +461,7 @@
     <widget source="session.Event_Now" render="Progress" position="11,53" size="1120,8" pixmap="DMConcinnity-HD/progress.png" transparent="1">
       <convert type="EventTime">Progress</convert>
     </widget>
-    <widget source="session.CurrentService" render="PiconBg" position="20,70" size=" 102,62" transparent="0" alphatest="blend">
+    <widget source="session.CurrentService" render="PiconBg" position="20,70" size=" 100,60" transparent="0" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="session.CurrentService" render="Picon" position="20,70" size="100,60" transparent="0" alphatest="blend">
@@ -689,7 +689,7 @@
   </screen>
   <screen name="QuickEPG" position="center,530" size="1140,170" title="QuickEPG" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-2" size="1141,170" pixmap="DMConcinnity-HD/infobar.png" />
-    <widget source="Service" render="PiconBg" position="60,75" size=" 102,62" transparent="0" zPosition="2" alphatest="blend">
+    <widget source="Service" render="PiconBg" position="60,75" size=" 100,60" transparent="0" zPosition="2" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="Service" render="Picon" position="60,75" size="100,60" transparent="0" zPosition="2" alphatest="blend">
@@ -6332,7 +6332,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="timeline3" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
     <widget name="timeline4" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
     <widget name="timeline5" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline_now" position="20,305" zPosition="2" size="19,308" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/timeline-now.png" alphatest="on" />
+    <widget name="timeline_now" position="20,328" zPosition="2" size="19,308" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/timeline-now.png" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="40,646" size="35,30" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="320,646" size="35,30" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="620,646" size="35,30" alphatest="on" />
@@ -6376,7 +6376,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="timeline3" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
     <widget name="timeline4" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
     <widget name="timeline5" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline_now" position="17,305" zPosition="2" size="19,308" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/timeline-now.png" alphatest="on" />
+    <widget name="timeline_now" position="17,328" zPosition="2" size="19,308" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/timeline-now.png" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="40,646" size="35,30" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="320,646" size="35,30" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="620,646" size="35,30" alphatest="on" />
