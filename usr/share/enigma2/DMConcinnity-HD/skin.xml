@@ -4950,7 +4950,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel text="https://github.com/openaaf" position="410,472" size="352,28" font="Regular;19" transparent="0" zPosition="1" />
     <eLabel text="https://github.com/oe-alliance" position="409,505" size="354,28" font="Regular;19" transparent="0" zPosition="1" />
     <widget name="AboutScrollLabel" position="27,253" size="369,310" font="Regular;20" transparent="0" zPosition="1" scrollbarMode="showOnDemand" />
-    <ePixmap position="401,177" size="420,241" pixmap="DMConcinnity-HD/menu/openaaf_info.png" transparent="1" />
+    <ePixmap position="401,177" size="420,241" pixmap="DMConcinnity-HD/menu/openatv_info.png" transparent="1" />
     <ePixmap position="31,572" size="70,30" pixmap="DMConcinnity-HD/buttons/info.png" alphatest="blend" />
   </screen>
   <screen name="Devices" position="center,center" size=" 840,605" title="SystemInfo" flags="wfNoBorder">
