@@ -21,6 +21,7 @@
 from Components.Converter.Converter import Converter
 from enigma import iServiceInformation, iPlayableService
 from Components.Element import cached
+from Components.config import config
 from Poll import Poll
 
 class DMCHDCaidDisplay(Poll, Converter, object):
@@ -54,7 +55,7 @@ class DMCHDCaidDisplay(Poll, Converter, object):
 				if caids:
 					for cs in self.systemCaids:
 						caidlist[cs] = (self.systemCaids.get(cs),0)
-			                
+
 					for caid in caids:
 						c = "%x" % int(caid)
 						if len(c) == 3:
@@ -79,6 +80,8 @@ class DMCHDCaidDisplay(Poll, Converter, object):
 	@cached
 	def getText(self):
 		textvalue = ""
+		if config.usage.show_cryptoinfo.getValue() == '0':
+			return textvalue
 		service = self.source.service
 		if service:
 			info = service and service.info()
