@@ -47,6 +47,8 @@ class DMCHDCaidDisplay(Poll, Converter, object):
 	@cached
 	def get_caidlist(self):
 		caidlist = {}
+		if config.usage.show_cryptoinfo.getValue() == '0':
+			return caidlist
 		service = self.source.service
 		if service:
 			info = service and service.info()
