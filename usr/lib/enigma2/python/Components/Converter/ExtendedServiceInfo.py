@@ -57,10 +57,8 @@ class ExtendedServiceInfo(Converter, object):
 			return ""
 		
 		text = ""
-		number = ""
 		name = info.getName().replace('\xc2\x86', '').replace('\xc2\x87', '')
-		if config.usage.show_infobar_channel_number.getValue():
-			number = self.getServiceNumber(name, info.getInfoString(iServiceInformation.sServiceref))
+		number = self.getServiceNumber(name, info.getInfoString(iServiceInformation.sServiceref))
 		orbital = self.getOrbitalPosition(info)
 		satName = self.satNames.get(orbital, orbital)
 		

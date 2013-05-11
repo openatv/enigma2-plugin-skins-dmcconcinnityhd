@@ -23,7 +23,6 @@
 #######################################################################
 
 from Components.VariableText import VariableText
-from Components.config import config
 from enigma import eLabel, eServiceCenter
 from Renderer import Renderer
 from Screens.InfoBar import InfoBar
@@ -37,7 +36,7 @@ class DMCHDChNumber(Renderer, VariableText):
 	GUI_WIDGET = eLabel
 	
 	def changed(self, what):
-		if not self.suspended or notconfig.usage.show_infobar_channel_number.getValue():
+		if not self.suspended:
 			service = self.source.service
 			info = service and service.info()
 			if info is None:
