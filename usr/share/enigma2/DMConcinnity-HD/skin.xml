@@ -1095,10 +1095,10 @@
     <widget source="Service" render="Label" position="755,307" size="430,22" font="Regular;20" halign="left" foregroundColor="yellow" backgroundColor="black" transparent="1">
       <convert type="EMCMovieInfo">ShortDescription</convert>
     </widget>
-    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="20,645" size="35,27" alphatest="on" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="251,645" size="35,27" alphatest="on" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="482,645" size="35,27" alphatest="on" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="713,645" size="35,27" alphatest="on" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="20,645" size="35,27" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="251,645" size="35,27" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="482,645" size="35,27" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="713,645" size="35,27" alphatest="blend" />
     <widget name="key_red" position="65,649" size="190,30" zPosition="1" font="Regular;20" halign="left" valign="top" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="key_green" position="296,649" size="190,30" zPosition="1" font="Regular;20" halign="left" valign="top" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="key_yellow" position="527,649" size="190,30" zPosition="1" font="Regular;20" halign="left" valign="top" foregroundColor="black" backgroundColor="grey" transparent="1" />
@@ -1168,8 +1168,8 @@
     <eLabel position="0,362" size="680,2" backgroundColor="grey" zPosition="1" />
     <widget source="help" render="Label" position="10,367" size="665,92" font="Regular;18" foregroundColor="yellow" />
     <eLabel position="0,460" size="680,2" backgroundColor="grey" zPosition="1" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="134,468" size="35,27" zPosition="0" transparent="1" alphatest="on" />
-    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="465,468" size="35,27" zPosition="0" transparent="1" alphatest="on" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="134,468" size="35,27" zPosition="0" transparent="1" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="465,468" size="35,27" zPosition="0" transparent="1" alphatest="blend" />
     <widget name="key_red" position="175,470" size="140,30" zPosition="0" font="Regular;20" halign="left" valign="center" foregroundColor="white" />
     <widget name="key_green" position="507,470" size="140,30" zPosition="0" font="Regular;20" halign="left" valign="center" foregroundColor="white" />
   </screen>
