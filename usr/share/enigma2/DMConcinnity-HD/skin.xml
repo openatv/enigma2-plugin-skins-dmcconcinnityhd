@@ -1075,9 +1075,13 @@
     <widget source="Service" render="Label" position="20,560" size="700,44" font="Regular;20" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1">
       <convert type="EMCEventName">Name</convert>
     </widget>
-    <widget source="Service" render="Label" position="20,610" size="280,24" halign="left" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1">
+    <widget source="Service" render="Label" position="20,610" size="110,24" halign="left" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1">
+      <convert type="MovieInfo">FileSize</convert>
+    </widget>
+    <widget source="Service" render="Label" position="135,610" size="170,24" halign="center" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1">
       <convert type="EMCMovieInfo">RecordServiceName</convert>
     </widget>
+
     <widget source="Service" render="Label" position="310,610" size="330,24" font="Regular;20" halign="right" foregroundColor="yellow" backgroundColor="black" transparent="1">
       <convert type="EMCServiceTime">StartTime</convert>
       <convert type="EMCClockToText">Format:%A, %d.%m.%Y, %H:%M</convert>
@@ -1172,6 +1176,15 @@
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="465,468" size="35,27" zPosition="0" transparent="1" alphatest="blend" />
     <widget name="key_red" position="175,470" size="140,30" zPosition="0" font="Regular;20" halign="left" valign="center" foregroundColor="white" />
     <widget name="key_green" position="507,470" size="140,30" zPosition="0" font="Regular;20" halign="left" valign="center" foregroundColor="white" />
+  </screen>
+  <screen name="EMCMoviePlayerSummary" position="0,0" size="132,64">
+    <widget source="session.CurrentService" render="RollerCharLCD" position="0,0" size="132,64" font="Regular;40" halign="center" valign="center">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="session.RecordState" render="FixedLabel" position="0,0" zPosition="1" size="132,64" text=" ">
+      <convert type="ConfigEntryTest">config.usage.blinking_display_clock_during_recording,True,CheckSourceBoolean</convert>
+      <convert type="ConditionalShowHide">Blink</convert>
+    </widget>
   </screen>
   <!-- . . . . . . . . -->
   <screen name="MediaPlayer" position="0,0" size="1280,720" title="MediaPlayer" backgroundColor="black" flags="wfNoBorder">
