@@ -6868,23 +6868,4 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_red" position=" 80,646" size="218,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="key_green" position="350,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
- <!-- MediaPortal -->
-  <screen name="haupt_Screen" position="24,64" size="1230,620" flags="wfBorder">
-    <widget source="session.VideoPicture" render="Pig" position="899,10" size="328,186" zPosition="3" backgroundColor="transparent" />
-    <widget name="mediatheken" position="38,94" size="280,485" backgroundColor="black" transparent="0" selectionPixmap="DMConcinnity-HD/menu/sel.png" foregroundColor="black" />
-    <widget name="grauzone" position="325,93" size="280,485" backgroundColor="black" transparent="0" selectionPixmap="DMConcinnity-HD/menu/sel.png" foregroundColor="black" />
-    <widget name="funsport" position="612,93" size="280,485" backgroundColor="black" transparent="0" selectionPixmap="DMConcinnity-HD/menu/sel.png" foregroundColor="black" />
-    <widget name="porn" position="899,266" size="280,313" backgroundColor="black" transparent="0" selectionPixmap="DMConcinnity-HD/menu/sel.png" foregroundColor="black" />
-    <eLabel position="899,10" size="330,188" backgroundColor="foreground" zPosition="0" name="Videoback" foregroundColor="foreground" />
-    <eLabel name="new eLabel" position="39,53" size="280,32" text="Mediatheken" font="Regular; 24" halign="left" foregroundColor="foreground" backgroundColor="black" />
-    <eLabel name="new eLabel" position="324,53" size="280,32" text="Grauzone" font="Regular; 24" halign="left" foregroundColor="foreground" backgroundColor="black" />
-    <eLabel name="new eLabel" position="611,53" size="280,32" text="Fun/Sport" font="Regular; 24" halign="left" foregroundColor="foreground" backgroundColor="black" />
-    <eLabel name="new eLabel" position="955,593" size="65,24" backgroundColor="black" text="Menu" halign="center" font="Regular; 18" noWrap="1" zPosition="2" />
-    <eLabel name="new eLabel" position="1068,593" size="65,24" font="Regular; 18" text="Help" halign="center" backgroundColor="black" zPosition="2" />
-    <eLabel name="new eLabel" position="954,592" size="67,26" backgroundColor="foreground" transparent="0" zPosition="1" />
-    <eLabel name="new eLabel" position="1067,591" size="67,27" backgroundColor="foreground" zPosition="1" />
-    <eLabel name="new eLabel" position="40,86" size="850,2" foregroundColor="unbbbbbb" backgroundColor="uncccccc" />
-    <widget name="title" position="154,4" size="572,35" foregroundColor="EMCWatching" font="Regular; 32" halign="center" />
-    <eLabel name="new eLabel" position="36,581" size="1165,2" foregroundColor="unbbbbbb" backgroundColor="uncccccc" />
-  </screen> 
 </skin>
