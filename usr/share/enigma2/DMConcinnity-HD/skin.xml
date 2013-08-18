@@ -6916,7 +6916,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="filelist" position="6,8" size="510,279" scrollbarMode="showOnDemand" />
   </screen>
   <!-- FlashOnline -->
-  <screen name="FlashOnline" title="Flash On the Fly" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
+  <screen name="FlashOnline" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
     <ePixmap position="-2,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
     <widget source="Title" render="Label" font="Regular; 26" position="216,12" size="380,40" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" backgroundColor="white" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size="70,25" font="Regular; 22" foregroundColor="black" backgroundColor="white" transparent="1">
@@ -6935,9 +6935,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="info-local" position="31,261" zPosition="1" size="550,200" font="Regular; 22" halign="left" valign="top" transparent="1" foregroundColor="silver" />
   </screen>
   <!-- doFlashImage -->
-  <screen name="doFlashImage" title="Flash On the Fly" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
+  <screen name="doFlashImage" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
     <ePixmap position="-2,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
-    <widget source="Title" render="Label" font="Regular; 26" position="216,12" size="380,40" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" backgroundColor="white" />
+    <widget source="Title" render="Label" font="Regular; 24" position="211,18" size="388,30" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" backgroundColor="white" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size="70,25" font="Regular; 22" foregroundColor="black" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Default</convert>
     </widget>
