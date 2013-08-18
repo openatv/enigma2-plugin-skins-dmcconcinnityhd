@@ -33,6 +33,7 @@
     <color name="un1e28b6" value="#001e28b6" />
     <color name="un1f771f" value="#001f771f" />
     <color name="un202020" value="#00202020" />
+    <color name="un254f7497" value="#254f7497" />
     <color name="un364348" value="#00364348" />
     <color name="un3658a4" value="#003658a4" />
     <color name="un4d5375" value="#004d5375" />
@@ -175,27 +176,27 @@
     <eLabel text="A" position="1046,14" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
     <eLabel text="B" position="1064,14" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
     <eLabel text="C" position="1082,14" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
-    <eLabel text="D" position="1100,14" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />	
-    <widget source="session.TunerInfo" render="FixedLabel" text="A" position="1046,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" >
-	  <convert type="TunerInfo">TunerUseMask</convert>
+    <eLabel text="D" position="1100,14" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
+    <widget source="session.TunerInfo" render="FixedLabel" text="A" position="1046,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
+      <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">1</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.TunerInfo" render="FixedLabel" text="B" position="1064,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" >
-	  <convert type="TunerInfo">TunerUseMask</convert>
+    <widget source="session.TunerInfo" render="FixedLabel" text="B" position="1064,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
+      <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">2</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.TunerInfo" render="FixedLabel" text="C" position="1082,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" >
+    <widget source="session.TunerInfo" render="FixedLabel" text="C" position="1082,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
       <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">4</convert>
       <convert type="ConditionalShowHide" />
-    </widget>	
-    <widget source="session.TunerInfo" render="FixedLabel" text="D" position="1100,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" >
+    </widget>
+    <widget source="session.TunerInfo" render="FixedLabel" text="D" position="1100,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
       <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">8</convert>
       <convert type="ConditionalShowHide" />
-    </widget>	
+    </widget>
     <widget source="session.FrontendInfo" render="FixedLabel" text="A" position="1046,14" zPosition="3" size="15,18" font="Regular;16" halign="center" foregroundColor="green" backgroundColor="black" transparent="1">
       <convert type="FrontendInfo">NUMBER</convert>
       <convert type="ValueRange">0,0</convert>
@@ -341,27 +342,27 @@
     <eLabel text="A" position="1046,14" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
     <eLabel text="B" position="1064,14" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
     <eLabel text="C" position="1082,14" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
-    <eLabel text="D" position="1100,14" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />	
-    <widget source="session.TunerInfo" render="FixedLabel" text="A" position="1046,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" >
-	  <convert type="TunerInfo">TunerUseMask</convert>
+    <eLabel text="D" position="1100,14" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
+    <widget source="session.TunerInfo" render="FixedLabel" text="A" position="1046,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
+      <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">1</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.TunerInfo" render="FixedLabel" text="B" position="1064,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" >
-	  <convert type="TunerInfo">TunerUseMask</convert>
+    <widget source="session.TunerInfo" render="FixedLabel" text="B" position="1064,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
+      <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">2</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.TunerInfo" render="FixedLabel" text="C" position="1082,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" >
+    <widget source="session.TunerInfo" render="FixedLabel" text="C" position="1082,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
       <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">4</convert>
       <convert type="ConditionalShowHide" />
-    </widget>	
-    <widget source="session.TunerInfo" render="FixedLabel" text="D" position="1100,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" >
+    </widget>
+    <widget source="session.TunerInfo" render="FixedLabel" text="D" position="1100,14" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
       <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">8</convert>
       <convert type="ConditionalShowHide" />
-    </widget>	
+    </widget>
     <widget source="session.FrontendInfo" render="FixedLabel" text="A" position="1046,14" zPosition="3" size="15,18" font="Regular;16" halign="center" foregroundColor="green" backgroundColor="black" transparent="1">
       <convert type="FrontendInfo">NUMBER</convert>
       <convert type="ValueRange">0,0</convert>
@@ -561,23 +562,23 @@
     <eLabel text="A" position="882,32" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
     <eLabel text="B" position="901,32" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
     <eLabel text="C" position="918,32" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
-    <eLabel text="D" position="935,32" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />		
-    <widget source="session.TunerInfo" render="FixedLabel" text="A" position="882,32" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" >
-	  <convert type="TunerInfo">TunerUseMask</convert>
+    <eLabel text="D" position="935,32" zPosition="1" size="15,18" font="Regular;16" halign="center" foregroundColor="grey" backgroundColor="black" transparent="1" />
+    <widget source="session.TunerInfo" render="FixedLabel" text="A" position="882,32" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
+      <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">1</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.TunerInfo" render="FixedLabel" text="B" position="901,32" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" >
-	  <convert type="TunerInfo">TunerUseMask</convert>
+    <widget source="session.TunerInfo" render="FixedLabel" text="B" position="901,32" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
+      <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">2</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.TunerInfo" render="FixedLabel" text="C" position="918,32" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" >
+    <widget source="session.TunerInfo" render="FixedLabel" text="C" position="918,32" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
       <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">4</convert>
       <convert type="ConditionalShowHide" />
-    </widget>	
-    <widget source="session.TunerInfo" render="FixedLabel" text="D" position="935,32" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" >
+    </widget>
+    <widget source="session.TunerInfo" render="FixedLabel" text="D" position="935,32" zPosition="2" size="15,18" font="Regular;16" halign="center" foregroundColor="yellow" backgroundColor="black" transparent="1">
       <convert type="TunerInfo">TunerUseMask</convert>
       <convert type="ValueBitTest">8</convert>
       <convert type="ConditionalShowHide" />
@@ -1081,7 +1082,6 @@
     <widget source="Service" render="Label" position="135,610" size="170,24" halign="center" font="Regular;20" foregroundColor="yellow" backgroundColor="black" transparent="1">
       <convert type="EMCMovieInfo">RecordServiceName</convert>
     </widget>
-
     <widget source="Service" render="Label" position="310,610" size="330,24" font="Regular;20" halign="right" foregroundColor="yellow" backgroundColor="black" transparent="1">
       <convert type="EMCServiceTime">StartTime</convert>
       <convert type="EMCClockToText">Format:%A, %d.%m.%Y, %H:%M</convert>
@@ -2867,11 +2867,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
   </screen>
   <screen name="TimeshiftState" position="70,30" size="1140,68" title="TimeshiftState" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1140,68" pixmap="DMConcinnity-HD/tsbg.png" />
- 	<widget name="PTSSeekPointer" position="10,40" size="19,20" pixmap="position_pointer2.png" alphatest="on" zPosition="4" />
-	<widget name="speed" position="55,15" size="80,15" font="Regular;17" halign="left" backgroundColor="black" transparent="1" zPosition="5" />
-	<widget name="eventname" position="center,15" size="521,25" font="Regular;18" halign="center" backgroundColor="black" transparent="1" zPosition="2" />
-	<widget name="statusicon" position="30,13" size="20,20" pixmaps="icons/play.png,icons/pause.png,icons/stop.png,icons/forward.png,icons/backward.png,icons/slow.png" zPosition="5" alphatest="on" />
-	<widget source="session.CurrentService" render="Label" position="180, 15" size="150,27" font="Arial;22" halign="left" backgroundColor="black" transparent="1" zPosition="3">
+    <widget name="PTSSeekPointer" position="10,40" size="19,20" pixmap="position_pointer2.png" alphatest="on" zPosition="4" />
+    <widget name="speed" position="55,15" size="80,15" font="Regular;17" halign="left" backgroundColor="black" transparent="1" zPosition="5" />
+    <widget name="eventname" position="center,15" size="521,25" font="Regular;18" halign="center" backgroundColor="black" transparent="1" zPosition="2" />
+    <widget name="statusicon" position="30,13" size="20,20" pixmaps="icons/play.png,icons/pause.png,icons/stop.png,icons/forward.png,icons/backward.png,icons/slow.png" zPosition="5" alphatest="on" />
+    <widget source="session.CurrentService" render="Label" position="180, 15" size="150,27" font="Arial;22" halign="left" backgroundColor="black" transparent="1" zPosition="3">
       <convert type="ServicePosition">Remaining</convert>
     </widget>
     <widget source="session.CurrentService" render="Label" position=" 920, 15" size=" 80,27" font="Arial;22" halign="right" backgroundColor="black" transparent="1" zPosition="3">
@@ -6867,5 +6867,91 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_green_pic" pixmap="DMConcinnity-HD/buttons/green.png" position="300,646" size="35,27" alphatest="blend" />
     <widget name="key_red" position=" 80,646" size="218,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="key_green" position="350,646" size="300,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  </screen>
+  <!-- JobView -->
+  <screen name="JobView" position="center,center" size="1100,605" flags="wfNoBorder">
+    <widget source="Title" render="Label" position="270,15" size="800,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+    <ePixmap position="-1,-1" zPosition="-10" size="1625,605" pixmap="DMConcinnity-HD/menu/mainbg.png" />
+    <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <panel name="BasicTemplate" />
+    <widget source="job_name" render="Label" position="30,80" size="1040,60" font="Regular;28" />
+    <widget source="job_task" render="Label" position="30,157" size="1040,50" font="Regular;23" />
+    <widget source="job_progress" render="Progress" position="30,310" size="1040,36" borderWidth="2" backgroundColor="un254f7497" />
+    <widget source="job_progress" render="Label" position="404,311" size="280,32" font="Regular;28" foregroundColor="black" zPosition="2" halign="center" transparent="1">
+      <convert type="ProgressToText" />
+    </widget>
+    <widget source="job_status" render="Label" position="30,355" size="480,26" font="Regular;23" />
+    <widget name="config" position="30,403" size="480,20" />
+    <widget source="cancelable" render="Pixmap" pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="cancelable" render="FixedLabel" text="Cancel" position="80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="finished" render="Pixmap" pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="finished" render="FixedLabel" text="OK" position="340,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="backgroundable" render="Pixmap" pixmap="DMConcinnity-HD/buttons/blue.png" position="830,570" size="35,27" alphatest="blend">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="backgroundable" render="FixedLabel" text="Continue in background" position="880,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+  </screen>
+  <!-- DeviceBrowser -->
+  <screen name="DeviceBrowser" position="center,center" size="520,430" title="Please select target medium">
+    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="8,390" size="140,40" alphatest="on" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="223,390" size="140,40" alphatest="on" />
+    <widget source="key_red" render="Label" position="47,385" zPosition="1" size="140,40" font="Regular;20" halign="left" valign="center" backgroundColor="EMCRecording" transparent="1" />
+    <widget source="key_green" render="Label" position="265,385" zPosition="1" size="140,40" font="Regular;20" halign="left" valign="center" backgroundColor="un1f771f" transparent="1" />
+    <widget source="message" render="Label" position="6,294" size="510,76" font="Regular;16" />
+    <widget name="filelist" position="6,8" size="510,279" scrollbarMode="showOnDemand" />
+  </screen>
+  <!-- FlashOnline -->
+  <screen name="FlashOnline" title="Flash On the Fly" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap position="-2,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
+    <widget source="Title" render="Label" font="Regular; 26" position="216,12" size="380,40" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" backgroundColor="white" />
+    <widget source="global.CurrentTime" render="Label" position=" 20,20" size="70,25" font="Regular; 22" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="90,20" size="128,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="20,479" size="35,27" alphatest="blend" zPosition="3" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="247,479" size="35,27" alphatest="blend" zPosition="3" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="435,479" size="35,27" alphatest="blend" zPosition="3" />
+    <widget name="key_red" position="60,482" size="120,26" backgroundColor="darkgrey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
+    <widget name="key_green" position="289,482" size="120,26" backgroundColor="darkgrey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
+    <widget name="key_yellow" position="475,482" size="120,26" backgroundColor="grey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
+    <widget name="info-online" position="31,87" zPosition="1" size="550,150" font="Regular; 22" halign="left" valign="top" transparent="1" backgroundColor="black" foregroundColor="silver" />
+    <widget name="info-local" position="31,261" zPosition="1" size="550,200" font="Regular; 22" halign="left" valign="top" transparent="1" foregroundColor="silver" />
+  </screen>
+  <!-- doFlashImage -->
+  <screen name="doFlashImage" title="Flash On the Fly" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap position="-2,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
+    <widget source="Title" render="Label" font="Regular; 26" position="216,12" size="380,40" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" backgroundColor="white" />
+    <widget source="global.CurrentTime" render="Label" position=" 20,20" size="70,25" font="Regular; 22" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="90,20" size="128,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="20,479" size="35,27" alphatest="blend" zPosition="3" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="167,479" size="35,27" alphatest="blend" zPosition="3" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="315,479" size="35,27" alphatest="blend" zPosition="3" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="460,479" size="35,27" alphatest="blend" zPosition="3" />
+    <widget name="key_red" position="60,482" size="100,26" backgroundColor="darkgrey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
+    <widget name="key_green" position="209,482" size="100,26" backgroundColor="darkgrey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
+    <widget name="key_yellow" position="355,482" size="100,26" backgroundColor="grey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
+    <widget name="key_blue" position="500,482" size="100,26" backgroundColor="grey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
+    <widget name="imageList" position="31,87" zPosition="1" size="550,379" font="Regular; 22" halign="left" valign="top" transparent="1" backgroundColor="black" foregroundColor="silver" />
   </screen>
 </skin>
