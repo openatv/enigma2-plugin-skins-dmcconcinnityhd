@@ -6928,11 +6928,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="20,479" size="35,27" alphatest="blend" zPosition="3" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="247,479" size="35,27" alphatest="blend" zPosition="3" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="435,479" size="35,27" alphatest="blend" zPosition="3" />
-    <widget name="key_red" position="60,482" size="120,26" backgroundColor="darkgrey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
-    <widget name="key_green" position="289,482" size="120,26" backgroundColor="darkgrey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
+    <widget name="key_red" position="60,482" size="120,26" backgroundColor="grey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
+    <widget name="key_green" position="289,482" size="120,26" backgroundColor="grey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
     <widget name="key_yellow" position="475,482" size="120,26" backgroundColor="grey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
-    <widget name="info-online" position="31,87" zPosition="1" size="550,150" font="Regular; 22" halign="left" valign="top" transparent="1" backgroundColor="black" foregroundColor="silver" />
-    <widget name="info-local" position="31,261" zPosition="1" size="550,200" font="Regular; 22" halign="left" valign="top" transparent="1" foregroundColor="silver" />
+    <widget name="info-online" position="31,87" zPosition="1" size="550,150" font="Regular; 22" halign="left" valign="top" transparent="0" backgroundColor="black" foregroundColor="white" />
+    <widget name="info-local" position="31,261" zPosition="1" size="550,200" font="Regular; 22" halign="left" valign="top" transparent="0" foregroundColor="white" />
   </screen>
   <!-- doFlashImage -->
   <screen name="doFlashImage" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
@@ -6948,10 +6948,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="167,479" size="35,27" alphatest="blend" zPosition="3" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="315,479" size="35,27" alphatest="blend" zPosition="3" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="460,479" size="35,27" alphatest="blend" zPosition="3" />
-    <widget name="key_red" position="60,482" size="100,26" backgroundColor="darkgrey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
-    <widget name="key_green" position="209,482" size="100,26" backgroundColor="darkgrey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
+    <widget name="key_red" position="60,482" size="100,26" backgroundColor="grey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
+    <widget name="key_green" position="209,482" size="100,26" backgroundColor="grey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
     <widget name="key_yellow" position="355,482" size="100,26" backgroundColor="grey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
     <widget name="key_blue" position="500,482" size="100,26" backgroundColor="grey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
-    <widget name="imageList" position="31,87" zPosition="1" size="550,379" font="Regular; 22" halign="left" valign="top" transparent="1" backgroundColor="black" foregroundColor="silver" />
+    <widget name="imageList" position="31,87" zPosition="1" size="550,379" font="Regular; 22" halign="left" valign="top" transparent="0" backgroundColor="black" foregroundColor="white" />
   </screen>
 </skin>
