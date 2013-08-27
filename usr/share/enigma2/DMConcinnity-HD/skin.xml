@@ -5396,7 +5396,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="VKeyIcon" render="Pixmap" pixmap="DMConcinnity-HD/buttons/text.png" position="535,572" size="70,30" transparent="1" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget name="HelpWindow" position="510,203" zPosition="10" size="1,1" />
+    <widget name="HelpWindow" position="540,420" zPosition="10" size="1,1" />
   </screen>
   <screen name="NetworkMountsMenu" position="center,center" size="1100,605" title="Mounts Setup" flags="wfNoBorder" backgroundColor="transpBlack">
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/mainbg.png" />
