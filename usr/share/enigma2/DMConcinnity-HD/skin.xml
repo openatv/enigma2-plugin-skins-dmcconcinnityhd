@@ -5357,7 +5357,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_green" position="289,482" size="120,26" backgroundColor="darkgrey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
     <widget name="key_blue" position="475,482" size="120,26" backgroundColor="grey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
     <widget name="info-hdd" position="31,87" zPosition="1" size="550,150" font="Regular; 22" halign="left" valign="top" transparent="1" backgroundColor="black" foregroundColor="silver" />
-    <widget name="info-usb" position="31,261" zPosition="1" size="550,200" font="Regular; 22" halign="left" valign="top" transparent="1" foregroundColor="silver" />
+    <widget name="info-usb" position="31,261" zPosition="1" size="550,200" font="Regular; 22" halign="left" valign="top" transparent="1" backgroundColor="black" foregroundColor="silver" />
   </screen>
   <!-- ################################ -->
   <!-- ##  Network Screens	         ## -->
