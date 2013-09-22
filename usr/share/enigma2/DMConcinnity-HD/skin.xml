@@ -5473,6 +5473,24 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="key_green" render="Label" position="340,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget source="key_yellow" render="Label" position="600,573" size="200,26" zPosition="1" font="Regular;20" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
   </screen>
+  <screen name="NetworkMacSetup" position="center,center" size="1100,605" title="MAC-adress Setup" flags="wfNoBorder" backgroundColor="transpBlack">
+    <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/mainbg.png" />
+    <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <eLabel text="MAC-adress Setup" position="270,15" size="800,43" font="Regular; 30" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+    <ePixmap position="385,66" zPosition="9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
+    <ePixmap position="63,315" size="250,240" pixmap="DMConcinnity-HD/menu/net.png" alphatest="on" />
+    <widget name="config" position="423, 80" size="650,420" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1" />
+    <widget source="introduction" render="Label" position="423,520" size="650, 25" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
+    <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
+    <widget source="key_red" render="Label" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <widget source="key_green" render="Label" position="340,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  </screen>
   <screen name="NetworkAdapterSelection" position="center,center" size="1100,605" title="Select Network Adapter" flags="wfNoBorder" backgroundColor="transpBlack">
     <ePixmap position="0,0" zPosition="-10" size="1100,605" pixmap="DMConcinnity-HD/menu/mainbg.png" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size=" 80,25" font="Regular;23" foregroundColor="black" backgroundColor="white" transparent="1">
