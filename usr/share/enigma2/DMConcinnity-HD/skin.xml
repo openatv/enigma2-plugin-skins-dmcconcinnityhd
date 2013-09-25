@@ -5392,7 +5392,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="830,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="326,570" size="35,27" alphatest="blend" />
-    <widget source="key_green" render="Label" position="380,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />	
+    <widget source="key_green" render="Label" position="380,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget source="key_red" render="Label" position=" 80,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget source="key_blue" render="Label" position="880,573" size="200,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget source="VKeyIcon" render="Pixmap" pixmap="DMConcinnity-HD/buttons/text.png" position="535,572" size="70,30" transparent="1" alphatest="blend">
@@ -6078,20 +6078,20 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="global.CurrentTime" render="Label" position="90,20" size="128,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <widget name="config" position="91,110" size="500,180" scrollbarMode="showOnDemand" itemHeight="30" selectionPixmap="DMConcinnity-HD/menu/sel500x30.png" backgroundColor="black" transparent="0" backgroundColorSelected="grey" foregroundColorSelected="black" zPosition="3" />
-    <widget source="key_red" render="Pixmap" pixmap="DMConcinnity-HD/buttons/key_red.png" position="40,110" size="35,27" alphatest="on">
+    <widget name="config" position="91,80" size="500,180" scrollbarMode="showOnDemand" itemHeight="30" selectionPixmap="DMConcinnity-HD/menu/sel500x30.png" backgroundColor="black" transparent="0" backgroundColorSelected="grey" foregroundColorSelected="black" zPosition="3" />
+    <widget source="key_red" render="Pixmap" pixmap="DMConcinnity-HD/buttons/key_red.png" position="40,80" size="35,27" alphatest="on">
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="key_green" render="Pixmap" pixmap="DMConcinnity-HD/buttons/key_green.png" position="40,141" size="35,27" alphatest="on">
+    <widget source="key_green" render="Pixmap" pixmap="DMConcinnity-HD/buttons/key_green.png" position="40,111" size="35,27" alphatest="on">
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="key_yellow" render="Pixmap" pixmap="DMConcinnity-HD/buttons/key_yellow.png" position="40,171" size="35,27" alphatest="on">
+    <widget source="key_yellow" render="Pixmap" pixmap="DMConcinnity-HD/buttons/key_yellow.png" position="40,141" size="35,27" alphatest="on">
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="key_blue" render="Pixmap" pixmap="DMConcinnity-HD/buttons/key_blue.png" position="40,201" size="35,27" alphatest="on">
+    <widget source="key_blue" render="Pixmap" pixmap="DMConcinnity-HD/buttons/key_blue.png" position="40,171" size="35,27" alphatest="on">
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="streams" render="Listbox" scrollbarMode="showOnDemand" position="40,295" size="550,200" selectionPixmap="DMConcinnity-HD/menu/sel550x30.png" zPosition="3" backgroundColor="black" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
+    <widget source="streams" render="Listbox" scrollbarMode="showOnDemand" position="40,270" size="550,199" selectionPixmap="DMConcinnity-HD/menu/sel550x30.png" zPosition="3" backgroundColor="black" transparent="1" backgroundColorSelected="grey" foregroundColorSelected="black">
       <convert type="TemplatedMultiContent">
 				{"templates":
 					{"default": (25, [
@@ -6974,8 +6974,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="key_blue" position="500,482" size="100,26" backgroundColor="grey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
     <widget name="imageList" position="31,87" zPosition="1" size="550,379" font="Regular; 22" halign="left" valign="top" transparent="0" backgroundColor="black" foregroundColor="white" />
   </screen>
-  
-   <!-- PPanel -->
+  <!-- PPanel -->
   <screen name="ToplevelPPanel" title="Toplevel PPanel" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
     <ePixmap position="0,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
     <widget source="Title" render="Label" font="Regular; 26" position="216,12" size="380,40" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" backgroundColor="white" />
@@ -6988,7 +6987,6 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="nodelist" position="30,80" font="Regular;22" size="550,380" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel550x30.png" />
     <widget name="helptext" position="30,80" size="550,380" valign="center" halign="left" font="Regular;20" />
   </screen>
-  
   <screen name="PPanel" title="PPanel" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
     <ePixmap position="0,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
     <widget source="Title" render="Label" font="Regular; 26" position="216,12" size="380,40" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" backgroundColor="white" />
@@ -7001,7 +6999,6 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="nodelist" position="30,80" font="Regular;22" size="550,380" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel550x30.png" />
     <widget name="helptext" position="30,80" size="550,380" valign="center" halign="left" font="Regular;20" />
   </screen>
-  
   <screen name="File" title="PPanel File" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
     <ePixmap position="0,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
     <widget source="Title" render="Label" font="Regular; 26" position="216,12" size="380,40" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" backgroundColor="white" />
@@ -7013,8 +7010,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <widget name="progress" position="30,80" font="Regular;22" size="550,380" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/progressmp.png" />
   </screen>
-  
-   <screen name="Tarball" title="PPanel Entry" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
+  <screen name="Tarball" title="PPanel Entry" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
     <ePixmap position="0,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
     <widget source="Title" render="Label" font="Regular; 26" position="216,12" size="380,40" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" backgroundColor="white" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size="70,25" font="Regular; 22" foregroundColor="black" backgroundColor="white" transparent="1">
@@ -7025,8 +7021,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <widget name="progress" position="30,80" font="Regular;22" size="550,380" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/progressmp.png" />
   </screen>
-  
-   <screen name="Execute" title="PPanel Entry" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
+  <screen name="Execute" title="PPanel Entry" position="332,102" size="616,515" flags="wfNoBorder" backgroundColor="transparent">
     <ePixmap position="0,0" zPosition="-10" size="616,515" pixmap="DMConcinnity-HD/menu/config2bg.png" />
     <widget source="Title" render="Label" font="Regular; 26" position="216,12" size="380,40" transparent="1" halign="right" valign="center" zPosition="1" foregroundColor="black" backgroundColor="white" />
     <widget source="global.CurrentTime" render="Label" position=" 20,20" size="70,25" font="Regular; 22" foregroundColor="black" backgroundColor="white" transparent="1">
@@ -7038,7 +7033,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="346,478" size="35,27" alphatest="blend" zPosition="3" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/blue.png" position="435,479" size="35,27" alphatest="blend" zPosition="3" />
     <widget name="key_blue" position="475,482" size="120,26" backgroundColor="grey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
-    <widget name="key_yellow" position="385,482" size="110,26" backgroundColor="darkgrey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />	
+    <widget name="key_yellow" position="385,482" size="110,26" backgroundColor="darkgrey" transparent="1" zPosition="10" font="Regular;22" halign="left" foregroundColor="black" />
     <widget name="linelist" position="30,80" font="Regular;18" size="550,380" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel550x30.png" />
-  </screen> 
+  </screen>
 </skin>
