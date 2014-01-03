@@ -6211,7 +6211,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <widget source="Title" render="Label" position="260,20" size="500,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="left" transparent="1" />
     <eLabel text="Cool Uni Guide" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
-    <widget name="list" position="20,70" size="1164,450" itemHeight="28" zPosition="25" CoolFont="Regular;18" CoolServiceFont="Regular;18" CoolEventFont="Regular;18" CoolServiceSize="245" CoolEventSize="550" CoolServicePos="5" CoolServiceHPos="2" CoolEventPos="430" CoolEventHPos="2" CoolBarPos="220" CoolBarHPos="5" CoolBarSize="150" CoolBarHigh="14" CoolTimePos="265" CoolTimeHPos="2" CoolTimeSize="150" CoolDurationPos="995" CoolDurationSize="120" CoolDurationColor="#e5b243" CoolServiceColor="#FFFFFF" CoolBarColor="#FFFFFF" CoolEventColor="#FFFFFF" CoolBackColor="#000000" CoolBackColorSel="#000000" CoolRecPreColor="#FF0000" CoolRecColor="#FF0000" CoolCurrentCol="#FFFFFF" CoolTunerCol="#606060" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" foregroundColor="white" backgroundColor="black" transparent="1" />
+    <widget name="list" position="20,70" size="1164,450" itemHeight="28" zPosition="25" CoolFont="Regular;18" CoolServiceFont="Regular;18" CoolEventFont="Regular;18" CoolServiceSize="245" CoolEventSize="550" CoolServicePos="5" CoolServiceHPos="2" CoolEventPos="430" CoolEventHPos="2" CoolBarPos="220" CoolBarHPos="5" CoolBarSize="150" CoolBarHigh="14" CoolTimePos="265" CoolTimeHPos="2" CoolTimeSize="150" CoolDurationPos="995" CoolDurationSize="120" CoolDurationColor="#e5b243" CoolServiceColor="#FFFFFF" CoolBarColor="#FFFFFF" CoolEventColor="#FFFFFF" CoolBackColor="#000000" CoolBackColorSel="#000000" CoolRecAlarmCol="#FF0000" CoolRecColor="#FF0000" CoolCurrentCol="#FFFFFF" CoolTunerCol="#606060" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" foregroundColor="white" backgroundColor="black" transparent="1" />
     <widget source="Event" render="Label" position="20,525" size="90,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" halign="left" transparent="1">
       <convert type="EventTime">StartTime</convert>
       <convert type="ClockToText" />
@@ -6269,7 +6269,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="Event" render="Label" position="27,129" size="1150,116" zPosition="1" font="Regular;20" foregroundColor="white" backgroundColor="black" transparent="1">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
-    <widget name="list" position="30,264" size="1140,355" itemHeight="30" zPosition="3" CoolFont="Regular;20" CoolServicePos="208" CoolEventPos="430" CoolDatePos="60" CoolTimePos="130" CoolServiceSize="190" CoolEventSize="800" CoolDateSize="60" CoolTimeSize="60" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" CoolServiceColor="#FFFFFF" CoolEventColor="#FFFFFF" CoolDateColor="#FFFFFF" CoolTimeColor="#e5b243" CoolDayColor="#e5b243" CoolBackColor="#000000" CoolRecPreColor="#ff0000" CoolRecColor="#ff0000" backgroundColor="black" transparent="1" />
+    <widget name="list" position="30,264" size="1140,355" itemHeight="30" zPosition="3" CoolFont="Regular;20" CoolServicePos="208" CoolEventPos="430" CoolDatePos="60" CoolTimePos="130" CoolServiceSize="190" CoolEventSize="800" CoolDateSize="60" CoolTimeSize="60" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" CoolServiceColor="#FFFFFF" CoolEventColor="#FFFFFF" CoolDateColor="#FFFFFF" CoolTimeColor="#e5b243" CoolDayColor="#e5b243" CoolBackColor="#000000" CoolRecAlarmCol="#ff0000" CoolRecColor="#ff0000" backgroundColor="black" transparent="1" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="40,646" size="35,30" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="320,646" size="35,30" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="620,646" size="35,30" alphatest="on" />
@@ -6304,7 +6304,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="Event" render="Label" position="418,115" size="754,185" font="Regular;18" foregroundColor="white" backgroundColor="black" transparent="1">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
-    <widget name="list" position="23,305" size="1148,326" itemHeight="28" zPosition="25" CoolFont="Regular;18" CoolServiceFont="Regular;18" CoolEventFont="Regular;18" CoolServiceSize="245" CoolEventSize="550" CoolServicePos="5" CoolServiceHPos="2" CoolEventPos="430" CoolEventHPos="2" CoolBarPos="220" CoolBarHPos="5" CoolBarSize="150" CoolBarHigh="14" CoolTimePos="265" CoolTimeHPos="2" CoolTimeSize="150" CoolDurationPos="995" CoolDurationSize="120" CoolDurationColor="#e5b243" CoolServiceColor="#FFFFFF" CoolBarColor="#FFFFFF" CoolEventColor="#FFFFFF" CoolBackColor="#000000" CoolBackColorSel="#000000" CoolRecPreColor="#FF0000" CoolRecColor="#FF0000" CoolCurrentCol="#FFFFFF" CoolTunerCol="#606060" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" foregroundColor="white" backgroundColor="black" transparent="1" />
+    <widget name="list" position="23,305" size="1148,326" itemHeight="28" zPosition="25" CoolFont="Regular;18" CoolServiceFont="Regular;18" CoolEventFont="Regular;18" CoolServiceSize="245" CoolEventSize="550" CoolServicePos="5" CoolServiceHPos="2" CoolEventPos="430" CoolEventHPos="2" CoolBarPos="220" CoolBarHPos="5" CoolBarSize="150" CoolBarHigh="14" CoolTimePos="265" CoolTimeHPos="2" CoolTimeSize="150" CoolDurationPos="995" CoolDurationSize="120" CoolDurationColor="#e5b243" CoolServiceColor="#FFFFFF" CoolBarColor="#FFFFFF" CoolEventColor="#FFFFFF" CoolBackColor="#000000" CoolBackColorSel="#000000" CoolRecAlarmCol="#FF0000" CoolRecColor="#FF0000" CoolCurrentCol="#FFFFFF" CoolTunerCol="#606060" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" foregroundColor="white" backgroundColor="black" transparent="1" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="40,646" size="35,30" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="320,646" size="35,30" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="620,646" size="35,30" alphatest="on" />
@@ -6323,12 +6323,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
     <eLabel text="Cool Info Guide" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
-    <widget name="CoolEvent" position="25,73" size="942,30" itemHeight="30" zPosition="5" CoolFont="Regular;22" CoolTimePos="0" CoolTimeSize="0" CoolEventPos="0" CoolTimeColor="#e5b243" CoolEventColor="#e5b243" CoolRecPreColor="#e5b243" CoolRecColor="#e5b243" CoolBackColorSel="#000000" foregroundColor="white" backgroundColor="black" transparent="1" />
+    <widget name="CoolEvent" position="25,73" size="742,30" itemHeight="30" zPosition="5" CoolFont="Regular;22" CoolTimePos="0" CoolTimeSize="0" CoolEventPos="0" CoolTimeColor="#e5b243" CoolEventColor="#e5b243" CoolRecAlarmCol="#e5b243" CoolRecColor="#e5b243" CoolBackColorSel="#000000" foregroundColor="white" backgroundColor="black" transparent="1" />
     <widget name="CoolShort" position="25,103" size="1042,30" font="Regular;18" foregroundColor="white" backgroundColor="black" transparent="1" />
     <widget source="Event" render="Label" position="979,74" size="113,30" font="Regular;22" foregroundColor="yellow" backgroundColor="black" halign="right" transparent="1">
       <convert type="EventTime">StartTime</convert>
       <convert type="ClockToText" />
     </widget>
+	<widget name="date" position="700,74" size="280,30" font="Regular;22" foregroundColor="yellow" backgroundColor="black" halign="right" transparent="1" />
     <widget source="Event" render="Label" position="1091,74" size="80,30" font="Regular;22" foregroundColor="yellow" backgroundColor="black" halign="right" transparent="1">
       <convert type="EventTime">EndTime</convert>
       <convert type="ClockToText">Format:- %H:%M</convert>
@@ -6337,9 +6338,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="EventTime">Remaining</convert>
       <convert type="RemainingToText">InMinutes</convert>
     </widget>
-    <widget source="Event" render="Label" position="25,130" size="1150,348" zPosition="1" font="Regular;20" foregroundColor="white" backgroundColor="black" transparent="1">
+    <!--widget source="Event" render="Label" position="25,130" size="1150,348" zPosition="1" font="Regular;20" foregroundColor="white" backgroundColor="black" transparent="1">
       <convert type="EventName">ExtendedDescription</convert>
-    </widget>
+    </widget-->
+	<widget name="CoolDescription"  position="25,130" size="1150,348" zPosition="1" font="Regular;20" foregroundColor="white" backgroundColor="black" transparent="1" />
     <eLabel text="Similar broadcasts:" position="25,500" size="240,30" font="Regular;18" foregroundColor="yellow" backgroundColor="black" transparent="1" />
     <widget name="CoolSimilar" position="26,527" size="1149,110" font="Regular;18" foregroundColor="white" backgroundColor="black" transparent="1" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="40,646" size="35,30" alphatest="on" />
@@ -6378,13 +6380,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="Title" render="Label" position="260,20" size="500,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="left" transparent="1" />
     <eLabel text="CoolTV Multi Guide" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="timeline_text" position="47,307" size="1121,25" foregroundColor="yellow" backgroundColor="black" transparent="1" />
-    <widget name="list" position="20,337" size="1147,300" CoolNowBackCol="#565656" CoolNowBackColSel="#ffffff" CoolBackCol="#3b3b3b" CoolTVBackCol="#565656" CoolTVBackColSel="#ffffff" CoolBackColSel="#ffffff" CoolBackRecCol="#ff0000" CoolBackRecColSel="#ff0000" scrollbarMode="showNever" transparent="1" />
-    <widget name="timeline0" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline1" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline2" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline3" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline4" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline5" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
+    <widget name="list" position="20,337" size="1147,300" CoolNowCol="#565656"  CoolBackColor="#3b3b3b"  CoolNowColSel="#ffffff" CoolBackColorSel="#ffffff" CoolRecCol="#ff0000" CoolRecColSel="#ff0000" scrollbarMode="showNever" transparent="1" />
+    <widget name="timeline0" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline1" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline2" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline3" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline4" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline5" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
     <widget name="timeline_now" position="20,328" zPosition="2" size="19,308" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/timeline-now.png" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="40,646" size="35,30" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="320,646" size="35,30" alphatest="on" />
@@ -6422,13 +6424,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="Title" render="Label" position="260,20" size="500,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="left" transparent="1" />
     <eLabel text="CoolTV Nice Guide" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="timeline_text" position="5,307" size="1171,25" foregroundColor="yellow" backgroundColor="black" transparent="1" />
-    <widget name="list" position="20,337" size="1159,300" CoolNowBackCol="#565656" CoolNowBackColSel="#ffffff" CoolBackCol="#3b3b3b" CoolTVBackCol="#565656" CoolTVBackColSel="#ffffff" CoolBackColSel="#ffffff" CoolBackRecCol="#ff0000" CoolBackRecColSel="#ff0000" scrollbarMode="showNever" transparent="1" />
-    <widget name="timeline0" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline1" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline2" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline3" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline4" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline5" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
+    <widget name="list" position="20,337" size="1159,300" CoolNowCol="#565656" CoolBackColor="#3b3b3b" CoolNowColSel="#ffffff" CoolBackColorSel="#ffffff" CoolRecCol="#ff0000" CoolRecColSel="#ff0000" scrollbarMode="showNever" transparent="1" />
+    <widget name="timeline0" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline1" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline2" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline3" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline4" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline5" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
     <widget name="timeline_now" position="17,328" zPosition="2" size="19,308" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/timeline-now.png" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="40,646" size="35,30" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="320,646" size="35,30" alphatest="on" />
@@ -6469,7 +6471,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="Event" render="Label" position="25,130" size="1154,116" zPosition="1" font="Regular;20" foregroundColor="white" backgroundColor="black" transparent="1">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
-    <widget name="list" position="26,258" size="1154,365" itemHeight="30" zPosition="25" CoolFont="Regular;22" CoolTimePos="65" CoolEventPos="150" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" CoolDayColor="#FFFFFF" CoolTimeColor="#e5b243" CoolEventColor="#FFFFFF" CoolBackColor="#000000" CoolRecPreColor="#ffffff" CoolRecColor="#ff0000" foregroundColor="white" backgroundColor="black" transparent="1" />
+    <widget name="list" position="26,258" size="1154,365" itemHeight="30" zPosition="25" CoolFont="Regular;22" CoolTimePos="65" CoolEventPos="150" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/CoolCursor.png" CoolDayColor="#FFFFFF" CoolTimeColor="#e5b243" CoolEventColor="#FFFFFF" CoolBackColor="#000000" CoolRecAlarmCol="#ffffff" CoolRecColor="#ff0000" foregroundColor="white" backgroundColor="black" transparent="1" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position="40,646" size="35,30" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="320,646" size="35,30" alphatest="on" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="620,646" size="35,30" alphatest="on" />
@@ -6491,13 +6493,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="Title" render="Label" position="260,20" size="500,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="left" transparent="1" />
     <eLabel text="CoolTV Tiny Guide" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="timeline_text" position="35,67" size="1140,25" foregroundColor="yellow" backgroundColor="black" transparent="1" />
-    <widget name="list" position="21,101" size="1158,420" CoolNowBackCol="#565656" CoolNowBackColSel="#ffffff" CoolBackCol="#3b3b3b" CoolTVBackCol="#565656" CoolTVBackColSel="#ffffff" CoolBackColSel="#ffffff" CoolBackRecCol="#ff0000" CoolBackRecColSel="#ff0000" scrollbarMode="showNever" transparent="1" />
-    <widget name="timeline0" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline1" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline2" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline3" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline4" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline5" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
+    <widget name="list" position="21,101" size="1158,420" CoolNowCol="#565656" CoolBackColor="#3b3b3b" CoolNowColSel="#ffffff" CoolBackColorSel="#ffffff" CoolRecCol="#ff0000" CoolRecColSel="#ff0000" scrollbarMode="showNever" transparent="1" />
+    <widget name="timeline0" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline1" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline2" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline3" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline4" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline5" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
     <widget name="timeline_now" position="30,90" zPosition="2" size="19,428" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/timeline-now.png" alphatest="on" />
     <widget source="Event" render="Label" position="20,525" size="90,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" halign="left" transparent="1">
       <convert type="EventTime">StartTime</convert>
@@ -6538,13 +6540,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="Title" render="Label" position="260,20" size="500,25" font="Regular;23" foregroundColor="black" backgroundColor="white" halign="left" transparent="1" />
     <eLabel text="CoolTV Guide" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="timeline_text" position="5,67" size="1171,25" foregroundColor="yellow" backgroundColor="black" transparent="1" />
-    <widget name="list" position="21,101" size="1155,420" CoolNowBackCol="#565656" CoolNowBackColSel="#ffffff" CoolBackCol="#3b3b3b" CoolTVBackCol="#565656" CoolTVBackColSel="#ffffff" CoolBackColSel="#ffffff" CoolBackRecCol="#ff0000" CoolBackRecColSel="#ff0000" scrollbarMode="showNever" transparent="1" />
-    <widget name="timeline0" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline1" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline2" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline3" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline4" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
-    <widget name="timeline5" position="20,160" zPosition="1" size="0,0" pixmap="skin_default/timeline.png" />
+    <widget name="list" position="21,101" size="1155,420" CoolNowCol="#565656" CoolNowColSel="#ffffff" CoolBackColor="#3b3b3b" CoolBackColorSel="#ffffff" CoolRecCol="#ff0000" CoolRecColSel="#ff0000" scrollbarMode="showNever" transparent="1" />
+    <widget name="timeline0" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline1" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline2" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline3" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline4" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
+    <widget name="timeline5" position="20,160" zPosition="1" size="0,0" pixmap="timeline.png" />
     <widget name="timeline_now" position="30,90" zPosition="2" size="19,428" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/CoolTVGuide/Cool3D/timeline-now.png" alphatest="on" />
     <widget source="Event" render="Label" position="20,525" size="90,30" font="Regular;20" foregroundColor="yellow" backgroundColor="black" halign="left" transparent="1">
       <convert type="EventTime">StartTime</convert>
