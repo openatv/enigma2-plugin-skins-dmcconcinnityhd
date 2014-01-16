@@ -6877,10 +6877,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 			}
 		</convert>
     </widget>
-    <widget name="a_off" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/pics/aoff.png" position="750,480" zPosition="1" size="36,97" alphatest="on" />
-    <widget name="a_red" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/pics/ared.png" position="750,480" zPosition="1" size="36,97" alphatest="on" />
-    <widget name="a_yellow" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/pics/ayellow.png" position="750,480" zPosition="1" size="36,97" alphatest="on" />
-    <widget name="a_green" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/pics/agreen.png" position="750,480" zPosition="1" size="36,97" alphatest="on" />
+    <widget name="a_off" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/icons/aoff.png" position="750,480" zPosition="1" size="36,97" alphatest="on" />
+    <widget name="a_red" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/icons/ared.png" position="750,480" zPosition="1" size="36,97" alphatest="on" />
+    <widget name="a_yellow" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/icons/ayellow.png" position="750,480" zPosition="1" size="36,97" alphatest="on" />
+    <widget name="a_green" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/icons/agreen.png" position="750,480" zPosition="1" size="36,97" alphatest="on" />
     <widget name="packagetext" position="720,380" size="250,30" zPosition="1" font="Regular;25" halign="right" transparent="1" />
     <widget name="packagenr" position="972,380" size="50,30" zPosition="1" font="Regular;25" halign="right" transparent="1" />
     <widget name="feedstatusRED" position="798,484" size="200,30" zPosition="1" font="Regular;25" halign="left" transparent="1" />
