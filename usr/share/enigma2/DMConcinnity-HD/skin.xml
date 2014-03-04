@@ -1141,7 +1141,7 @@
     <widget source="Service" render="Progress" position="10,49" size="1120,8" zPosition="1" pixmap="DMConcinnity-HD/progress.png" transparent="1">
       <convert type="EMCServicePosition">Position</convert>
     </widget>
-    <widget source="Service" render="PositionGauge" position="10,48" size="1120,10" zPosition="2" transparent="1">
+    <widget source="Service" render="EMCPositionGauge" position="10,48" size="1120,10" zPosition="2" transparent="1">
       <convert type="EMCServicePosition">Gauge</convert>
     </widget>
     <widget source="Service" render="Label" position="20,70" size="120,28" font="Arial;24" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1">
