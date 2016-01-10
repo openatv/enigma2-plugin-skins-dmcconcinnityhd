@@ -4008,8 +4008,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget source="global.CurrentTime" render="Label" position="110,20" size="140,25" font="Regular;23" foregroundColor="blue" backgroundColor="white" transparent="1">
       <convert type="ClockToText">Format:%d.%m.%Y</convert>
     </widget>
-    <eLabel text="Select files/folders to backup..." position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
-    <widget name="checkList" position="30,90" size="780,450" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel900x30.png" backgroundColor="black" transparent="1" />
+    <widget source="title_text" render="Label" position="270,15" size="540,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="white" transparent="1" />
+    <widget source="summary_description" render="Label" position="30,510" size="780,30" foregroundColor="white" backgroundColor="black" font="Regular; 24" halign="left" transparent="1" />
+    <widget name="checkList" position="30,90" size="780,420" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel900x30.png" backgroundColor="black" transparent="1" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/red.png" position=" 30,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/green.png" position="290,570" size="35,27" alphatest="blend" />
     <ePixmap pixmap="DMConcinnity-HD/buttons/yellow.png" position="550,570" size="35,27" alphatest="blend" />
@@ -6634,7 +6635,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     </widget>
     <eLabel text="Quick Launch Menu" position="436,15" size="747,43" font="Regular;35" halign="right" foregroundColor="black" backgroundColor="grey" transparent="1" />
     <widget name="list" position="21,82" size="370,460" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" transparent="1" />
-    <widget name="sublist" position="410,82" size="300,400" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" />
+    <widget name="sublist" position="410,82" size="300,460" backgroundColor="black" selectionPixmap="DMConcinnity-HD/menu/sel800x50.png" itemHeight="50" />
     <eLabel position="401,80" size="2,460" backgroundColor="darkgrey" />
     <widget source="session.VideoPicture" render="Pig" position="720,75" size="450,250" backgroundColor="transparent" zPosition="1" />
     <widget name="description" position="21,580" size="1150,110" zPosition="1" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
