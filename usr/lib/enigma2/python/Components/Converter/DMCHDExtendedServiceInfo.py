@@ -4,7 +4,7 @@
 ##
 ## Example usage in the skin.xml:
 ##		<widget source="session.CurrentService" render="Label" position="164,435" size="390,28" font="Regular;26" transparent="1" >
-##			<convert type="ExtendedServiceInfo">Config</convert>
+##			<convert type="DMCHDExtendedServiceInfo">Config</convert>
 ##		</widget>
 ##
 ## Known issues with the ServiceNumber Converter:
@@ -19,7 +19,7 @@ from xml.etree.cElementTree import parse
 
 ##########################################################################
 
-class ExtendedServiceInfo(Converter, object):
+class DMCHDExtendedServiceInfo(Converter, object):
 	SERVICENAME = 0
 	SERVICENUMBER = 1
 	ORBITALPOSITION = 2
@@ -73,12 +73,12 @@ class ExtendedServiceInfo(Converter, object):
 		elif self.type == self.PROVIDER:
 			text = info.getInfoString(iServiceInformation.sProvider)
 		elif self.type == self.FROMCONFIG:
-			if config.plugins.ExtendedServiceInfo.showServiceNumber.value == True and number != "":
+			if config.plugins.DMCHDExtendedServiceInfo.showServiceNumber.value == True and number != "":
 				text = "%s. %s" % (number, name)
 			else:
 				text = name
-			if config.plugins.ExtendedServiceInfo.showOrbitalPosition.value == True and orbital != "":
-				if config.plugins.ExtendedServiceInfo.orbitalPositionType.value == "name":
+			if config.plugins.DMCHDExtendedServiceInfo.showOrbitalPosition.value == True and orbital != "":
+				if config.plugins.DMCHDExtendedServiceInfo.orbitalPositionType.value == "name":
 					text = "%s (%s)" % (text, satName)
 				else:
 					text = "%s (%s)" % (text, orbital)

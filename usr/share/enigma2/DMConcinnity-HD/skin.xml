@@ -107,7 +107,7 @@
     <ePixmap position="0,0" zPosition="-1" size="1140,140" pixmap="DMConcinnity-HD/infobarle.png" />
     <!-- upper Part of InfoBarLite -->
     <!-- <widget backgroundColor="black" font="Regular; 28" valign="top" position="37,12" render="Label" size="70,34" source="session.CurrentService" transparent="1" zPosition="0" noWrap="1" foregroundColor="grey">
-      <convert type="ExtendedServiceInfo">ServiceNumber</convert>
+      <convert type="DMCHDExtendedServiceInfo">ServiceNumber</convert>
     </widget> -->
     <widget source="session.CurrentService" render="DMCHDChNumber" position="37,12" size="70,34" font="Regular;28" valign="center" halign="center" backgroundColor="black" transparent="1" zPosition="3" />
     <widget source="session.CurrentService" render="Label" position="137,13" size="370,34" font="Regular;28" valign="top" noWrap="1" backgroundColor="black" transparent="1">
@@ -274,7 +274,7 @@
     <ePixmap position="0,0" zPosition="-1" size="1140,140" pixmap="DMConcinnity-HD/infobarle.png" />
     <!-- SecondInfoBarECM upper Part-->
     <widget backgroundColor="black" font="Regular; 28" valign="top" position="37,12" render="Label" size="70,34" source="session.CurrentService" transparent="1" zPosition="0" noWrap="1" foregroundColor="grey">
-      <convert type="ExtendedServiceInfo">ServiceNumber</convert>
+      <convert type="DMCHDExtendedServiceInfo">ServiceNumber</convert>
     </widget>
     <widget source="session.CurrentService" render="Label" position="137,13" size="370,34" font="Regular;28" valign="top" noWrap="1" backgroundColor="black" transparent="1">
       <convert type="ServiceName">Name</convert>
