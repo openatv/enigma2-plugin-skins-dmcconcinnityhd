@@ -1940,7 +1940,7 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/(count &gt; 7 and 2 or 3
     <ePixmap position="570,72" size="70,30" pixmap="DMConcinnity-HD/buttons/left.png" alphatest="blend" />
     <ePixmap position="650,72" size="70,30" pixmap="DMConcinnity-HD/buttons/right.png" alphatest="blend" />
     <eLabel position="20,105" size="700,2" backgroundColor="grey" />
-    <widget name="list" position="20,110" size="700,450" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" transparent="1" />
+    <widget name="list" position="20,110" size="700,450" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="DMConcinnity-HD/menu/sel700x30.png" backgroundColor="black" EntryForegroundColorNow="blue" EntryForegroundColorPast="#00808080" transparent="1" />
     <ePixmap position="720,66" zPosition="-9" size="28,508" pixmap="DMConcinnity-HD/menu/seph.png" />
     <widget source="Event" render="Label" position="755,80" size="320,460" font="Regular;20" foregroundColor="grey" backgroundColor="black" transparent="1">
       <convert type="EventName">ExtendedDescription</convert>
